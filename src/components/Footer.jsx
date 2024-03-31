@@ -33,26 +33,27 @@ const Footer = () => {
             </div>
             <div>
                 <h4>Best Sellers</h4>
-                <a href="">PC Builds</a>
+                <a href="">Builds</a>
                 <a href="">Repairs</a>
                 <a href="">Products</a>
             </div>
             <div>
                 <h4>Community</h4>
                 <a href="">Terms & Conditions</a>
-                <a href="">Why Florida PC</a>
-                <a href="">Support</a>
-                <a href="">Check Your Order</a>
-                <a href="">Florida PC Garage</a>
+                <a href="">Privacy Policy</a>
+                <a href="">Refund Policy</a>
+                <a href="">Shipping Policy</a>
+                <a href="">Referrals</a>
             </div>
             <div>
                 <h4>Help</h4>
                 <a href="">Why Florida PC</a>
                 <a href="">Support</a>
                 <a href="">Contact Us</a>
-                <a href="">Florida PC Garage</a>
+                <a href="">FAQ</a>
             </div>
         </div>
+        <p>Copyright © 2024 Florida PC. All Rights Reserved.</p>
     </div>
   );
 }

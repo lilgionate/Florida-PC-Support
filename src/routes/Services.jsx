@@ -1,6 +1,8 @@
 import Navbar from '../components/Navbar';
 import Hero from '../components/Hero';
 import AboutImg from '../assets/service.jpg';
+import Repairs from '../components/Repairs';
+import Footer from '../components/Footer';
 
 function Services () {
   return (
@@ -11,6 +13,8 @@ function Services () {
       heroImg={AboutImg}
       title="Services"
       />
+      <Repairs />
+      <Footer />
     </>
   )
 }
