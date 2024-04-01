@@ -11,6 +11,7 @@
 /* Media query for smaller screens */
 @media (max-width: 850px) {
     .calendly-button {
+        display: block;
         width: 100%; /* Adjust width for smaller screens */
         height: 100%; /* Adjust height for smaller screens */
         font-size: 0.7rem; /* Adjust font size for smaller screens */

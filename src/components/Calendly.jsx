@@ -3,12 +3,6 @@ import { PopupButton } from 'react-calendly';
 import './calendly.scss';
 
 const Calendly = () => {
-    const [modalOpen, setModalOpen] = useState(false);
-
-    const toggleModal = () => {
-        setModalOpen(!modalOpen);
-    };
-
     return (
         <div className='calendly-container'>
             <h1>Repair Scheduling</h1>
@@ -22,6 +16,7 @@ const Calendly = () => {
                 rootElement={document.getElementById("root")}
                 text="Schedule Appointment"
                 className="calendly-button"
+                style={{ display: "block", margin: "0 auto" }}
             />
         </div>
     );
