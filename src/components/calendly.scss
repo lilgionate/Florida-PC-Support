@@ -1,0 +1,18 @@
+.calendly-container {
+    padding: 20px;
+}
+
+.calendly-button {
+    width: 200px; /* Set initial width */
+    height: 40px; /* Set initial height */
+    font-size: 0.9rem; /* Set initial font size */
+}
+
+/* Media query for smaller screens */
+@media (max-width: 850px) {
+    .calendly-button {
+        width: 100%; /* Adjust width for smaller screens */
+        height: 100%; /* Adjust height for smaller screens */
+        font-size: 0.7rem; /* Adjust font size for smaller screens */
+    }
+}

@@ -3,6 +3,7 @@ import Hero from '../components/Hero';
 import AboutImg from '../assets/service.jpg';
 import Repairs from '../components/Repairs';
 import Footer from '../components/Footer';
+import Calendly from '../components/Calendly';
 
 function Services () {
   return (
@@ -13,6 +14,7 @@ function Services () {
       heroImg={AboutImg}
       title="Services"
       />
+      <Calendly />
       <Repairs />
       <Footer />
     </>
