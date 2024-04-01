@@ -4,6 +4,14 @@
     color: #fff;
 }
 
+.footer h1 {
+    color: #fff;
+}
+
+.footer h4 {
+    color: #fff;
+}
+
 .top {
     display: flex;
     justify-content: space-between;

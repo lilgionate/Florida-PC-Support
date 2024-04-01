@@ -1,7 +1,7 @@
 import Navbar from '../components/Navbar';
 import Hero from '../components/Hero';
 import AboutImg from '../assets/repair.jpg';
-import ContactForm from '../components/ContactForm';
+import ContactSection from '../components/ContactSection';
 import Footer from '../components/Footer';
 
 function Contact () {
@@ -13,7 +13,7 @@ function Contact () {
       heroImg={AboutImg}
       title="Contact"
       />
-      <ContactForm /> 
+      <ContactSection /> 
       <Footer />
     </>
   )
