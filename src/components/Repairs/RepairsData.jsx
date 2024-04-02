@@ -1,4 +1,4 @@
-import "./repairs.css";
+import "./repairs.scss";
 
 function RepairsData(props) {
   return (

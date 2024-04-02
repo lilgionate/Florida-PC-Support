@@ -1,9 +1,10 @@
-import Navbar from '../components/Navbar';
-import Hero from '../components/Hero';
+import Navbar from '../components/Nav/Navbar';
+import Hero from '../components/Header/Hero';
 import HomeImg from '../assets/background2.jpeg';
-import Builds from '../components/Builds';
-import Repairs from '../components/Repairs';
-import Footer from '../components/Footer';
+import Builds from '../components/Builds/Builds';
+import Repairs from '../components/Repairs/Repairs';
+import Calendly from '../components/Services/Calendly';
+import Footer from '../components/Footer/Footer';
 
 function Home () {
   return (
@@ -19,6 +20,7 @@ function Home () {
       btnClass="show"
       />
       <Builds />
+      <Calendly />
       <Repairs />  
       <Footer />
     </>

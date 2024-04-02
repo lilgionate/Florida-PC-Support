@@ -1,9 +1,9 @@
 import RepairsData from "./RepairsData";
-import Repair1 from "../assets/repair1.avif";
-import Repair2 from "../assets/repair2.avif";
-import Repair3 from "../assets/repair3.avif";
+import Repair1 from "../../assets/repair1.avif";
+import Repair2 from "../../assets/repair2.avif";
+import Repair3 from "../../assets/repair3.avif";
 
-import "./repairs.css";
+import "./repairs.scss";
 
 function Repairs() {
   return (

@@ -1,8 +1,18 @@
-$gradient-start-color: rgb(0, 0, 0);
-$gradient-end-color: rgba(207, 207, 207, 0.5);
 
 .navbarItems {
-    background: linear-gradient(to right, $gradient-start-color, $gradient-end-color);
+    padding: 0.5rem 1rem; /* Apply padding */
+    white-space: nowrap;
+    border-radius: 2rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    margin-top: 13px;
+    background: linear-gradient(
+        to right,
+        rgba(50, 50, 50, 0.6), /* Dark grey */
+        rgba(25, 25, 25, 0.6) /* Darker grey */
+    );
     border: 1px solid rgba(0, 0, 0, 0.10);
     box-shadow: 0 10px 20px -6px rgba(0, 0, 0, 0.30);
     display: flex;
@@ -17,6 +27,12 @@ $gradient-end-color: rgba(207, 207, 207, 0.5);
     left: 50%;
     transform: translate(-50%);
     z-index: 9999;
+    color: #fff; /* White text color */
+    filter: progid:DXImageTransform.Microsoft.gradient(
+        startColorstr='#994C4C4C', /* Dark grey */
+        endColorstr='#994C1919', /* Darker grey */
+        GradientType=1 /* Horizontal gradient */
+    );
 }
 
 .navbar-logo {
@@ -48,10 +64,10 @@ $gradient-end-color: rgba(207, 207, 207, 0.5);
 }
 
 .nav-links:hover {
-    background-color: #5a25d6;
-    color: #fff;
-    border-radius: 5px;
-    transition: all 0.3s ease-in-out;
+    background: linear-gradient(to right, #5f5f5f, #000); /* Black background on hover */
+    color: #fff; /* White text color on hover */
+    transition: background 0.5s ease-in-out;
+    border-radius: 30px;
 }
 
 .nav-links-mobile {
@@ -67,12 +83,45 @@ button {
     border: none;
     cursor: pointer;
     margin-top: 13px;
+    background: rgba(173, 216, 230, 1); /* Baby blue background */
+    background: -moz-linear-gradient(
+        -45deg,
+        rgba(173, 216, 230, 1) 0%, /* Baby blue */
+        rgba(25, 25, 112, 1) 100% /* Dark blue */
+    );
+    background: -webkit-gradient(
+        left top,
+        right bottom,
+        color-stop(0%, rgba(173, 216, 230, 1)),
+        color-stop(100%, rgba(25, 25, 112, 1))
+    );
+    background: -webkit-linear-gradient(
+        -45deg,
+        rgba(173, 216, 230, 1) 0%, /* Baby blue */
+        rgba(25, 25, 112, 1) 100% /* Dark blue */
+    );
+    background: -o-linear-gradient(
+        -45deg,
+        rgba(173, 216, 230, 1) 0%, /* Baby blue */
+        rgba(25, 25, 112, 1) 100% /* Dark blue */
+    );
+    background: -ms-linear-gradient(
+        -45deg,
+        rgba(173, 216, 230, 1) 0%, /* Baby blue */
+        rgba(25, 25, 112, 1) 100% /* Dark blue */
+    );
+    background: linear-gradient(
+        135deg,
+        rgba(173, 216, 230, 1) 0%, /* Baby blue */
+        rgba(25, 25, 112, 1) 100% /* Dark blue */
+    );
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#add8e6', endColorstr='#191970', GradientType=1 ); /* Baby blue to Dark blue */
+    color: #fff; /* White text color */
 }
 
 button:hover {
-    background-color: #151516;
-    color: #fff;
-    transition: all 0.3s ease-in-out;
+    background: linear-gradient(to right, #5f5f5f, #000); /* Black background on hover */
+    color: #fff; /* White text color on hover */
 }
 
 .menu-icons {
@@ -110,7 +159,7 @@ button:hover {
     }
 
     .navbar-logo {
-        color: #000000;
+        padding: 0;
     }
 
     .nav-links {

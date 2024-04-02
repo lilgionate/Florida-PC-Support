@@ -1,9 +1,9 @@
-import Navbar from '../components/Navbar';
-import Hero from '../components/Hero';
+import Navbar from '../components/Nav/Navbar';
+import Hero from '../components/Header/Hero';
 import AboutImg from '../assets/service.jpg';
-import Repairs from '../components/Repairs';
-import Footer from '../components/Footer';
-import Calendly from '../components/Calendly';
+import Repairs from '../components/Repairs/Repairs';
+import Footer from '../components/Footer/Footer';
+import Calendly from '../components/Services/Calendly';
 
 function Services () {
   return (

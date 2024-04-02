@@ -10,43 +10,45 @@
   }
   
   .contact-wrap {
-    background: rgba(127, 39, 156, 1);
+    background: rgba(173, 216, 230, 1); /* Baby blue background */
     background: -moz-linear-gradient(
       -45deg,
-      rgba(127, 39, 156, 1) 0%,
-      rgba(46, 39, 157, 1) 100%
+      rgba(173, 216, 230, 1) 0%, /* Baby blue */
+      rgba(25, 25, 112, 1) 100% /* Dark blue */
     );
     background: -webkit-gradient(
       left top,
       right bottom,
-      color-stop(0%, rgba(127, 39, 156, 1)),
-      color-stop(100%, rgba(46, 39, 157, 1))
+      color-stop(0%, rgba(173, 216, 230, 1)),
+      color-stop(100%, rgba(25, 25, 112, 1))
     );
     background: -webkit-linear-gradient(
       -45deg,
-      rgba(127, 39, 156, 1) 0%,
-      rgba(46, 39, 157, 1) 100%
+      rgba(173, 216, 230, 1) 0%, /* Baby blue */
+      rgba(25, 25, 112, 1) 100% /* Dark blue */
     );
     background: -o-linear-gradient(
       -45deg,
-      rgba(127, 39, 156, 1) 0%,
-      rgba(46, 39, 157, 1) 100%
+      rgba(173, 216, 230, 1) 0%, /* Baby blue */
+      rgba(25, 25, 112, 1) 100% /* Dark blue */
     );
     background: -ms-linear-gradient(
       -45deg,
-      rgba(127, 39, 156, 1) 0%,
-      rgba(46, 39, 157, 1) 100%
+      rgba(173, 216, 230, 1) 0%, /* Baby blue */
+      rgba(25, 25, 112, 1) 100% /* Dark blue */
     );
     background: linear-gradient(
       135deg,
-      rgba(127, 39, 156, 1) 0%,
-      rgba(46, 39, 157, 1) 100%
+      rgba(173, 216, 230, 1) 0%, /* Baby blue */
+      rgba(25, 25, 112, 1) 100% /* Dark blue */
     );
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7f279c', endColorstr='#2e279d', GradientType=1 );
-    h3 {
-      color: #fff;
-    }
-  }
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#add8e6', endColorstr='#191970', GradientType=1 ); /* Baby blue to Dark blue */
+    color: #fff; /* White text color */
+}
+
+.contact-wrap h3 {
+    color: #fff; /* White text color for h3 elements */
+}
   
   h3 {
     color: white;
@@ -61,33 +63,33 @@
   .form-control {
     height: 62px;
     background: transparent;
-    color: rgba(255, 255, 255, 0.8) !important;
+    color: rgb(255, 255, 255) !important; /* White color with opacity */
     font-size: 16px;
     border-radius: 0px;
     box-shadow: none !important;
-    border: 1px solid rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.2); /* White color with opacity */
     &::-webkit-input-placeholder {
       /* Chrome/Opera/Safari */
-      color: rgba(255, 255, 255, 0.5) !important;
+      color: rgb(255, 255, 255) !important; /* White color with opacity */
     }
     &::-moz-placeholder {
       /* Firefox 19+ */
-      color: rgba(255, 255, 255, 0.5) !important;
+      color: rgb(255, 255, 255) !important; /* White color with opacity */
     }
     &:-ms-input-placeholder {
       /* IE 0+ */
-      color: rgba(255, 255, 255, 0.5) !important;
+      color: rgb(255, 255, 255) !important; /* White color with opacity */
     }
     &:-moz-placeholder {
       /* Firefox 18- */
-      color: rgba(255, 255, 255, 0.5) !important;
+      color: rgb(255, 255, 255) !important; /* White color with opacity */
     }
     &:focus,
     &:active {
       background: transparent;
-      border-color: rgba(255, 255, 255, 0.5) !important;
+      border-color: rgb(255, 255, 255) !important; /* White color with opacity */
     }
-  }
+}
   
   textarea.form-control {
     height: inherit !important;
@@ -117,10 +119,10 @@
   }
   
   .btn-primary {
-    background: #d62196 !important;
-    border-color: #d62196 !important;
-    color: #fff;
-  }
+    background: #007bff !important; /* Blue background */
+    border-color: #007bff !important; /* Blue border color */
+    color: #fff; /* White text color */
+}
   
   .info-wrap {
     h3 {
@@ -132,7 +134,7 @@
         left: 0;
         width: 60px;
         height: 3px;
-        background: #d62196;
+        background: #007bff;
         content: "";
       }
     }
@@ -189,7 +191,7 @@
   
   a {
     transition: 0.3s all ease;
-    color: #d62196;
+    color: #007bff;
     text-decoration: none;
     &:hover,
     &:focus {

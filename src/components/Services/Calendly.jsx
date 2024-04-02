@@ -5,8 +5,8 @@ import './calendly.scss';
 const Calendly = () => {
     return (
         <div className='calendly-container'>
-            <h1>Repair Scheduling</h1>
-            <p>Please choose an appointment slot that works for you:</p>
+            <h1>SCHEDULE A REPAIR</h1>
+            <p>PLEASE CHOOSE AN APPOINTMENT SLOT THAT WORKS FOR YOU</p>
             <PopupButton
                 url="https://calendly.com/gioanathanv/florida-pc-home-tech-support"
                 /*
