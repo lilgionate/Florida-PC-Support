@@ -60,7 +60,7 @@ const Builds = () => {
                 <p onMouseEnter={() => handleDescriptionHover(price.finance)}
                 className="price-section__description"
               >
-                {price.finance}</p>
+                {price.description}</p>
                 <Modal description={modalDescription} />
              </div>
               <button>View Build</button>

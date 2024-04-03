@@ -45,26 +45,22 @@
     align-items: center;
 }
 
+.nav-menu li {
+    padding: 20px;
+    margin-top: 13px;/* Adjust padding as needed */
+    &:hover {
+        border-bottom: 2px solid #fff; 
+    }
+}
+
 .nav-links {
     color: #ffffff;
     text-decoration: none;
     font-size: 1.2rem;
     font-weight: 600;
-    padding: 0.7rem 1rem;
-    white-space: nowrap;
 }
 
-.nav-links i {
-    padding-right: 10px;
-    padding-top: 17px;
-}
 
-.nav-links:hover {
-    background: linear-gradient(to right, #5f5f5f, #000); /* Black background on hover */
-    color: #fff; /* White text color on hover */
-    transition: background 0.5s ease-in-out;
-    border-radius: 30px;
-}
 
 .nav-links-mobile {
     display: none;

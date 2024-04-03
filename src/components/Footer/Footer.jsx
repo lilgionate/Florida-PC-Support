@@ -1,61 +1,72 @@
 import "./footer.scss";
 
-
 const Footer = () => {
   return (
     <div className="footer">
-      <div className="top">
-        <div>
-            <h1>Florida PC Support</h1>
+      <div className="secContainer container">
+        <div className="logoDiv">
+          <div className="footerLogo">
+            <a href="" className="logo">
+              <h1 className="flex">FLORIDA PC SUPPORT</h1>
+            </a>
+          </div>
+          <div className="socials flex">
+            <a href="/">
+              <i className="fa-brands fa-facebook icon"></i>
+            </a>
+            <a href="/">
+              <i className="fa-brands fa-instagram icon"></i>
+            </a>
+            <a href="/">
+              <i className="fa-brands fa-youtube icon"></i>
+            </a>
+            <a href="/">
+              <i className="fa-brands fa-twitter icon"></i>
+            </a>
+          </div>
         </div>
-        <div>
-            <a href="/">
-                <i className="fa-brands fa-facebook-square"></i>
-            </a>
-            <a href="/">
-                <i className="fa-brands fa-instagram-square"></i>
-            </a>
-            <a href="/">
-                <i className="fa-brands fa-youtube-square"></i>
-            </a>
-            <a href="/">
-                <i className="fa-brands fa-twitter-square"></i>
-            </a>
+        <div className="footerLinks">
+          <div className="linksGroup">
+            <span className="linkTitle">Shop</span>
+            <ul>
+              <li><a href="">Reviews</a></li>
+              <li><a href="">Check Your Order</a></li>
+              <li><a href="">Florida PC Garage</a></li>
+            </ul>
+          </div>
+          <div className="linksGroup">
+            <span className="linkTitle">Best Sellers</span>
+            <ul>
+              <li><a href="">Builds</a></li>
+              <li><a href="">Repairs</a></li>
+              <li><a href="">Products</a></li>
+            </ul>
+          </div>
+          <div className="linksGroup">
+            <span className="linkTitle">Community</span>
+            <ul>
+              <li><a href="">Terms & Conditions</a></li>
+              <li><a href="">Privacy Policy</a></li>
+              <li><a href="">Refund Policy</a></li>
+              <li><a href="">Shipping Policy</a></li>
+              <li><a href="">Referrals</a></li>
+            </ul>
+          </div>
+          <div className="linksGroup">
+            <span className="linkTitle">Help</span>
+            <ul>
+              <li><a href="">Terms & Conditions</a></li>
+              <li><a href="">Why Florida PC</a></li>
+              <li><a href="">Support</a></li>
+              <li><a href="">Contact Us</a></li>
+              <li><a href="">FAQ</a></li>
+            </ul>
+          </div>
         </div>
       </div>
-
-        <div className="bottom">
-            <div>
-                <h4>Shop</h4>
-                <a href="">Reviews</a>
-                <a href="">Check Your Order</a>
-                <a href="">Florida PC Garage</a>
-            </div>
-            <div>
-                <h4>Best Sellers</h4>
-                <a href="">Builds</a>
-                <a href="">Repairs</a>
-                <a href="">Products</a>
-            </div>
-            <div>
-                <h4>Community</h4>
-                <a href="">Terms & Conditions</a>
-                <a href="">Privacy Policy</a>
-                <a href="">Refund Policy</a>
-                <a href="">Shipping Policy</a>
-                <a href="">Referrals</a>
-            </div>
-            <div>
-                <h4>Help</h4>
-                <a href="">Why Florida PC</a>
-                <a href="">Support</a>
-                <a href="">Contact Us</a>
-                <a href="">FAQ</a>
-            </div>
-        </div>
-        <p>Copyright © 2024 Florida PC. All Rights Reserved.</p>
+      <p>Copyright © 2024 Florida PC. All Rights Reserved.</p>
     </div>
   );
-}
+};
 
-export default Footer
+export default Footer;

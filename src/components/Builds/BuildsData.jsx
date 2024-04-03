@@ -18,7 +18,7 @@ export const Data = [
             title: "Starting at:",
             amount: "$1000",
             description: "Or as low as $77.41 monthly*",
-            finance: "Finance available on orders over $1000.00",
+            finance: "*Subject to approval of credit application. Rates range from 0 to 29.99% APR, resulting in, for example, 36 monthly payments of $32.26 at 9.99% APR, per $1,000 borrowed. APRs will vary depending on credit qualifications, loan amount, and term. Bread Pay™ loans are made by Comenity Capital Bank, a Bread Financial™ company.",
           },
     },
     {
@@ -32,7 +32,7 @@ export const Data = [
             title: "Starting at:",
             amount: "$1000",
             description: "Or as low as $77.41 monthly*",
-            finance: "Finance available on orders over $1000.00",
+            finance: "*Subject to approval of credit application. Rates range from 0 to 29.99% APR, resulting in, for example, 36 monthly payments of $32.26 at 9.99% APR, per $1,000 borrowed. APRs will vary depending on credit qualifications, loan amount, and term. Bread Pay™ loans are made by Comenity Capital Bank, a Bread Financial™ company.",
           },
     },
     {
@@ -46,7 +46,7 @@ export const Data = [
             title: "Starting at:",
             amount: "$1000",
             description: "Or as low as $77.41 monthly*",
-            finance: "Finance available on orders over $1000.00",
+            finance: "*Subject to approval of credit application. Rates range from 0 to 29.99% APR, resulting in, for example, 36 monthly payments of $32.26 at 9.99% APR, per $1,000 borrowed. APRs will vary depending on credit qualifications, loan amount, and term. Bread Pay™ loans are made by Comenity Capital Bank, a Bread Financial™ company.",
           },
     },
 ];

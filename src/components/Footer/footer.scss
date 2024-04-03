@@ -1,80 +1,82 @@
 .footer {
     padding: 4rem 6rem;
-    background-color: #000;
-    color: #fff;
-}
-
-.footer h1 {
-    color: #fff;
-}
-
-.footer h4 {
-    color: #fff;
-}
-
-.top {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    text-align: start;
-    flex-wrap: wrap;
-}
-
-.top i {
-    color: #fff;
-    font-size: 2rem;
-    margin-left: 1rem;
-}
-
-.top i:hover {
-    color: #007bff;
-}
-
-.bottom {
-    padding: 2rem;
-    text-align: start;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
-.bottom div {
-    display: flex;
-    flex-direction: column;
-}
-
-.bottom h4 {
-    font-size: 1.3rem;
-    padding: 1rem 0 .8rem 0;
-}
-
-.bottom a {
-    text-decoration: none;
-    color: #fafafa;
-    padding-bottom: .4rem;
-    font-size: 1.1rem;
-}
-
-.footer p {
-    font-size: 1rem;
-    padding: 1rem 0 0;
-}
-
-@media screen and (max-width: 850px) {
-    .footer {
-        padding: 2rem 1rem;
+    background-image: url("https://www.buildredux.com/cdn/shop/files/Footer_Background_1920x.jpg?v=1614336455");
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    .secContainer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: #fff;
+  
+      .logoDiv {
+        .footerLogo {
+          padding-bottom: 0.5rem;
+  
+          .logo {
+            color: #ffffff;
+            font-weight: 500;
+            cursor: pointer;
+            align-items: center;
+            justify-content: center;
+          }
+        }
+  
+        .socials {
+          display: flex;
+          gap: 0.5rem;
+          justify-content: center;
+  
+          .icon {
+            font-size: 30px;
+            color: #fff;
+  
+            &:hover {
+              color: #adadad;
+            }
+          }
+        }
+      }
+  
+      .footerLinks {
+        display: flex;
+        gap: 2rem;
+  
+        .linksGroup {
+          .linkTitle {
+            padding-bottom: 0.5rem;
+            font-weight: 700;
+            color: #fff;
+          }
+  
+          ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+  
+            li {
+              a {
+                color: #d7d7d7;
+                text-decoration: none;
+                transition: transform 0.3s ease;
+  
+                &:hover {
+                  color: #adadad;
+                  transform: translateX(10px);
+                }
+              }
+            }
+          }
+        }
+      }
     }
-
-    .footer i {
-        margin: 1rem 1rem 0 0;
+  
+    p {
+      text-align: center;
+      color: #fff;
+      margin-top: 2rem;
     }
-
-    .bottom div {
-        width: 50%;
-    }
-
-    .footer p {
-        font-size: .9rem;
-    }
-    
-}
+  }
