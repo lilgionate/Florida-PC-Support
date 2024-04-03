@@ -1,6 +1,7 @@
 .repairs {
     margin: 4rem 6rem;
     color: #2a2a2a;
+    text-align: center;
 }
 
 .repairs h1 {
@@ -53,6 +54,7 @@
 .r-card h4 {
     font-size: 1.3rem;
     padding: .9rem 0 .2rem 0;
+    font-weight: 600;
 }
 
 @media screen and (max-width: 850px) {
