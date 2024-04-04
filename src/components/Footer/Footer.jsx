@@ -12,58 +12,59 @@ const Footer = () => {
           </div>
           <div className="socials flex">
             <a href="/">
-              <i className="fa-brands fa-facebook icon"></i>
+              <i class="fa-solid fa-envelope icon"></i>
             </a>
             <a href="/">
-              <i className="fa-brands fa-instagram icon"></i>
+              <i className="fa-solid fa-phone icon"></i>
             </a>
             <a href="/">
-              <i className="fa-brands fa-youtube icon"></i>
+              <i className="fa-solid fa-comment-sms icon"></i>
             </a>
             <a href="/">
-              <i className="fa-brands fa-twitter icon"></i>
+              <i className="fa-brands fa-whatsapp icon"></i>
             </a>
           </div>
         </div>
         <div className="footerLinks">
+          <div className="linksGroup">
+            <span className="linkTitle">Home</span>
+            <ul>
+              <li><a href="http://localhost:5173/">Florida PC Support</a></li>
+              <li><a href="http://localhost:5173/about">About Us</a></li>
+              <li><a href="">FAQ</a></li>
+              <li><a href="http://localhost:5173/contact">Contact Us</a></li>
+            </ul>
+          </div>
+          <div className="linksGroup">
+            <span className="linkTitle">Services</span>
+            <ul>
+              <li><a href="">Walk-In Services</a></li>
+              <li><a href="">Mail-In & Messenger Services</a></li>
+              <li><a href="">IT Support</a></li>
+              <li><a href="">Warranty Sign-Up</a></li>
+            </ul>
+          </div>
           <div className="linksGroup">
             <span className="linkTitle">Shop</span>
             <ul>
               <li><a href="">Reviews</a></li>
               <li><a href="">Check Your Order</a></li>
               <li><a href="">Florida PC Garage</a></li>
-            </ul>
-          </div>
-          <div className="linksGroup">
-            <span className="linkTitle">Best Sellers</span>
-            <ul>
-              <li><a href="">Builds</a></li>
-              <li><a href="">Repairs</a></li>
-              <li><a href="">Products</a></li>
-            </ul>
-          </div>
-          <div className="linksGroup">
-            <span className="linkTitle">Community</span>
-            <ul>
-              <li><a href="">Privacy Policy</a></li>
-              <li><a href="">Refund Policy</a></li>
-              <li><a href="">Shipping Policy</a></li>
               <li><a href="">Referrals</a></li>
             </ul>
           </div>
           <div className="linksGroup">
-            <span className="linkTitle">Help</span>
+            <span className="linkTitle">Connect With Us</span>
             <ul>
-              <li><a href="">Terms & Conditions</a></li>
-              <li><a href="">Why Florida PC</a></li>
-              <li><a href="">Support</a></li>
-              <li><a href="">Contact Us</a></li>
-              <li><a href="">FAQ</a></li>
+              <li><a href=""><i className="fa-brands fa-facebook icon"></i> Facebook</a></li>
+              <li><a href=""><i className="fa-brands fa-twitter icon"></i> Twitter</a></li>
+              <li><a href=""><i className="fa-brands fa-instagram icon"></i> Instagram</a></li>
+              <li><a href=""><i className="fa-brands fa-youtube icon"></i> Youtube</a></li>
             </ul>
           </div>
         </div>
       </div>
-      <p>Copyright © 2024 Florida PC. All Rights Reserved.</p>
+      <p className="copyright">Copyright © 2024 Florida PC. All Rights Reserved.</p>
     </div>
   );
 };
