@@ -45,7 +45,6 @@ const Footer = () => {
           <div className="linksGroup">
             <span className="linkTitle">Community</span>
             <ul>
-              <li><a href="">Terms & Conditions</a></li>
               <li><a href="">Privacy Policy</a></li>
               <li><a href="">Refund Policy</a></li>
               <li><a href="">Shipping Policy</a></li>

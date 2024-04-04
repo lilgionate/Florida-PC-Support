@@ -8,7 +8,7 @@ import "./repairs.scss";
 function Repairs() {
   return (
     <div className="repairs">
-      <h1>Recent Repairs</h1>
+      <h1>WHAT OTHERS SAY</h1>
       <p>Revive Your Tech - Highlights from Recent Repairs</p>
       <div className="repairscard">
         <RepairsData

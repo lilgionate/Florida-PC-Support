@@ -4,6 +4,7 @@ import './calendly.scss';
 
 const Calendly = () => {
     return (
+        <>
         <div className='calendly-container'>
             <h1>SCHEDULE A REPAIR</h1>
             <p>PLEASE CHOOSE AN APPOINTMENT SLOT THAT WORKS FOR YOU</p>
@@ -19,6 +20,8 @@ const Calendly = () => {
                 style={{ display: "block", margin: "0 auto" }}
             />
         </div>
+
+        </>
     );
 };
 
