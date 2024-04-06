@@ -10,7 +10,7 @@ const Calendly = () => {
             <iframe src="https://app.acuityscheduling.com/schedule.php?owner=32003116&appointmentType=61388154" 
             title="Schedule Appointment"  
             frameBorder="0"
-            class="custom-iframe">
+            className="custom-iframe">
             </iframe>
             <script src="https://embed.acuityscheduling.com/js/embed.js" type="text/javascript"></script>
         </div>

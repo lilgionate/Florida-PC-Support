@@ -1,32 +1,66 @@
-
-
-export const MenuItems = [
+const MenuItems = [
     {
-        title : "Home",
-        url : "/",
-        cName : "nav-links",
+      title: "WalkIn",
+      url: "/walk-in",
+      cName: "nav-links",
+      submenu: [
+        {
+          title: "Service 1",
+          url: "/service1",
+        },
+        {
+          title: "Service 2",
+          url: "/service2",
+        },
+      ],
     },
     {
-        title : "About",
-        url : "/about",
-        cName : "nav-links",
+      title: "Mail-In & Messenger Service",
+      cName: "nav-links",
+      submenu: [
+        {
+          title: "Service 1",
+          url: "/service1",
+        },
+        {
+          title: "Service 2",
+          url: "/service2",
+        },
+      ],
     },
     {
-        title : "Services",
-        url : "/services",
-        cName : "nav-links",
+      title: "IT Support",
+      cName: "nav-links",
+      submenu: [
+        {
+          title: "Service 1",
+          url: "/service1",
+        },
+        {
+          title: "Service 2",
+          url: "/service2",
+        },
+      ],
     },
     {
-        title : "Contact",
-        url : "/contact",
-        cName : "nav-links",
+      title: "Warranty Sign-Up",
+      cName: "nav-links",
+      submenu: [
+        {
+          title: "Service 1",
+          url: "/service1",
+        },
+        {
+          title: "Service 2",
+          url: "/service2",
+        },
+      ],
     },
     {
-        title : "Shop Now",
-        url : "/shop",
-        cName : "nav-links-mobile",
-    }
+      title: "Shop Now",
+      url: "/shop",
+      cName: "nav-links-mobile",
+    },
+  ];
 
-];
-
-export default MenuItems;
+  export default MenuItems;

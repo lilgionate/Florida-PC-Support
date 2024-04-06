@@ -1,4 +1,5 @@
 import "./footer.scss";
+import logo from "../../assets/logo.png";
 
 const Footer = () => {
   return (
@@ -6,8 +7,8 @@ const Footer = () => {
       <div className="secContainer container">
         <div className="logoDiv">
           <div className="footerLogo">
-            <a href="" className="logo">
-              <h1 className="flex">FLORIDA PC SUPPORT</h1>
+            <a href="http://localhost:5173/" className="home">
+              <img src={logo} alt="home"/>
             </a>
           </div>
           <div className="socials flex">
