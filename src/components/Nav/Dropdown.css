@@ -5,7 +5,7 @@
   list-style: none;
   text-align: start;
   z-index: 1;
-  background-color: rgba(214, 214, 214, 0.8);
+  background-color: rgba(63, 63, 63, 0.8);
   box-shadow: 0 10px 20px -6px rgba(0, 0, 0, 0.8);
   border-radius: 5px;
 }
@@ -14,8 +14,8 @@
   content: "";
   position: absolute;
   top: -10px;
-  border-width: 0 10px 10px 10px;
-  border-color: transparent transparent rgba(233, 233, 233, 0.8) transparent;
+  border-width: 0 13px 10px 13px;
+  border-color: transparent transparent rgba(64, 64, 64, 0.8) transparent;
   border-style: solid;
 }
 
@@ -24,7 +24,7 @@
 }
 
 .submenu li a:hover {
-  color: rgb(109, 109, 109);
+  color: rgb(142, 142, 142);
 }
 
 .submenu.clicked {
