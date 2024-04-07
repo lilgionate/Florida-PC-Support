@@ -1,25 +1,21 @@
 import React, { useState } from "react";
-import { serviceDropdown } from "./NavItems";
+import { productsDropdown } from "./NavItems";
 import { Link } from "react-router-dom";
 import "./Dropdown.css";
 
-function Dropdown() {
+function ProductsDropdown() {
   const [dropdown, setDropdown] = useState(false);
 
   return (
     <>
       <ul
-        className={dropdown ? "services-submenu clicked" : "services-submenu"}
+        className={dropdown ? "products-submenu clicked" : "products-submenu"}
         onClick={() => setDropdown(!dropdown)}
       >
-        {serviceDropdown.map((item) => {
+        {productsDropdown.map((item) => {
           return (
             <li key={item.id}>
-              <Link
-                to={item.path}
-                className={item.cName}
-                onClick={() => setDropdown(false)}
-              >
+              <Link to={item.path} className={item.cName} onClick={() => setDropdown(false)}>
                 {item.title}
               </Link>
             </li>
@@ -30,4 +26,4 @@ function Dropdown() {
   );
 }
 
-export default Dropdown;
+export default ProductsDropdown;
