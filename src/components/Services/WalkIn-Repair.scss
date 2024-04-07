@@ -1,0 +1,127 @@
+.WalkIn-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem 1rem;
+    background-color: #f4f4f4;
+
+    .location-map {
+      width: 73rem;
+      height: 20rem;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    }
+  
+    .WalkIn-header {
+      text-align: center;
+      margin-top: 8rem;
+      margin-bottom: 2rem;
+  
+      .WalkIn-title {
+        font-size: 2.5rem;
+        font-weight: bold;
+        color: #333;
+        margin-bottom: 0.5rem;
+      }
+  
+      .WalkIn-des {
+        font-size: 1.2rem;
+        color: #666;
+      }
+    }
+  
+
+    .MailIn-container {
+        background-color: #f4f4f4;
+        padding: 4rem 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      
+        .MailIn-content {
+          text-align: center;
+          width: 73rem;
+          background-color: #fff;
+          padding: 3rem 2rem;
+          border-radius: 10px;
+          box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+      
+          .mailin-title {
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 1rem;
+          }
+      
+          .mailin-des {
+            font-size: 1.2rem;
+            color: #666;
+            margin-bottom: 2rem;
+          }
+      
+          .mailin-btn {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 25px;
+            padding: 1rem 2rem;
+            font-size: 1.1rem;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+      
+            &:hover {
+              background-color: #0056b3;
+            }
+          }
+        }
+      }
+      
+      @media (max-width: 768px) {
+        .MailIn-container {
+          padding: 3rem 1rem;
+      
+          .MailIn-content {
+            padding: 2rem 1rem;
+      
+            .mailin-title {
+              font-size: 2rem;
+            }
+      
+            .mailin-des {
+              font-size: 1rem;
+            }
+      
+            .mailin-btn {
+              font-size: 1rem;
+            }
+          }
+        }
+      }
+
+    .WalkIn-iframe {
+      width: 80%;
+      height: 60rem;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .WalkIn-container {
+      padding: 2rem 1rem;
+  
+      .WalkIn-header {
+        .WalkIn-title {
+          font-size: 2rem;
+        }
+  
+        .WalkIn-des {
+          font-size: 1rem;
+        }
+      }
+  
+      .WalkIn-iframe {
+        height: 600px;
+      }
+    }
+  }

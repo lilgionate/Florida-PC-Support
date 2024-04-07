@@ -1,13 +1,13 @@
 import Navbar from '../components/Nav/Navbar';
 import Repairs from '../components/Repairs/Repairs';
 import Footer from '../components/Footer/Footer';
-import Calendly from '../components/Services/Calendly';
+import WalkInRepair from '../components/Services/WalkIn-Repair';
 
 function Services () {
   return (
     <>
       <Navbar/>
-      <Calendly />
+      <WalkInRepair />
       <Repairs />
       <Footer />
     </>

@@ -1,12 +1,12 @@
 import Navbar from '../components/Nav/Navbar';
-import Calendly from '../components/Services/Calendly';
+import WalkInRepair from '../components/Services/WalkIn-Repair';
 import Footer from '../components/Footer/Footer';
 
 function WalkIn () {
   return (
     <>
       <Navbar />
-      <Calendly />
+      <WalkInRepair />
       <Footer />
     </>
   )

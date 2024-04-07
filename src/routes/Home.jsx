@@ -3,7 +3,6 @@ import Hero from '../components/Header/Hero';
 import HomeImg from '../assets/hero.webp';
 import Builds from '../components/Builds/Builds';
 import Repairs from '../components/Repairs/Repairs';
-import Calendly from '../components/Services/Calendly';
 import Certification from '../components/Certification/certification';
 import Footer from '../components/Footer/Footer';
 
@@ -21,7 +20,6 @@ function Home () {
       btnClass="show"
       />
       <Builds />
-      <Calendly />
       <Repairs />  
       <Certification />
       <Footer />
