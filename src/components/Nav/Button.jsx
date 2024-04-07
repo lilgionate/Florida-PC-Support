@@ -5,7 +5,7 @@ import "./Button.css";
 function Button() {
   return (
     <Link to="signup">
-      <button className="btn">Shop Now</button>
+      <button className="nav-btn">Shop Now</button>
     </Link>
   );
 }

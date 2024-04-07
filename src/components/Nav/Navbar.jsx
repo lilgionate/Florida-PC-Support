@@ -17,15 +17,16 @@ function Navbar() {
   return (
     <>
       <nav className="navbar">
-        <Link to="http://localhost:5173/" className="navbar-logo" >
+       <div className="navbar-container">
+
+       <Link to="http://localhost:5173/" className="navbar-logo" >
           <img src={logo} alt="" />
         </Link>
-
+        
         <div className="menu-icons" onClick={handleClick}>
           <i className={clicked ? "fas fa-times" : "fas fa-bars"}></i>
         </div>
-        
-        <div className="navbar-container">
+
         <ul className={clicked ? "nav-menu active" : "nav-menu"}>
           {navItems.map((item) => {
             if (item.title === "Services") {
@@ -47,8 +48,11 @@ function Navbar() {
               </li>
             );
           })}
+          <li>
+          <Button />
+          </li>
         </ul>
-        <Button />
+      
         </div>
       </nav>
     </>

@@ -12,7 +12,7 @@
   display: flex;
   align-items: center;
   width: 95%;
-  height: 90px;
+  height: 80px;
   border-radius: 50px;
   position: fixed;
   top: 0;
@@ -27,19 +27,21 @@
   justify-content: space-between;
   align-items: center;
   column-gap: 1rem;
+  width: 100%;
+  margin-left: 20px;
 }
 
 .navbar-logo {
-  cursor: pointer;
+  display: flex;
+  height: 4rem;
+  margin-bottom: 25px;
+  margin-left: 20px;
 }
 
 .nav-menu {
   display: flex;
   list-style: none;
-  justify-content: space-around;
-  width: auto; /* Adjust the width to fit the content */
-  padding: 0;
-  margin: 0 1rem; /* Add some spacing between the nav items and the button */
+  margin-bottom: 20px;
 }
 
 .nav-item {
@@ -133,11 +135,6 @@
     .menu-icons {
         display: block;
         cursor: pointer;
-    }
-
-    .menu-icons i {
-        font-size: 1.2rem;
-        color: #222;
     }
 
 }
