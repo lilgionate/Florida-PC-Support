@@ -7,7 +7,7 @@ const WalkInRepair = () => {
         <>
         <div className='WalkIn-container'>
         <div className='WalkIn-header'>
-                <h1 className='WalkIn-title'>SCHEDULE A REPAIR</h1>
+                <h1 className='WalkIn-title'>SCHEDULE Drop-Off</h1>
                 <p className='WalkIn-des'>PLEASE CHOOSE AN APPOINTMENT SLOT THAT WORKS FOR YOU</p>
             </div>
 
