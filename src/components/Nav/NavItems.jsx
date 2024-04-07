@@ -1,21 +1,30 @@
 export const navItems = [
-  { id: 1, title: "Home", path: "./", cName: "nav-item" },
-  { id: 2, title: "Services", path: "./services", cName: "nav-item" },
-  { id: 3, title: "Products", path: "./products", cName: "nav-item" },
-  { id: 4, title: "Contact Us", path: "./contactus", cName: "nav-item" },
+  { id: 1, title: "Walk-In Services", path: "./WalkIn", cName: "nav-item" },
+  { id: 2, title: "Mail-In & Messenger Service", cName: "nav-item" },
+  { id: 3, title: "IT Support", cName: "nav-item" },
+  { id: 4, title: "Warranty Sign-up", cName: "nav-item" },
 ];
 
-export const productsDropdown = [
-  { id: 1, title: "Product 1", path: "./product1", cName: "pro-submenu-item" },
-  { id: 2, title: "Product 2", path: "./product2", cName: "pro-submenu-item" },
-  { id: 3, title: "Product 3", path: "./product3", cName: "pro-submenu-item" },
-  { id: 4, title: "Product 4", path: "./product4", cName: "pro-submenu-item" },
+export const walkInDropdown = [
+  { id: 1, title: "Data Recovery Services", path: "./product1", cName: "submenu-item" },
+  { id: 2, title: "Mac Repairs", path: "./product2", cName: "submenu-item" },
+  { id: 3, title: "PC Repairs", path: "./product3", cName: "submenu-item" },
+  { id: 4, title: "Custom PC Repairs", path: "./product4", cName: "submenu-item" },
 
 ];
 
-export const servicesDropdown = [
-  { id: 5, title: "Service 1", path: "./services1", cName: "ser-submenu-item" },
-  { id: 6, title: "Service 2", path: "./services2", cName: "ser-submenu-item" },
-  { id: 7, title: "Service 3", path: "./services3", cName: "ser-submenu-item" },
-  { id: 8, title: "Service 4", path: "./services4", cName: "ser-submenu-item" },
+export const mailInDropdown = [
+  { id: 1, title: "Mail in your device", path: "./services1", cName: "submenu-item" },
+  { id: 2, title: "Device Pickup - Messenger Service", path: "./services2", cName: "submenu-item" },
+];
+
+export const itSupportDropdown = [
+  { id: 1, title: "Onsite Tech Visit", path: "./product1", cName: "submenu-item" },
+  { id: 2, title: "Remote Support", path: "./product2", cName: "submenu-item" },
+];
+
+export const warrantyDropdown = [
+  { id: 1, title: "Computer Warranty", path: "./product1", cName: "submenu-item" },
+  { id: 2, title: "Cyber Security Protection", path: "./product2", cName: "submenu-item" },
+
 ];

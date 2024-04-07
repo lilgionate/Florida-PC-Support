@@ -1,61 +1,41 @@
-.products-submenu {
-  width: 10rem;
+.submenu {
+  width: "";
   position: absolute;
-  top: 67px;
+  top: 80px;
   list-style: none;
   text-align: start;
   z-index: 1;
+  background-color: rgba(214, 214, 214, 0.8);
+  box-shadow: 0 10px 20px -6px rgba(0, 0, 0, 0.8);
+  border-radius: 5px;
 }
 
-.products-submenu li {
-  background: rgb(0, 212, 212);
-  cursor: pointer;
-}
-
-.products-submenu li a:hover {
-  background: rgb(0, 175, 175);
-}
-
-.products-submenu.clicked {
-  display: none;
-}
-
-.services-submenu {
-  width: 10rem;
+.submenu::before {
+  content: "";
   position: absolute;
-  top: 67px;
-  list-style: none;
-  text-align: start;
-  z-index: 1;
+  top: -10px;
+  border-width: 0 10px 10px 10px;
+  border-color: transparent transparent rgba(233, 233, 233, 0.8) transparent;
+  border-style: solid;
 }
 
-.services-submenu li {
-  background: rgb(0, 212, 212);
+.submenu li {
   cursor: pointer;
 }
 
-.services-submenu li a:hover {
-  background: rgb(0, 175, 175);
+.submenu li a:hover {
+  color: rgb(109, 109, 109);
 }
 
-.services-submenu.clicked {
+.submenu.clicked {
   display: none;
 }
 
-.pro-submenu-item {
+.submenu-item {
   display: block;
   width: 100%;
   height: 100%;
   text-decoration: none;
-  color: white;
-  padding: 16px;
-}
-
-.ser-submenu-item {
-  display: block;
-  width: 100%;
-  height: 100%;
-  text-decoration: none;
-  color: white;
-  padding: 16px;
+  color: rgb(0, 0, 0);
+  padding: 16px 30px 16px 0;
 }

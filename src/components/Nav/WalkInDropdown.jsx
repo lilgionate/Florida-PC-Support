@@ -1,18 +1,18 @@
 import React, { useState } from "react";
-import { servicesDropdown } from "./NavItems";
+import { walkInDropdown } from "./NavItems";
 import { Link } from "react-router-dom";
 import "./Dropdown.css";
 
-function ServicesDropdown() {
+function WalkInDropdown() {
   const [dropdown, setDropdown] = useState(false);
 
   return (
     <>
       <ul
-        className={dropdown ? "services-submenu clicked" : "services-submenu"}
+        className={dropdown ? "submenu clicked" : "submenu"}
         onClick={() => setDropdown(!dropdown)}
       >
-        {servicesDropdown.map((item) => {
+        {walkInDropdown.map((item) => {
           return (
             <li key={item.id}>
               <Link to={item.path} className={item.cName} onClick={() => setDropdown(false)}>
@@ -26,4 +26,4 @@ function ServicesDropdown() {
   );
 }
 
-export default ServicesDropdown;
+export default WalkInDropdown;
