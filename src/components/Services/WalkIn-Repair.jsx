@@ -70,30 +70,38 @@ const WalkInRepair = () => {
     return (
         <>
         <div className='WalkIn-container'>
-            <div className='WalkIn-header'>
-                <h1 className='WalkIn-title'>Schedule Drop-Off</h1>
-            </div>
+  <div className='WalkIn-header'>
+    <h1 className='WalkIn-title'>Schedule Drop-Off</h1>
+  </div>
+  <div className='WalkIn-wrapper'>
+    <div className='WalkIn-Card'>
+      <div className="card-header">
+        <h2>Florida PC Support</h2>
+      </div>
+      <div className="card-info">
+        <p className='address'>3750 Inverrary Dr, Lauderhill, FL 33319</p>
+        <p className={`store-status ${isStoreOpen ? 'open' : 'closed'}`}>
+          {isStoreOpen ? 'Store is currently: Open' : 'Store is currently: Closed'}
+        </p>
+        <p>{nextOpeningTime}</p>
+      </div>
+      <div className="walkin-button">
+        <i className="fa-solid fa-person-walking"> Walk-in</i>
+        <div className="spacer"></div>
+        <a href="https://app.acuityscheduling.com/schedule.php?owner=32003116&appointmentType=61346932" target="_blank" className="acuity-embed-button">
+          Schedule Drop-off
+        </a>
+        <link rel="stylesheet" href="https://embed.acuityscheduling.com/embed/button/32003116.css" id="acuity-button-styles" />
+        <script src="https://embed.acuityscheduling.com/embed/button/32003116.js" async></script>
+      </div>
+    </div>
+    <div className='location-map-wrapper'>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1551.9208405755262!2d-80.33475760737464!3d25.99977299604164!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d9bb8e7f838ac5%3A0x6340ed004188d429!2sfloridapcsupport!5e0!3m2!1sen!2sus!4v1712463650391!5m2!1sen!2sus" className='location-map' loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+</div>
 
-                <div>
-                    <p>{isStoreOpen ? 'Store is currently open' : 'Store is currently closed'}</p>
-                    <p>{nextOpeningTime}</p>
-                </div>
-
-            <iframe src="https://app.acuityscheduling.com/schedule.php?owner=32003116&appointmentType=61388154" 
-            title="Schedule Appointment"  
-            frameBorder="0"
-            className="WalkIn-iframe">
-            </iframe>
-            <script src="https://embed.acuityscheduling.com/js/embed.js" type="text/javascript"></script>
-
-            <div>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1551.9208405755262!2d-80.33475760737464!3d25.99977299604164!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d9bb8e7f838ac5%3A0x6340ed004188d429!2sfloridapcsupport!5e0!3m2!1sen!2sus!4v1712463650391!5m2!1sen!2sus" 
-            className='location-map'
-            loading="lazy" 
-            referrerPolicy="no-referrer-when-downgrade">
-            </iframe>
-            </div>
-
+         <div>
             <div className="MailIn-container">
                 <div className="MailIn-content">
                     <h2 className='mailin-title'>Mail-In Repair</h2>
