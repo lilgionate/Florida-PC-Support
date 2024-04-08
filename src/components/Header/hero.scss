@@ -8,6 +8,7 @@
 .hero-mid {
     width: 100%;
     height: 70vh;
+    position: relative;
 }
 
 .hero-mid h1 {
@@ -20,136 +21,97 @@ img {
     object-fit: cover;
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap");
-
-
-.hero-img {
-  width: 100%;
-  height: 100%;
-  display: block;
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center; /* Center the text horizontally */
 }
 
-.hero-content {
-        font-family: Inter, sans-serif;
-        height: 100vh;
-        color: white;
-        background-color: #e9e9f0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        &::before,
-         ::after {
-          margin: 0;
-          padding: 0;
-          box-sizing: border-box;
-        }
+.hero-text h1 {
+    font-size: 3rem;
+    font-weight: 800;
+    background: #fff;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
-.hero-container {
-  width: 100%;
-  width: 820px;
-  height: 340px;
-  display: flex;
-  gap: 10px;
-  margin-inline: 50px;
-  position: absolute;
-  z-index: 1;
-  bottom: 20%;
+.hero-text p {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #fff;
+    padding-bottom: 20px;
 }
 
-.hero-card {
-  min-width: 70px;
-  height: 100%;
-  border-radius: 30px;
-  overflow: hidden;
-
-  display: flex;
-  align-items: flex-end;
-  flex-grow: 1;
-  cursor: pointer;
-  position: relative;
-  transition: flex-grow 0.5s cubic-bezier(0.16, 1, 0.3, 1);
-
-  --transition-timing: 0.35s;
-}
-/* .card.active {
-  flex-grow: 100;
-} */
-.card:hover {
-  flex-grow: 7;
-}
-
-.card > .background {
-  position: absolute;
-  inset: 0;
-  object-fit: cover;
-  object-position: center;
-  filter: brightness(0.4);
-  z-index: -1;
-  transition: var(--transition-timing) ease;
-}
-.card:hover > .background {
-  filter: brightness(1);
-}
-
-.card > .card-content {
-  display: flex;
-  align-items: center;
-  position: absolute;
-  left: 10px;
-  right: 10px;
-  bottom: 20px;
-  overflow: hidden;
-  transition: var(--transition-timing);
-  z-index: 10;
-}
-.card:hover > .card-content {
-  inset: 20px;
-  top: auto;
+.hero-text .show {
+    text-decoration: none;
+    padding: 1rem 2rem;
+    border-radius: 30px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #ffffff;
+    background: linear-gradient(to right, #add8e6, #191970); /* Linear gradient from baby blue to dark blue */
+    background: -moz-linear-gradient(
+        -45deg,
+        rgba(173, 216, 230, 1) 0%, /* Baby blue */
+        rgba(25, 25, 112, 1) 100% /* Dark blue */
+    );
+    background: -webkit-gradient(
+        left top,
+        right bottom,
+        color-stop(0%, rgba(173, 216, 230, 1)),
+        color-stop(100%, rgba(25, 25, 112, 1))
+    );
+    background: -webkit-linear-gradient(
+        -45deg,
+        rgba(173, 216, 230, 1) 0%, /* Baby blue */
+        rgba(25, 25, 112, 1) 100% /* Dark blue */
+    );
+    background: -o-linear-gradient(
+        -45deg,
+        rgba(173, 216, 230, 1) 0%, /* Baby blue */
+        rgba(25, 25, 112, 1) 100% /* Dark blue */
+    );
+    background: -ms-linear-gradient(
+        -45deg,
+        rgba(173, 216, 230, 1) 0%, /* Baby blue */
+        rgba(25, 25, 112, 1) 100% /* Dark blue */
+    );
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#add8e6', endColorstr='#191970', GradientType=1 ); /* Baby blue to Dark blue */
 }
 
-.card-content > * {
-  transition: var(--transition-timing);
+@media screen and (max-width: 768px) {
+    .hero-text h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero-text p {
+        font-size: 1rem;
+    }
+
+    .hero-text .show {
+        font-size: 1rem;
+    }
+    
 }
 
-.card-content > .profile-image {
-  min-width: 50px;
-  max-width: 50px;
-  height: 50px;
-  border: 1px solid white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50%;
-  overflow: hidden;
-}
-.card:hover .profile-image {
-  border: 1px solid rgb(110, 252, 205);
-}
-.profile-image > svg {
-  stroke: #fefefe;
-}
-.card:hover .profile-image > svg {
-  stroke: rgb(110, 252, 205);
-}
+@media screen and (max-width: 555px){
+    .hero-text h1 {
+        padding: 10px 20px;
+        font-size: 2rem;
+    }
 
-.card-content > .title {
-  white-space: pre;
-  margin-left: 10px;
-  translate: 0 100%;
-  opacity: 0;
-}
-.card:hover .title {
-  opacity: 1;
-  translate: 0 0;
-}
+    .hero-text p {
+        font-size: 1.0rem;
+        padding: 0 0 2rem 0;
+    }
 
-.card > .backdrop {
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  height: 100px;
-  z-index: 0;
-  background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.7));
+    .hero-text .show {
+        font-size: 1rem;
+        padding: 0.6rem 1.1rem;
+        font-size: 1rem;
+    }
 }
