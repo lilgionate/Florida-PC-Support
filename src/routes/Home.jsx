@@ -3,7 +3,8 @@ import Hero from '../components/Header/Hero';
 import HomeImg from '../assets/hero.webp';
 import Builds from '../components/Builds/Builds';
 import Repairs from '../components/Repairs/Repairs';
-import ExpandingCards from '../components/ExpandingCards';
+import Featured from '../components/FeaturedCarousel';
+import ExpandingCards from '../components/ExpandingCards/ExpandingCards';
 import Certification from '../components/Certification/certification';
 import Footer from '../components/Footer/Footer';
 import img1 from '../assets/repairicon.jpg';
@@ -70,6 +71,7 @@ function Home () {
       heroImg={HomeImg}
       />
       <ExpandingCards data={images}/>
+      <Featured />
       <Builds />
       <Repairs />  
       <Certification />
