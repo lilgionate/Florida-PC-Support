@@ -1,15 +1,15 @@
 
 import React, { useEffect, useRef } from "react";
-import img7 from "../assets/acer.svg";
-import img8 from "../assets/windows.svg";
-import img9 from "../assets/lenovo.svg";
-import img10 from "../assets/hp.svg";
-import img11 from "../assets/Dell.svg";
-import img12 from "../assets/asus.svg";
-import img13 from "../assets/Apple.svg";
-import img14 from "../assets/toshiba.svg";
-import img15 from "../assets/ibm.svg";
-import img16 from "../assets/samsung.svg";
+import img7 from "../../assets/acer.svg";
+import img8 from "../../assets/windows.svg";
+import img9 from "../../assets/lenovo.svg";
+import img10 from "../../assets/hp.svg";
+import img11 from "../../assets/Dell.svg";
+import img12 from "../../assets/asus.svg";
+import img13 from "../../assets/Apple.svg";
+import img14 from "../../assets/toshiba.svg";
+import img15 from "../../assets/ibm.svg";
+import img16 from "../../assets/samsung.svg";
 import "./SupportedCarousel.scss";
 
 const LogosSlider = () => {
