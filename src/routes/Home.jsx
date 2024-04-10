@@ -4,6 +4,7 @@ import HomeImg from '../assets/hero.webp';
 import Builds from '../components/Builds/Builds';
 import Repairs from '../components/Repairs/Repairs';
 import Featured from '../components/FeaturedCarousel';
+import Supported from '../components/SupportedCarousel';
 import ExpandingCards from '../components/ExpandingCards/ExpandingCards';
 import Certification from '../components/Certification/certification';
 import Footer from '../components/Footer/Footer';
@@ -75,6 +76,7 @@ function Home () {
       <Builds />
       <Repairs />  
       <Certification />
+      <Supported />
       <Footer />
     </>
   )

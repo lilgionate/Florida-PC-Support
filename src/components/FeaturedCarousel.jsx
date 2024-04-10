@@ -1,4 +1,4 @@
-// LogosSlider.jsx
+
 import React, { useEffect, useRef } from "react";
 import img7 from "../assets/3m.svg";
 import img8 from "../assets/barstool-store.svg";
