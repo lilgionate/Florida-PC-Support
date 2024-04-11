@@ -3,10 +3,11 @@ import Hero from '../components/Header/Hero';
 import HomeImg from '../assets/hero.webp';
 import Builds from '../components/Builds/Builds';
 import Repairs from '../components/Repairs/Repairs';
+import Passion from '../components/OurPassion/OurPassion';
 import Featured from '../components/Featured/FeaturedCarousel';
 import Supported from '../components/Supported/SupportedCarousel';
 import ExpandingCards from '../components/ExpandingCards/ExpandingCards';
-import Certification from '../components/Certification/certification';
+import OurServices from '../components/OurServices/OurServices';
 import Footer from '../components/Footer/Footer';
 import img1 from '../assets/repairicon.jpg';
 import img2 from '../assets/repairicon.jpg';
@@ -21,7 +22,7 @@ const images = [
     id: 1, 
     title: "Schedule Your free Diagnostic",
     src: img1,
-    active: false,
+    active: true,
     linkUrl: "https://www.google.com",
   },
   { 
@@ -74,9 +75,10 @@ function Home () {
       <ExpandingCards data={images}/>
       <Featured />
       <Builds />
+      <OurServices />
       <Repairs />  
-      <Certification />
       <Supported />
+      <Passion />
       <Footer />
     </>
   )

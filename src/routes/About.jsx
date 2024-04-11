@@ -1,6 +1,6 @@
 import Navbar from '../components/Nav/Navbar';
 import AboutUs from '../components/About/AboutUs';
-import Certification from '../components/Certification/certification';
+import OurServices from '../components/OurServices/OurServices';
 import Footer from '../components/Footer/Footer';
 
 function About () {
@@ -8,7 +8,7 @@ function About () {
     <>
       <Navbar/>
       <AboutUs />
-      <Certification />
+      <OurServices />
       <Footer />
     </>
   )

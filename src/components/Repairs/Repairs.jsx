@@ -1,31 +1,54 @@
-import RepairsData from "./RepairsData";
-import Repair1 from "../../assets/repair1.avif";
-import Repair2 from "../../assets/repair2.avif";
-import Repair3 from "../../assets/repair3.avif";
 
+import Repair1 from "../../assets/repair1.avif";
 import "./repairs.scss";
 
 function Repairs() {
   return (
-    <div className="repairs">
-      <h1>WHAT OTHERS SAY</h1>
-      <p>Revive Your Tech - Highlights from Recent Repairs</p>
+    <div className="repairs-container">
+      <div className="repairs-content">
+        <h2>Office IT Support</h2>
+        <p>Outsourced & Onsite Solutions</p>
+        <div className="repairs-list-container">
+          <div className="repairs-list">
+            <div className="repairs-list-item">
+              <li>Daily or Weekly Support</li>
+            </div>
+            <div className="repairs-list-item">
+              <li>Computer Tech Recruitment</li>
+            </div>
+            <div className="repairs-list-item">
+              <li>Fill-in Tech Coverage</li>
+            </div>
+            <div className="repairs-list-item">
+              <li>Scheduled Maintenance</li>
+            </div>
+            <div className="repairs-list-item">
+              <li>Bulk Hardware Repair</li>
+            </div>
+            <div className="repairs-list-item">
+              <li>Monthly Device Warranty</li>
+            </div>
+            <div className="repairs-list-item">
+              <li>Network Cabling</li>
+            </div>
+            <div className="repairs-list-item">
+              <li>New Office Setup</li>
+            </div>
+            <div className="repairs-list-item">
+              <li>Special Project</li>
+            </div>
+            <div className="repairs-list-item">
+              <li>Remote Support</li>
+            </div>
+          </div>
+        </div>
+      </div>
       <div className="repairscard">
-        <RepairsData
-        image={Repair1} 
-        heading="CPU Processor Repair"
-        text="We can repair your CPU processor and get it running like new again."
-        />
-        <RepairsData
-        image={Repair2} 
-        heading="RAM Repair"
-        text="We can repair your RAM and get it running like new again."
-        />
-        <RepairsData
-        image={Repair3} 
-        heading="Network Card Repair"
-        text="We can repair your network card and get it running like new again."
-        />
+        <div className="r-card">
+          <div className="r-image">
+            <img src={Repair1} alt="image" />
+          </div>
+        </div>
       </div>
     </div>
   );
