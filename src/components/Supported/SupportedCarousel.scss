@@ -1,15 +1,16 @@
 /* LogosSlider.css */
-.featured-header {
-    font-size: 2.5rem; /* Set the font size */
-    font-weight: 600; /* Set the font weight */
-    color: #333; /* Set the text color */
-    margin-bottom: 2rem; /* Add some bottom margin */
-    text-align: center; /* Center the text */
+.supported-header {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 2rem;
+    margin-top: 10rem;
+    text-align: center;
   }
 
 .logos {
     overflow: hidden;
-    padding-bottom: 5rem;
+    padding-bottom: 2rem;
     background: white;
     white-space: nowrap;
     position: relative;

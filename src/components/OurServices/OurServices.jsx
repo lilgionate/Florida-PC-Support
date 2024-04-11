@@ -6,35 +6,35 @@ import img from '../../assets/repairicon.jpg'
 const certification = () => {
   return (
     <>
-    <section className="about section">
+    <section className="about">
         <div className="secContainer">
             <h3 className="title">
-                OUR FOCUS
+            Your Go-To Mac Repair Center
             </h3>
+            <p className='Our-des'>
+            Directly repairing logic boards and all MacBook, iMac, and Mac Pro issues, saving you time and money.
+            </p>
 
             <div className="mainContent container grid">
             <div className="itemContainerRow">
                 <div className="itemContainer">
                     <div className="singleItem">
                        <img src={img} alt="" />
-                       <h3>CompTIA A+</h3>
-                       <p>Our team has completed over 100 repairs for our customers.</p>
+                       <h3>MacBook Won’t Power Up</h3>
                     </div>
                 </div> 
 
                 <div className="itemContainer"> 
                     <div className="singleItem">
                        <img src={img} alt="" />
-                       <h3>Microsoft Technology Associate (MTA)</h3>
-                       <p>Our team has completed over 100 repairs for our customers.</p>
+                       <h3>MacBook Screen Replacement</h3>
                    </div>
                 </div>
 
                 <div className="itemContainer"> 
                    <div className="singleItem">
                       <img src={img} alt="" />
-                      <h3>Cisco Certified Technician (CCT)</h3>
-                      <p>Our team has completed over 100 repairs for our customers.</p>
+                      <h3>MacBook Spill Repair</h3>
                     </div>
                 </div>
                 </div>
@@ -43,24 +43,21 @@ const certification = () => {
                 <div className="itemContainer">
                     <div className="singleItem">
                        <img src={img} alt="" />
-                       <h3>Apple Certified Mac Technician (ACMT)</h3>
-                       <p>Our team has completed over 100 repairs for our customers.</p>
+                       <h3>MacBook Battery Replacement</h3>
                     </div>
                 </div>
 
                 <div className="itemContainer">
                     <div className="singleItem">
                        <img src={img} alt="" />
-                       <h3>Apple Certified Mac Technician (ACMT)</h3>
-                       <p>Our team has completed over 100 repairs for our customers.</p>
+                       <h3>MacBook Logic Board Repair</h3>
                     </div>
                 </div>
 
                 <div className="itemContainer">
                     <div className="singleItem">
                        <img src={img} alt="" />
-                       <h3>Apple Certified Mac Technician (ACMT)</h3>
-                       <p>Our team has completed over 100 repairs for our customers.</p>
+                       <h3>MacBook Data Recovery</h3>
                     </div>
                 </div>
                 </div>
@@ -71,32 +68,30 @@ const certification = () => {
 <section className="about section">
 <div className="secContainer">
     <h3 className="title">
-        OUR FOCUS
+    Fixing all Windows / PC issues
     </h3>
+    <p className='Our-des'>Repairing laptops, desktops, PCs, custom gaming machines, all-in-ones, and tablets.</p>
 
     <div className="mainContent container grid">
     <div className="itemContainerRow">
         <div className="itemContainer">
             <div className="singleItem">
                <img src={img} alt="" />
-               <h3>CompTIA A+</h3>
-               <p>Our team has completed over 100 repairs for our customers.</p>
+               <h3>Windows Laptop Screen Replacements</h3>
             </div>
         </div> 
 
         <div className="itemContainer"> 
             <div className="singleItem">
                <img src={img} alt="" />
-               <h3>Microsoft Technology Associate (MTA)</h3>
-               <p>Our team has completed over 100 repairs for our customers.</p>
+               <h3>Windows Data Recovery</h3>
            </div>
         </div>
 
         <div className="itemContainer"> 
            <div className="singleItem">
               <img src={img} alt="" />
-              <h3>Cisco Certified Technician (CCT)</h3>
-              <p>Our team has completed over 100 repairs for our customers.</p>
+              <h3>Windows / PC Won’t Start Fix</h3>
             </div>
         </div>
         </div>
@@ -105,24 +100,21 @@ const certification = () => {
         <div className="itemContainer">
             <div className="singleItem">
                <img src={img} alt="" />
-               <h3>Apple Certified Mac Technician (ACMT)</h3>
-               <p>Our team has completed over 100 repairs for our customers.</p>
+               <h3>Slow PC Issue</h3>
             </div>
         </div>
 
         <div className="itemContainer">
             <div className="singleItem">
                <img src={img} alt="" />
-               <h3>Apple Certified Mac Technician (ACMT)</h3>
-               <p>Our team has completed over 100 repairs for our customers.</p>
+               <h3>Windows / PC Won’t Start Fix</h3>
             </div>
         </div>
 
         <div className="itemContainer">
             <div className="singleItem">
                <img src={img} alt="" />
-               <h3>Apple Certified Mac Technician (ACMT)</h3>
-               <p>Our team has completed over 100 repairs for our customers.</p>
+               <h3>Laptop Spill Repair</h3>
             </div>
         </div>
         </div>

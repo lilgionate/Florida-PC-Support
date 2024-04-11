@@ -6,7 +6,7 @@ const Modal = ({ description}) => {
     <div className="modal">
       <div className="modal-content">
         <p className='modal-des'>{description}</p>
-        <button>Get Started</button>
+        <button className='modal-btn'>Get Started</button>
       </div>
     </div>
   );

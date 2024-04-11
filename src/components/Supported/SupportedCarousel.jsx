@@ -22,7 +22,7 @@ const LogosSlider = () => {
 
   return (
     <>
-    <h2 className="featured-header">Supported Equipment</h2>
+    <h2 className="supported-header">Supported Equipment</h2>
     <div className="logos">
       <div className="logos-slide" ref={logosContainerRef}>
         <img src={img7} alt="Acer" />

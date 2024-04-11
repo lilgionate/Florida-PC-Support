@@ -62,8 +62,9 @@ const Builds = () => {
               >
                 {price.description}</p>
                 <Modal description={modalDescription} />
+
              </div>
-              <button>View Build</button>
+             <button className="button button-view-build">View Build</button>
             </SwiperSlide>
           );
         })}
