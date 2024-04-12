@@ -2,7 +2,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 80vh;
+    height: 70vh;
     flex: 0.5;
     border-radius: 50px;
     border: 1px solid #ffffff;
@@ -21,10 +21,11 @@
 }
 
 .ex-card h2 {
-    color: #fff;
+    color: #ffffff;
     margin-left: 1rem; /* Add margin to separate the button and the title */
     opacity: 0;
     transition: opacity 0.5s;
+    font-weight: 500;
 }
 
 .ex-card.active {

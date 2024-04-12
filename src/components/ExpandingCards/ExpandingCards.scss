@@ -2,7 +2,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: auto; /* Change this */
     font-size: 50%;
     position: relative;
     padding-top: 8rem; /* Add this */
@@ -10,7 +9,7 @@
   
   .expanding-cards {
     display: flex;
-    width: 70vw;
+    width: 60vw;
     position: absolute;
     top: -238%; /* Change this */
     left: 50%;

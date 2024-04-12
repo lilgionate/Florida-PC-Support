@@ -1,6 +1,6 @@
 import Navbar from '../components/Nav/Navbar';
 import Hero from '../components/Header/Hero';
-import HomeImg from '../assets/hero.webp';
+import HomeImg from '../assets/home.avif';
 import Builds from '../components/Builds/Builds';
 import Repairs from '../components/Repairs/Repairs';
 import Passion from '../components/OurPassion/OurPassion';
@@ -9,12 +9,12 @@ import Supported from '../components/Supported/SupportedCarousel';
 import ExpandingCards from '../components/ExpandingCards/ExpandingCards';
 import OurServices from '../components/OurServices/OurServices';
 import Footer from '../components/Footer/Footer';
-import img1 from '../assets/repairicon.jpg';
-import img2 from '../assets/repairicon.jpg';
-import img3 from '../assets/repairicon.jpg';
-import img4 from '../assets/repairicon.jpg';
-import img5 from '../assets/repairicon.jpg';
-import img6 from '../assets/repairicon.jpg';
+import img1 from '../assets/warranty.jpeg';
+import img2 from '../assets/IT-Support.jpg';
+import img3 from '../assets/onsite.jpg';
+import img4 from '../assets/custom.jpg';
+import img5 from '../assets/data-recovery.jpg';
+import img6 from '../assets/warranty1.jpg';
 
 
 const images = [
@@ -41,7 +41,7 @@ const images = [
   },
   { 
     id: 4, 
-    title: "Custom PC Build & Reapir",
+    title: "Custom PC Build & Repair",
     src: img4,
     active: false,
     linkUrl: "https://www.google.com",

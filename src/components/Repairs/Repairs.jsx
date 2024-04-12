@@ -1,5 +1,5 @@
 
-import Repair1 from "../../assets/repair1.avif";
+import ITSupport from "../../assets/ITSupport.jpg";
 import "./repairs.scss";
 
 function Repairs() {
@@ -46,7 +46,7 @@ function Repairs() {
       <div className="repairscard">
         <div className="r-card">
           <div className="r-image">
-            <img src={Repair1} alt="image" />
+            <img src={ITSupport} alt="image" />
           </div>
         </div>
       </div>
