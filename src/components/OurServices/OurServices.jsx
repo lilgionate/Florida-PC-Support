@@ -30,10 +30,12 @@ const certification = () => {
             <div className="mainContent container grid">
             <div className="itemContainerRow">
                 <div className="itemContainer">
+                <a href="http://localhost:5173/macbook-power-up">
                     <div className="singleItem">
                        <img src={img2} alt="" />
                        <h3>MacBook Won’t Power Up</h3>
                     </div>
+                    </a>
                 </div> 
 
                 <div className="itemContainer"> 
