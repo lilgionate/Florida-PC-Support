@@ -1,7 +1,19 @@
 import React from 'react'
 import './OurServices.scss'
 
-import img from '../../assets/repairicon.jpg'
+import img2 from '../../assets/macbook-pro-black-screen-repair-nyc.jpg'
+import img3 from '../../assets/macbook-screen-replacement-nyc.jpg'
+import img4 from '../../assets/SpillDamageRepair.jpg'
+import img5 from '../../assets/Macbook-battery-replacement-nyc.png'
+import img6 from '../../assets/logic-board-macbook-repair-service-nyc.jpg'
+import img7 from '../../assets/DataRecovery.jpg'
+import img8 from '../../assets/BrokenLaptopScreen.jpg'
+import img9 from '../../assets/DataRecovery-1.jpg'
+import img10 from '../../assets/PCWontStart.jpg'
+import img11 from '../../assets/SlowPCIssues.jpg'
+import img12 from '../../assets/PCHardDriveRepair.jpg'
+import img13 from '../../assets/LaptopSpillRepair.jpg'
+
 
 const certification = () => {
   return (
@@ -19,21 +31,21 @@ const certification = () => {
             <div className="itemContainerRow">
                 <div className="itemContainer">
                     <div className="singleItem">
-                       <img src={img} alt="" />
+                       <img src={img2} alt="" />
                        <h3>MacBook Won’t Power Up</h3>
                     </div>
                 </div> 
 
                 <div className="itemContainer"> 
                     <div className="singleItem">
-                       <img src={img} alt="" />
+                       <img src={img3} alt="" />
                        <h3>MacBook Screen Replacement</h3>
                    </div>
                 </div>
 
                 <div className="itemContainer"> 
                    <div className="singleItem">
-                      <img src={img} alt="" />
+                      <img src={img4} alt="" />
                       <h3>MacBook Spill Repair</h3>
                     </div>
                 </div>
@@ -42,21 +54,21 @@ const certification = () => {
                 <div className="itemContainerRow">
                 <div className="itemContainer">
                     <div className="singleItem">
-                       <img src={img} alt="" />
+                       <img src={img5} alt="" />
                        <h3>MacBook Battery Replacement</h3>
                     </div>
                 </div>
 
                 <div className="itemContainer">
                     <div className="singleItem">
-                       <img src={img} alt="" />
+                       <img src={img6} alt="" />
                        <h3>MacBook Logic Board Repair</h3>
                     </div>
                 </div>
 
                 <div className="itemContainer">
                     <div className="singleItem">
-                       <img src={img} alt="" />
+                       <img src={img7} alt="" />
                        <h3>MacBook Data Recovery</h3>
                     </div>
                 </div>
@@ -76,21 +88,21 @@ const certification = () => {
     <div className="itemContainerRow">
         <div className="itemContainer">
             <div className="singleItem">
-               <img src={img} alt="" />
-               <h3>Windows Laptop Screen Replacements</h3>
+               <img src={img8} alt="" />
+               <h3>Windows Laptop Screen Replacement</h3>
             </div>
         </div> 
 
         <div className="itemContainer"> 
             <div className="singleItem">
-               <img src={img} alt="" />
+               <img src={img9} alt="" />
                <h3>Windows Data Recovery</h3>
            </div>
         </div>
 
         <div className="itemContainer"> 
            <div className="singleItem">
-              <img src={img} alt="" />
+              <img src={img10} alt="" />
               <h3>Windows / PC Won’t Start Fix</h3>
             </div>
         </div>
@@ -99,21 +111,21 @@ const certification = () => {
         <div className="itemContainerRow">
         <div className="itemContainer">
             <div className="singleItem">
-               <img src={img} alt="" />
+               <img src={img11} alt="" />
                <h3>Slow PC Issue</h3>
             </div>
         </div>
 
         <div className="itemContainer">
             <div className="singleItem">
-               <img src={img} alt="" />
+               <img src={img12} alt="" />
                <h3>Windows / PC Won’t Start Fix</h3>
             </div>
         </div>
 
         <div className="itemContainer">
             <div className="singleItem">
-               <img src={img} alt="" />
+               <img src={img13} alt="" />
                <h3>Laptop Spill Repair</h3>
             </div>
         </div>
