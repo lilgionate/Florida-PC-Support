@@ -1,5 +1,6 @@
 import Navbar from '../components/Nav/Navbar';
-import Hero from '../components/Header/Hero-Top';
+import HeroTop from '../components/Header/Hero-Top';
+import HeroBottom from '../components/Header/Hero-Bottom';
 import MacBookPowerUp from '../components/MacBookPowerUp';
 import Footer from '../components/Footer/Footer';
 
@@ -9,11 +10,12 @@ function WalkIn () {
   return (
     <>
       <Navbar />
-      <Hero
+      <HeroTop
       cName="MacBookPowerHero"
       heroImg={HomeImg}
       title="MacBook Won’t Power Up Fix"/>
       <MacBookPowerUp />
+      <HeroBottom />
       <Footer />
     </>
   )

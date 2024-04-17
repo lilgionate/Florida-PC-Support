@@ -1,5 +1,6 @@
 import React from 'react';
 import './MacBookPowerUp.scss'; // Import SCSS file
+import HeroBottom from './Header/Hero-Bottom';
 
 const commonFixes = [
   'Repair logic board',
@@ -31,6 +32,7 @@ const RepairCostsSection = () => (
 
 const MacRepairComponent = () => {
   return (
+    <>
     <div className="mac-power-container">
       <div className="content-container"> {/* Container for content */}
         <p className='power-header'>No power on your Mac? That’s a real bummer. 
@@ -51,6 +53,7 @@ const MacRepairComponent = () => {
         </div>
       </div>
     </div>
+    </>
   );
 };
 
