@@ -39,17 +39,21 @@ const certification = () => {
                 </div> 
 
                 <div className="itemContainer"> 
+                <a href="http://localhost:5173/macbook-screen">
                     <div className="singleItem">
                        <img src={img3} alt="" />
                        <h3>MacBook Screen Replacement</h3>
                    </div>
+                </a>
                 </div>
 
                 <div className="itemContainer"> 
+                <a href="http://localhost:5173/macbook-spill">
                    <div className="singleItem">
                       <img src={img4} alt="" />
                       <h3>MacBook Spill Repair</h3>
                     </div>
+                </a>
                 </div>
                 </div>
 

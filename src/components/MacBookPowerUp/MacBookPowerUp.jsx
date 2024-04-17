@@ -1,6 +1,5 @@
 import React from 'react';
 import './MacBookPowerUp.scss'; // Import SCSS file
-import HeroBottom from './Header/Hero-Bottom';
 
 const commonFixes = [
   'Repair logic board',
