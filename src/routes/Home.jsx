@@ -1,5 +1,5 @@
 import Navbar from '../components/Nav/Navbar';
-import Hero from '../components/Header/Hero';
+import HeroTop from '../components/Header/Hero-Top';
 import HomeImg from '../assets/home.avif';
 import Builds from '../components/Builds/Builds';
 import Repairs from '../components/Repairs/Repairs';
@@ -68,7 +68,7 @@ function Home () {
   return (
     <>
       <Navbar />
-      <Hero 
+      <HeroTop 
       cName="hero"
       heroImg={HomeImg}
       />

@@ -1,6 +1,6 @@
-import "./hero.scss";
+import "./Hero-Top.scss";
 
-function Hero (props) {
+function HeroTop (props) {
     return (
       <>
       <div className={props.cName}>
@@ -14,4 +14,4 @@ function Hero (props) {
     )
   }
   
-  export default Hero
+  export default HeroTop
