@@ -8,6 +8,9 @@ import Contact from './routes/Contact'
 import MacBookPower from './routes/MacBookPower'
 import MacBookScreen from './routes/MacBookScreen'
 import MacBookSpill from './routes/MacBookSpill'  
+import MacBookBattery from './routes/MacBookBattery'
+import MacBookData from './routes/MacBookData'
+import MacBookLogic from './routes/MacBookLogic'
 
 function App() {
 
@@ -22,6 +25,9 @@ function App() {
         <Route path="/macbook-power-up" element={<MacBookPower/>}/>
         <Route path="/macbook-screen" element={<MacBookScreen/>}/>
         <Route path="/macbook-spill" element={<MacBookSpill/>}/>
+        <Route path="/macbook-battery" element={<MacBookBattery/>}/>
+        <Route path="/macbook-data" element={<MacBookData/>}/>
+        <Route path="/macbook-logic-board" element={<MacBookLogic/>}/>
       </Routes>
     </div>
   )

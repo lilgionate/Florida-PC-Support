@@ -59,24 +59,30 @@ const certification = () => {
 
                 <div className="itemContainerRow">
                 <div className="itemContainer">
+                <a href="http://localhost:5173/macbook-battery">
                     <div className="singleItem">
                        <img src={img5} alt="" />
                        <h3>MacBook Battery Replacement</h3>
                     </div>
+                </a>
                 </div>
 
                 <div className="itemContainer">
+                <a href="http://localhost:5173/macbook-logic-board">
                     <div className="singleItem">
                        <img src={img6} alt="" />
                        <h3>MacBook Logic Board Repair</h3>
                     </div>
+                </a>
                 </div>
 
                 <div className="itemContainer">
+                <a href="http://localhost:5173/macbook-data">
                     <div className="singleItem">
                        <img src={img7} alt="" />
                        <h3>MacBook Data Recovery</h3>
                     </div>
+                </a>
                 </div>
                 </div>
             </div>
