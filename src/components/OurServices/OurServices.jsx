@@ -99,10 +99,12 @@ const certification = () => {
     <div className="mainContent container grid">
     <div className="itemContainerRow">
         <div className="itemContainer">
+        <a href="http://localhost:5173/windows-pc-screen-repair">
             <div className="singleItem">
                <img src={img8} alt="" />
                <h3>Windows Laptop Screen Replacement</h3>
             </div>
+        </a>
         </div> 
 
         <div className="itemContainer"> 

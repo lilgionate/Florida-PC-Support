@@ -12,6 +12,7 @@ import MacBookBattery from './routes/MacBookBattery'
 import MacBookData from './routes/MacBookData'
 import MacBookLogic from './routes/MacBookLogic'
 import WindowsPower from './routes/WindowsPower'
+import WindowsScreen from './routes/WindowsScreen' 
 
 function App() {
 
@@ -30,6 +31,7 @@ function App() {
         <Route path="/macbook-data" element={<MacBookData/>}/>
         <Route path="/macbook-logic-board" element={<MacBookLogic/>}/>
         <Route path="/windows-pc-wont-start-repair" element={<WindowsPower/>}/>
+        <Route path="/windows-pc-screen-repair" element={<WindowsScreen/>}/>
       </Routes>
     </div>
   )
