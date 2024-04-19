@@ -113,10 +113,12 @@ const certification = () => {
         </div>
 
         <div className="itemContainer"> 
+        <a href="http://localhost:5173/windows-pc-wont-start-repair">
            <div className="singleItem">
               <img src={img10} alt="" />
               <h3>Windows / PC Won’t Start Fix</h3>
             </div>
+        </a>
         </div>
         </div>
 
@@ -131,7 +133,7 @@ const certification = () => {
         <div className="itemContainer">
             <div className="singleItem">
                <img src={img12} alt="" />
-               <h3>Windows / PC Won’t Start Fix</h3>
+               <h3>Windows / PC Hard Drive Fix</h3>
             </div>
         </div>
 
