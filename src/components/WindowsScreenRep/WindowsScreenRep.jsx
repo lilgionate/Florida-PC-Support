@@ -34,12 +34,13 @@ const RepairCostsSection = () => (
   </div>
 );
 
-const MacRepairComponent = () => {
+const WindowsRepairComponent = () => {
   return (
     <>
     <div className="mac-power-container">
       <div className="content-container">
-        <p className='power-header'>Is your laptop cracked or dim?  We can replace 
+        <p className='power-header'>
+        Is your laptop cracked or dim?  We can replace 
         laptop screens quickly by the same or next day.  You’ll receive a precise 
         flat fee for the replacement or fix for your screen.  Original screens, 
         certified laptop screen replacement service, and 100% guaranteed service.
@@ -51,9 +52,9 @@ const MacRepairComponent = () => {
           ))}
         </ul>
         <h3>Laptop Screen Repair Florida Experts</h3>
-        <p className='power-header2'>New York Computer Help replaces over a dozen 
+        <p className='power-header2'>Florida PC Support replaces over a dozen 
         laptop screens on a daily basis. It is like second nature to us. Why are we 
-        the go-to place for laptop screen replacements in NYC? We already have a huge 
+        the go-to place for laptop screen replacements in Florida? We already have a huge 
         stock of the most popular laptop screens and can get the job done fast and done 
         right. Most importantly, our prices are reasonable and based on the job. 
         Sometimes, it’s not the screen that needs to be replaced, but a cheaper 
@@ -77,4 +78,4 @@ const MacRepairComponent = () => {
   );
 };
 
-export default MacRepairComponent;
+export default WindowsRepairComponent;

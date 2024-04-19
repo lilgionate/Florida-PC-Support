@@ -108,10 +108,12 @@ const certification = () => {
         </div> 
 
         <div className="itemContainer"> 
+        <a href="http://localhost:5173/windows-pc-data-recovery">
             <div className="singleItem">
                <img src={img9} alt="" />
                <h3>Windows Data Recovery</h3>
            </div>
+        </a>
         </div>
 
         <div className="itemContainer"> 
