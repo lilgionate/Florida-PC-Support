@@ -128,24 +128,30 @@ const certification = () => {
 
         <div className="itemContainerRow">
         <div className="itemContainer">
+        <a href="http://localhost:5173/windows-pc-slow">
             <div className="singleItem">
                <img src={img11} alt="" />
                <h3>Slow PC Issue</h3>
             </div>
+        </a>
         </div>
 
         <div className="itemContainer">
+        <a href="http://localhost:5173/windows-pc-hard-drive-repair">
             <div className="singleItem">
                <img src={img12} alt="" />
                <h3>Windows / PC Hard Drive Fix</h3>
             </div>
+        </a>
         </div>
 
         <div className="itemContainer">
+        <a href="http://localhost:5173/windows-pc-spill-repair">
             <div className="singleItem">
                <img src={img13} alt="" />
                <h3>Laptop Spill Repair</h3>
             </div>
+        </a>
         </div>
         </div>
     </div>

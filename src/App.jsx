@@ -14,6 +14,9 @@ import MacBookLogic from './routes/MacBookLogic'
 import WindowsPower from './routes/WindowsPower'
 import WindowsScreen from './routes/WindowsScreen' 
 import WindowsData from './routes/WindowsData'
+import WindowsSlowPC from './routes/WindowsSlowPC'
+import WindowsHardDrive from './routes/WindowsHardDrive' 
+import WindowsSpill from './routes/WindowsSpill'
 
 function App() {
 
@@ -34,6 +37,9 @@ function App() {
         <Route path="/windows-pc-wont-start-repair" element={<WindowsPower/>}/>
         <Route path="/windows-pc-screen-repair" element={<WindowsScreen/>}/>
         <Route path="/windows-pc-data-recovery" element={<WindowsData/>}/>
+        <Route path="/windows-pc-slow" element={<WindowsSlowPC/>}/>
+        <Route path="/windows-pc-hard-drive-repair" element={<WindowsHardDrive/>}/> 
+        <Route path="/windows-pc-spill-repair" element={<WindowsSpill/>}/>
       </Routes>
     </div>
   )
