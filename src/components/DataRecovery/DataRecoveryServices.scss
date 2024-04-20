@@ -1,0 +1,61 @@
+/* DataRecoveryComponent.css */
+
+.containerClass {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100rem;
+  }
+  .dataimg {
+    height: 550px;
+  }
+
+  .dataheader {
+    font-size: 3.8rem;
+    font-weight: 800;
+    color: #ffffff;
+  }
+
+  .textClass {
+    margin-top: 8rem;
+    padding-left: 7rem; 
+    color: white;
+    font-size: 1.3rem;
+    position: absolute;
+    top: 0;
+  }
+
+  .list {
+    padding-bottom: 10px;
+    list-style: none;
+  }
+  
+  .buttonClass {
+    font-weight: bold;
+    padding-top: 0.5rem;
+    padding-right: 1rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+    border-radius: 1rem;
+  }
+  
+  .primaryButtonClass {
+    background-color: #3b82f6; /* Blue-600 */
+    color: white;
+  }
+  
+  .primaryButtonClass:hover {
+    background-color: #2563eb; /* Blue-700 */
+  }
+  
+  .secondaryButtonClass {
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+  }
+  
+  .secondaryButtonClass:hover {
+    background-color: white;
+    color: #2563eb; /* Blue-700 */
+  }
+  
