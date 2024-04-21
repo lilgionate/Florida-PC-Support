@@ -305,3 +305,48 @@
       padding: 1.25rem 1.5rem;
   }
 }
+
+/* processSteps.css */
+
+.process-step-container {
+  background-color: #ffffff;
+  padding: 1rem 4rem 4rem 4rem;
+}
+
+.process-step-title {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 3rem;
+}
+
+.process-steps {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+
+}
+
+.process-step-icon {
+  font-size: 50px;
+  color: #333;
+  padding-top: 2rem ;
+}
+
+.process-step {
+  background-color: #ffffff;
+  border-radius: 3px;
+  border: 1px solid rgba(98, 98, 98, 0.15);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+  width: 18rem;
+  text-align: center;
+  margin: 5px;
+}
+
+.process-step-text {
+  padding: 2rem 0 1rem 0;
+  text-align: center;
+  font-size: 1.5rem;
+  width: 90%;
+  margin: 0 auto;
+}

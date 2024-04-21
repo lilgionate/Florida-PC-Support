@@ -125,7 +125,6 @@ const services = [
     },
 ];
 
-
 const DataRecoveryComponent = () => {
     return (
         <>
@@ -232,7 +231,17 @@ const DataRecoveryComponent = () => {
       </Swiper>
     </section>
 
-    
+    <div className="process-step-container">
+    <h2 className="process-step-title">Here's our simple 4-step process</h2>
+    <div className="process-steps">
+        <ProcessStep stepNumber={1} stepText="Mail-in/drop-off your device" iconClass="fa-solid fa-truck" />
+        <ProcessStep stepNumber={2} stepText="Full evaluation & diagnostics" iconClass="fa-tools" />
+        <ProcessStep stepNumber={3} stepText="Provide an estimate for your job" iconClass="fa-file-invoice-dollar" />
+        <ProcessStep stepNumber={4} stepText="100% guaranteed recovery" iconClass="fa-solid fa-laptop-medical" />
+    </div>
+</div>
+
+
     </>
     );
 };
@@ -243,6 +252,13 @@ const DataRecoveryComponent = () => {
                 <h3 className="text-card">{title}</h3>
                 <p>{description}</p>
             </div>
+);
+
+const ProcessStep = ({ stepNumber, stepText, iconClass  }) => (
+  <div className="process-step">
+     <i className={`fa ${iconClass} process-step-icon`} aria-hidden="true"></i>
+      <p className="process-step-text">{stepText}</p>
+  </div>
 );
 
 export default DataRecoveryComponent;
