@@ -39,6 +39,17 @@ import Memory from '../../assets/memory-card.jpg';
 import Screen from '../../assets/Screen-Shot.jpg';
 import Raid from '../../assets/raid-server.jpg';
 
+import { Data } from "./DataReview";
+// Import Swiper React components and required modules
+import { Swiper, SwiperSlide } from "swiper/react";
+
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/pagination";
+
+// import required modules
+import { Pagination } from "swiper/modules";
+
 const brands = [
     western, toshiba, synology, sony, seagate, samsung, lacie, lexar,
     maxtar, ocz, pny, quantum, kingston, intel, ibm, hp, hitachi, gtech,
@@ -146,6 +157,20 @@ const DataRecoveryComponent = () => {
                 </div>
             </div>
 
+            <div className="sectionClasses">
+              <h1 className="titleClasses">
+                Undertaking All Aspects Of Data Recovery Services
+              </h1>
+              <div className="grid">
+                <p className="textClasses">
+                  Our data recovery experts support all device types. Regardless of the type of damage, our data recovery experts specialize in recovering from drops, liquid damage, fires, and mechanical damage.
+                </p>
+                <p className="textClasses">
+                  We work with all manufacturers, mobile phone suppliers, and computer models. Most importantly, we provide a recovery guarantee. If we cannot recover your files, there is no charge.
+                </p>
+              </div>
+            </div>
+
             <div className="section2Classes">
                 <h2 className="heading2Classes">Our Data Recovery Services Cover All Device Types</h2>
                 <div className="dataGrid">
@@ -160,6 +185,54 @@ const DataRecoveryComponent = () => {
             <button className="primaryButtonClass buttonClass">Make A Shipping Request</button>
             <button className="secondaryButtonClass buttonClass">Visit Us Now!</button> 
         </div>
+
+    <section className="review-container">
+      <h2 className="review__title">5* Star Reviews For Our Data Recovery Services</h2>
+      <Swiper
+        className="review__container"
+        loop={true}
+        grabCursor={true}
+        spaceBetween={24}
+        pagination={{
+          clickable: true,
+        }}
+        breakpoints={{
+          576: {
+            slidesPerView: 2,
+          },
+          768: {
+            slidesPerView: 2,
+            spaceBetween: 48,
+          },
+        }}
+        modules={[Pagination]}
+      >
+        {Data.map(({ id, images, title, description }) => {
+          return (
+            <SwiperSlide className="review__card" key={id}>
+                <div className="review-content">
+                <div className="review-header">
+              <img src={images} alt="" className="review__img" />
+              <div className="review-details">
+                  <h3 className="review__name">{title}</h3>
+                  <div className='stars'>
+                    <span>&#9733;</span>
+                    <span>&#9733;</span>
+                    <span>&#9733;</span>
+                    <span>&#9733;</span>
+                    <span>&#9733;</span>
+                  </div>
+              </div>
+              </div>
+              <p className="review__description">{description}</p>
+              </div>
+            </SwiperSlide>
+          );
+        })}
+      </Swiper>
+    </section>
+
+    
     </>
     );
 };
