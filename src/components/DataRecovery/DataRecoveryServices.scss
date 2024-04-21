@@ -40,23 +40,21 @@
   
   .primaryButtonClass {
     background-color: #3b82f6; /* Blue-600 */
+    border: 2px solid #3b82f6;
     color: white;
+    transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out;
   }
   
   .primaryButtonClass:hover {
-    background-color: #2563eb; /* Blue-700 */
+    background-color: #0f41ab; 
+    border: 2px solid #0f41ab;
   }
   
   .secondaryButtonClass {
-    background-color: transparent;
-    border: 1px solid white;
-    color: white;
-    margin-left: 1rem;
-  }
-  
-  .secondaryButtonClass:hover {
     background-color: white;
-    color: #2563eb; /* Blue-700 */
+    border: 2px solid #3b82f6;
+    color: #3b82f6;
+    margin-left: 1rem;
   }
   
 
@@ -117,4 +115,99 @@
     padding-left: 2rem; /* lg:px-8 */
     padding-right: 2rem; /* lg:px-8 */
   }
+}
+
+
+/* data-recovery-styles.css */
+
+.sectionClasses {
+  max-width: 90%; /* Adjust as needed */
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.titleClasses {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr; /* By default, single column */
+  gap: 2rem; /* Adjust as needed */
+}
+
+@media (min-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr); /* 2 columns on medium screens */
+  }
+}
+
+.textClasses {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #333; /* Adjust as needed */
+}
+
+
+/* DataRecoveryServices.css */
+
+.section2Classes {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 2rem;
+}
+
+.heading2Classes {
+  font-size: 1.875rem; /* 30px */
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 1.5rem; /* 24px */
+}
+
+.cardClasses {
+  margin: 0 auto;
+  padding: 5px;
+  width: 90%;
+}
+
+/* DataRecoveryGrid.css */
+
+.dataGrid {
+  display: grid;
+  grid-template-columns: repeat(1, minmax(0, 1fr)); /* 1 column on small screens */
+}
+
+@media (min-width: 768px) {
+  .dataGrid {
+    grid-template-columns: repeat(2, minmax(0, 1fr)); /* 2 columns on medium screens */
+  }
+}
+
+@media (min-width: 1024px) {
+  .dataGrid {
+    grid-template-columns: repeat(4, minmax(0, 1fr)); /* 4 columns on large screens */
+  }
+}
+
+.fullCard {
+  width: 100%;
+  height: 250px;
+}
+
+.text-card {
+  padding-top: 15px;
+  font-size: 1.50rem;
+  font-weight: 600;
+}
+
+.flex-middle {
+  text-align: center;
+  padding: 3rem 0;
+
 }
