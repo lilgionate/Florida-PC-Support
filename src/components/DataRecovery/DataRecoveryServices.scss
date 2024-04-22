@@ -380,6 +380,10 @@
   width: 50%;
 }
 
+.data-content-container-bottom {
+  width: 50%;
+}
+
 .data-title {
   font-size: 1.4rem;
   font-weight: 600;
@@ -429,13 +433,12 @@
 /*DropDown*/
 
 .dropdown {
-  position: absolute;
+  position: relative;
   display: none;
   background-color: #fff;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-  border-radius: 6px;
   padding: 8px;
-  margin-top: 4px;
+  margin: 0 0 0 2.3rem;
+  width: 85%;
 }
 
 .dropdown-open {
@@ -444,4 +447,26 @@
 
 .cursor-pointer {
   cursor: pointer;
+  list-style: none;
+  padding: 1rem;
+  border-bottom: 1px solid #d1d1d1;
+  width: 90%;
+}
+
+.dropdown-text {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.dropdown-heading {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.data-img-bottom {
+  width: 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }

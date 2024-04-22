@@ -140,7 +140,9 @@ const DataRecoveryComponent = () => {
   const [dropdownStates, setDropdownStates] = useState({
     dropdown1: false,
     dropdown2: false,
-    dropdown3: false
+    dropdown3: false,
+    dropdown4: false,
+    dropdown5: false
 });
 
 const toggleDropdown = (dropdownId) => {
@@ -148,7 +150,9 @@ const toggleDropdown = (dropdownId) => {
     const newDropdownStates = {
         dropdown1: false,
         dropdown2: false,
-        dropdown3: false
+        dropdown3: false,
+        dropdown4: false,
+        dropdown5: false
     };
     
     // Toggle the targeted dropdown
@@ -292,41 +296,93 @@ const toggleDropdown = (dropdownId) => {
          </div>
 
          <div className="data-services-bottom">
-            <div className="data-content-container">
+            <div className="data-content-container-bottom">
                 <h2 className="data-title">DATA RECOVERY SERVICES NEAR ME</h2>
                 <h3 className="data-subtitle">Looking for expert data recovery services?</h3>
                 <ul className="relative">
-            <li className="cursor-pointer" onClick={() => toggleDropdown('dropdown1')}>Click me
+            <li className="cursor-pointer" onClick={() => toggleDropdown('dropdown1')}>Experienced in-house techs
                 {dropdownStates.dropdown1 && (
                     <ul className="dropdown dropdown-open">
-                        <li>Option 1</li>
-                        <li>Option 2</li>
-                        <li>Option 3</li>
+                        <p className="dropdown-text">Don’t panic if your computer has crashed.  Our experience and professional 
+                          data recovery service will provide you with the best chance of recovery.  
+                          Your files will be recovered to an external hard drive or different media.  
+                          We can also fix your computer and restore the files back to it afterwards.  
+                          Your recovery job will be priced based on its severity, 
+                          providing you with the best, cost-effective data recovery service in NYC.
+                        </p>
+                        <p className="dropdown-text">All done in house.  This is a big advantage.  Many NYC data recovery places 
+                          may have a New York City zip code, but, in fact, send their jobs out of state. 
+                          Each and every data recovery job is done right on our premises at 53 East 34th 
+                          Street.  We take a lot of pride in our years of data recovery training and 
+                          experience so we may have a chip on our shoulders if you ask us about this.
+                        </p>
                     </ul>
                 )}
             </li>
-            <li className="cursor-pointer" onClick={() => toggleDropdown('dropdown2')}>Click me
+            <li className="cursor-pointer" onClick={() => toggleDropdown('dropdown2')}>Know how much your job is upfront
                 {dropdownStates.dropdown2 && (
                     <ul className="dropdown dropdown-open">
-                        <li>Option 1</li>
-                        <li>Option 2</li>
-                        <li>Option 3</li>
+                        <p className="dropdown-text">
+                          Don’t pay a dime to get a diagnostic.  You’ll get a free diagnostic to 
+                          learn how much your data recovery will cost. 
+                          Plus, you’ll be ensured a flat fee price, not some sliding scale range.
+                        </p>
+                        <p className="dropdown-text">And yes, we perform lab recoveries too.</p>
+                        <p className="dropdown-text">
+                          We do it all, small software data recovery jobs and our data recovery NYC 
+                          experts are also masters of recovering files from the infamous clicking hard
+                          drive.  We are specialists at opening up external hard 
+                          drives and computer hard drives to replace failing parts to recover files.
+                        </p>
                     </ul>
                 )}
             </li>
-            <li className="cursor-pointer" onClick={() => toggleDropdown('dropdown3')}>Click me
+            <li className="cursor-pointer" onClick={() => toggleDropdown('dropdown3')}>Server crashed?​
                 {dropdownStates.dropdown3 && (
                     <ul className="dropdown dropdown-open">
-                        <li>Option 1</li>
-                        <li>Option 2</li>
-                        <li>Option 3</li>
+                        <p className="dropdown-text">We got that covered too. Whether you have a NAS drive, RAID server, drobo, 
+                          or other server drive system, we are server recovery experts at resolving 
+                          mechanical drive issues, re-running the RAID array, and recovering files. 
+                          We’re up for the challenge and typically successful in such cases.
+                        </p>
+                    </ul>
+                )}
+            </li>
+            <li className="cursor-pointer" onClick={() => toggleDropdown('dropdown4')}>No data, no charge
+                {dropdownStates.dropdown4 && (
+                    <ul className="dropdown dropdown-open">
+                        <p className="dropdown-text">Simple enough and we 
+                          stand by this motto. We are results-oriented as your success is our success.
+                        </p>
+                        <h4 className="dropdown-heading">We have the best success rate in the industry.</h4>
+                        <p className="dropdown-text">The last we checked, we are at 93.5% as our success rate. That’s pretty freakin’ good! We have many customers coming to us to recover their computer files after other companies have failed. If we cannot recover it, you can be sure we have tried everything in our power to recover it. 
+                          We are confident that if we cannot recover your files, nobody else can.
+                        </p>
+                    </ul>
+                )}
+            </li>
+            <li className="cursor-pointer" onClick={() => toggleDropdown('dropdown5')}>Most affordable prices, hands down
+                {dropdownStates.dropdown5 && (
+                    <ul className="dropdown dropdown-open">
+                        <p className="dropdown-text">We always attempt to recover from failing drives in the cheapest way 
+                          possible. What does that mean? When our competitors have been known to throw 
+                          in the towel by prematurely escalating data recoveries, we never give up on 
+                          still extracting files from even physically failing drives. In turn, you’ll 
+                          pay a fraction of what you’ll get quoted from others. We are on 
+                          your side and want to recover all your files at the lowest price possible.
+                        </p>
+                        <p className="dropdown-text">We price every recovery job by the level of complexity. Since we have been 
+                          performing data recoveries since 2000, we have a few tricks up our sleeves to 
+                          keep prices as low as possible for you. Many data recovery service companies will charge 
+                          $1,000 and up as a minimum. Not us. Many jobs are as low as $125 and up.
+                        </p>
                     </ul>
                 )}
             </li>
         </ul>
                 <p className='and-more'>View Pricing</p>
             </div>
-            <div className="data-img">
+            <div className="data-img-bottom">
                 <img src={DataServices} alt="Data" />
             </div>
          </div>
