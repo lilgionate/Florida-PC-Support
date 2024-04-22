@@ -1,6 +1,7 @@
 import React from 'react';
 import './DataRecoveryServices.scss';
 
+// Import images
 import bgImage from '../../assets/data-header.avif';
 import western from '../../assets/western.png';
 import toshiba from '../../assets/toshiba.png';
@@ -27,6 +28,7 @@ import buffalo from '../../assets/buffalo.png';
 import fujitsu from '../../assets/fujitsu.png';
 import sandisk from '../../assets/sandisk.png';
 
+// Import service images
 import DataRecovery from '../../assets/DataRecovery-2.jpeg';
 import ExternalDrive from '../../assets/external-hard.jpg';
 import MacBook from '../../assets/macbook-maxed.jpg';
@@ -39,23 +41,28 @@ import Memory from '../../assets/memory-card.jpg';
 import Screen from '../../assets/Screen-Shot.jpg';
 import Raid from '../../assets/raid-server.jpg';
 
+// Import data for reviews
 import { Data } from "./DataReview";
-// Import Swiper React components and required modules
-import { Swiper, SwiperSlide } from "swiper/react";
 
-// Import Swiper styles
+// Import Swiper components and required modules
+import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
-
-// import required modules
 import { Pagination } from "swiper/modules";
 
+// Import components
+import { ServiceCard } from './ServiceCard';
+import { ProcessStep } from './ProcessStep';
+import { ListItem } from './ListItem';
+
+// Array of brand images
 const brands = [
     western, toshiba, synology, sony, seagate, samsung, lacie, lexar,
     maxtar, ocz, pny, quantum, kingston, intel, ibm, hp, hitachi, gtech,
     apple, asus, drobo, buffalo, fujitsu, sandisk,
 ];
 
+// Array of service data
 const services = [
     {
         title: 'Hard Drive Data Recovery',
@@ -178,7 +185,7 @@ const DataRecoveryComponent = () => {
                     ))}
                 </div>
             </div>
-        </div>
+        
 
         <div className="flex-middle">
             <button className="primaryButtonClass buttonClass">Make A Shipping Request</button>
@@ -233,32 +240,39 @@ const DataRecoveryComponent = () => {
 
     <div className="process-step-container">
     <h2 className="process-step-title">Here's our simple 4-step process</h2>
-    <div className="process-steps">
+      <div className="process-steps">
         <ProcessStep stepNumber={1} stepText="Mail-in/drop-off your device" iconClass="fa-solid fa-truck" />
         <ProcessStep stepNumber={2} stepText="Full evaluation & diagnostics" iconClass="fa-tools" />
         <ProcessStep stepNumber={3} stepText="Provide an estimate for your job" iconClass="fa-file-invoice-dollar" />
         <ProcessStep stepNumber={4} stepText="100% guaranteed recovery" iconClass="fa-solid fa-laptop-medical" />
+      </div>
     </div>
+
+
+<div className="data-services">
+            <div className="data-image-container">
+                <img src="https://placehold.co/600x400" alt="Data Recovery" className="full-width h-auto rounded shadow" />
+            </div>
+            <div className="data-content-container">
+                <h2 className="data-title">DATA RECOVERY SERVICES</h2>
+                <h3 className="data-subtitle">We Cover All Types Of Damages</h3>
+                <ul className="data-list">
+                    <ListItem className="data-list-item" text="Water Spill" />
+                    <ListItem className="data-list-item" text="Human Errors" />
+                    <ListItem className="data-list-item" text="Virus & Malware" />
+                    <ListItem className="data-list-item" text="Hacks & Malicious Sabotage" />
+                    <ListItem className="data-list-item" text="Mechanical Failures" />
+                    <ListItem className="data-list-item" text="Software Corruption" />
+                    <ListItem className="data-list-item" text="And More..." />
+                </ul>
+            </div>
+        </div>
+
 </div>
-
-
     </>
     );
 };
 
-        const ServiceCard = ({ title, description, image, alt }) => (
-            <div className="cardClasses">
-                <img src={image} alt={alt} className="fullCard" />
-                <h3 className="text-card">{title}</h3>
-                <p>{description}</p>
-            </div>
-);
 
-const ProcessStep = ({ stepNumber, stepText, iconClass  }) => (
-  <div className="process-step">
-     <i className={`fa ${iconClass} process-step-icon`} aria-hidden="true"></i>
-      <p className="process-step-text">{stepText}</p>
-  </div>
-);
 
 export default DataRecoveryComponent;
