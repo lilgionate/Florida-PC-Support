@@ -358,8 +358,19 @@
   background: white;
   border: 1px solid rgba(98, 98, 98, 0.15);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
-  margin: 2rem 0;
+  margin-top: 2rem;
 }
+
+.data-services-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  border: 1px solid rgba(98, 98, 98, 0.15);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+  margin-bottom: 2rem;
+}
+
 
 .data-img {
   width: 50%;
@@ -413,4 +424,24 @@
 .and-more {
   font-size: 1.2rem;
   padding-left: 4rem;
+}
+
+/*DropDown*/
+
+.dropdown {
+  position: absolute;
+  display: none;
+  background-color: #fff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+  padding: 8px;
+  margin-top: 4px;
+}
+
+.dropdown-open {
+  display: block;
+}
+
+.cursor-pointer {
+  cursor: pointer;
 }

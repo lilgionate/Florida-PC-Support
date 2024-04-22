@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './DataRecoveryServices.scss';
 
 // Import images
@@ -136,6 +136,27 @@ const services = [
 ];
 
 const DataRecoveryComponent = () => {
+
+  const [dropdownStates, setDropdownStates] = useState({
+    dropdown1: false,
+    dropdown2: false,
+    dropdown3: false
+});
+
+const toggleDropdown = (dropdownId) => {
+    // Close all dropdowns
+    const newDropdownStates = {
+        dropdown1: false,
+        dropdown2: false,
+        dropdown3: false
+    };
+    
+    // Toggle the targeted dropdown
+    newDropdownStates[dropdownId] = !dropdownStates[dropdownId];
+    setDropdownStates(newDropdownStates);
+};
+
+
     return (
         <>
         <div className="data-recovery-container">
@@ -251,10 +272,9 @@ const DataRecoveryComponent = () => {
       </div>
     </div>
 
-
-<div className="data-services">
+      <div className="data-services">
             <div className="data-img">
-                <img src={DataServices} alt="Data" className="full-width h-auto rounded shadow" />
+                <img src={DataServices} alt="Data" />
             </div>
             <div className="data-content-container">
                 <h2 className="data-title">DATA RECOVERY SERVICES</h2>
@@ -269,7 +289,47 @@ const DataRecoveryComponent = () => {
                 </ul>
                 <p className='and-more'>And More...</p>
             </div>
-        </div>
+         </div>
+
+         <div className="data-services-bottom">
+            <div className="data-content-container">
+                <h2 className="data-title">DATA RECOVERY SERVICES NEAR ME</h2>
+                <h3 className="data-subtitle">Looking for expert data recovery services?</h3>
+                <ul className="relative">
+            <li className="cursor-pointer" onClick={() => toggleDropdown('dropdown1')}>Click me
+                {dropdownStates.dropdown1 && (
+                    <ul className="dropdown dropdown-open">
+                        <li>Option 1</li>
+                        <li>Option 2</li>
+                        <li>Option 3</li>
+                    </ul>
+                )}
+            </li>
+            <li className="cursor-pointer" onClick={() => toggleDropdown('dropdown2')}>Click me
+                {dropdownStates.dropdown2 && (
+                    <ul className="dropdown dropdown-open">
+                        <li>Option 1</li>
+                        <li>Option 2</li>
+                        <li>Option 3</li>
+                    </ul>
+                )}
+            </li>
+            <li className="cursor-pointer" onClick={() => toggleDropdown('dropdown3')}>Click me
+                {dropdownStates.dropdown3 && (
+                    <ul className="dropdown dropdown-open">
+                        <li>Option 1</li>
+                        <li>Option 2</li>
+                        <li>Option 3</li>
+                    </ul>
+                )}
+            </li>
+        </ul>
+                <p className='and-more'>View Pricing</p>
+            </div>
+            <div className="data-img">
+                <img src={DataServices} alt="Data" />
+            </div>
+         </div>
 
 </div>
     </>
