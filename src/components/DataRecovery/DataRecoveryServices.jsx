@@ -41,6 +41,9 @@ import Memory from '../../assets/memory-card.jpg';
 import Screen from '../../assets/Screen-Shot.jpg';
 import Raid from '../../assets/raid-server.jpg';
 
+// Import data services images
+import DataServices from '../../assets/DataRecovery-2.jpg';
+
 // Import data for reviews
 import { Data } from "./DataReview";
 
@@ -250,8 +253,8 @@ const DataRecoveryComponent = () => {
 
 
 <div className="data-services">
-            <div className="data-image-container">
-                <img src="https://placehold.co/600x400" alt="Data Recovery" className="full-width h-auto rounded shadow" />
+            <div className="data-img">
+                <img src={DataServices} alt="Data" className="full-width h-auto rounded shadow" />
             </div>
             <div className="data-content-container">
                 <h2 className="data-title">DATA RECOVERY SERVICES</h2>
@@ -263,8 +266,8 @@ const DataRecoveryComponent = () => {
                     <ListItem className="data-list-item" text="Hacks & Malicious Sabotage" />
                     <ListItem className="data-list-item" text="Mechanical Failures" />
                     <ListItem className="data-list-item" text="Software Corruption" />
-                    <ListItem className="data-list-item" text="And More..." />
                 </ul>
+                <p className='and-more'>And More...</p>
             </div>
         </div>
 
