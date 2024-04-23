@@ -164,6 +164,7 @@ const toggleDropdown = (dropdownId) => {
     return (
         <>
         <div className="data-recovery-container">
+          <div className='data-hero-top'>
             <img className='dataimg' src={bgImage} alt="" />
             <div className="containerClass">
                 <div className="textClass">
@@ -181,6 +182,7 @@ const toggleDropdown = (dropdownId) => {
                     </div>
                 </div>
             </div>
+          </div>
 
             <div className="containerClasses">
                 <h2 className="headingClasses">Brands We Work With</h2>
@@ -299,7 +301,7 @@ const toggleDropdown = (dropdownId) => {
             <div className="data-content-container-bottom">
                 <h2 className="data-title">DATA RECOVERY SERVICES NEAR ME</h2>
                 <h3 className="data-subtitle">Looking for expert data recovery services?</h3>
-                <ul className="relative">
+                <ul>
             <li className="cursor-pointer" onClick={() => toggleDropdown('dropdown1')}>Experienced in-house techs
                 {dropdownStates.dropdown1 && (
                     <ul className="dropdown dropdown-open">
@@ -385,7 +387,7 @@ const toggleDropdown = (dropdownId) => {
             <div className="data-img-container">
                 <img className="data-img-bottom" src={DataServices} alt="Data" />
             </div>
-         </div>
+    </div>
 
 </div>
     </>

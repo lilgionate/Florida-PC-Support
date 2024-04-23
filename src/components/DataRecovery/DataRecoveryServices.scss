@@ -1,5 +1,10 @@
 /* DataRecoveryComponent.css */
 
+.data-hero-top {
+  position: relative;
+  z-index: 2;
+}
+
 .containerClass {
     display: flex;
     margin-left: auto;
@@ -102,6 +107,8 @@
   padding-top: 2.5rem; 
   padding-bottom: 2.5rem;
   background-color: white; 
+  position: relative;
+  z-index: 2;
 }
 
 @media (min-width: 640px) {
@@ -126,6 +133,8 @@
   margin: 0 auto;
   padding: 5rem 8rem;
   background-color: white;
+  position: relative;
+  z-index: 2;
 }
 
 .titleClasses {
@@ -162,6 +171,8 @@
   padding-right: 1rem;
   padding-top: 2rem;
   background-color: white;
+  position: relative;
+  z-index: 2;
 }
 
 .heading2Classes {
@@ -210,6 +221,8 @@
   text-align: center;
   padding: 5rem 0 3rem 0;
   background-color: white;
+  position: relative;
+  z-index: 2;
 }
 
 .review-container {
@@ -217,6 +230,8 @@
   margin: 0 auto;
   padding: 5rem 8rem;
   background-color: white;
+  position: relative;
+  z-index: 2;
 }
 
 .review__title{
@@ -308,6 +323,8 @@
 
 .process-step-container {
   background-color: #ffffff;
+  position: relative;
+  z-index: 2;
   padding: 1rem 4rem 4rem 4rem;
 }
 
@@ -359,6 +376,8 @@
   background-color: white;
   border: 1px solid rgba(98, 98, 98, 0.15);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+  position: relative;
+  z-index: 2;
 }
 
 .data-services-bottom {
@@ -373,7 +392,7 @@
   left: 0; 
   width: 100%;
   position: relative;
- z-index: -1;
+ z-index: 0;
 }
 
 
@@ -390,7 +409,7 @@
   width: 50%;
   position: relative;
   right: 25%;
-  z-index: 0;
+  z-index: 1;
 }
 
 .data-title {
@@ -460,6 +479,7 @@
   padding: 1rem;
   border-bottom: 1px solid #d1d1d1;
   width: 90%;
+
 }
 
 .dropdown-text {
@@ -476,6 +496,7 @@
 
 .data-img-container {
   position: relative;
+  z-index: 1;
 }
 
 
@@ -485,6 +506,5 @@
   left: 50%;
   width: 50%;
   height: 100%;
-  z-index: -1;
   object-fit: cover;
 }
