@@ -382,8 +382,8 @@ const toggleDropdown = (dropdownId) => {
         </ul>
                 <p className='and-more'>View Pricing</p>
             </div>
-            <div className="data-img-bottom">
-                <img src={DataServices} alt="Data" />
+            <div className="data-img-container">
+                <img className="data-img-bottom" src={DataServices} alt="Data" />
             </div>
          </div>
 

@@ -4,7 +4,6 @@
     display: flex;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 3rem;
   }
   .dataimg {
     height: 550px;
@@ -87,7 +86,7 @@
   color: #333;
   font-size: 2rem; 
   font-weight: 700;
-  margin-bottom: 1rem; /* mb-8 */
+  margin: 1rem 0;
 }
 
 .imageClasses {
@@ -101,7 +100,8 @@
   max-width: 85rem; 
   margin: 0 auto;
   padding-top: 2.5rem; 
-  padding-bottom: 2.5rem; 
+  padding-bottom: 2.5rem;
+  background-color: white; 
 }
 
 @media (min-width: 640px) {
@@ -125,6 +125,7 @@
   max-width: 100%;
   margin: 0 auto;
   padding: 5rem 8rem;
+  background-color: white;
 }
 
 .titleClasses {
@@ -160,6 +161,7 @@
   padding-left: 1rem;
   padding-right: 1rem;
   padding-top: 2rem;
+  background-color: white;
 }
 
 .heading2Classes {
@@ -206,15 +208,15 @@
 
 .flex-middle {
   text-align: center;
-  padding: 3rem 0;
-  margin-top: 2rem;
-
+  padding: 5rem 0 3rem 0;
+  background-color: white;
 }
 
 .review-container {
   width: 100%;
   margin: 0 auto;
   padding: 5rem 8rem;
+  background-color: white;
 }
 
 .review__title{
@@ -227,7 +229,6 @@
 
 .review__container {
   width: 80%;
-  
 }
 
 .review__card {
@@ -355,20 +356,24 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: white;
+  background-color: white;
   border: 1px solid rgba(98, 98, 98, 0.15);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
-  margin-top: 2rem;
 }
 
 .data-services-bottom {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: white;
+  background-color: white;
   border: 1px solid rgba(98, 98, 98, 0.15);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
-  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+  bottom: 0;
+  left: 0; 
+  width: 100%;
+  position: relative;
+ z-index: -1;
 }
 
 
@@ -378,10 +383,14 @@
 
 .data-content-container {
   width: 50%;
+
 }
 
 .data-content-container-bottom {
   width: 50%;
+  position: relative;
+  right: 25%;
+  z-index: 0;
 }
 
 .data-title {
@@ -465,8 +474,17 @@
   margin-bottom: 10px;
 }
 
-.data-img-bottom {
+.data-img-container {
+  position: relative;
+}
+
+
+.data-img-bottom{
+  position: fixed;
+  top: 0;
+  left: 50%;
   width: 50%;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+  height: 100%;
+  z-index: -1;
+  object-fit: cover;
 }
