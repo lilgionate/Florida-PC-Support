@@ -43,6 +43,7 @@ import Raid from '../../assets/raid-server.jpg';
 
 // Import data services images
 import DataServices from '../../assets/DataRecovery-2.jpg';
+import DataLab from '../../assets/data-lab.jpg';
 
 // Import data for reviews
 import { Data } from "./DataReview";
@@ -385,7 +386,7 @@ const toggleDropdown = (dropdownId) => {
                 <p className='and-more'>View Pricing</p>
             </div>
             <div className="data-img-container">
-                <img className="data-img-bottom" src={DataServices} alt="Data" />
+                <img className="data-img-bottom" src={DataLab} alt="Data" />
             </div>
     </div>
 
