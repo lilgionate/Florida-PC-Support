@@ -50,8 +50,8 @@
   }
   
   .primaryButtonClass:hover {
-    background-color: #0f41ab; 
-    border: 2px solid #0f41ab;
+    background-color: #1b436e; 
+    border: 2px solid #1b436e;
   }
   
   .secondaryButtonClass {
@@ -344,8 +344,8 @@
 
 .process-step-icon {
   font-size: 50px;
-  color: #333;
-  padding-top: 2rem ;
+  color: #2b6cb0;
+  padding-top: 2rem;
 }
 
 .process-step {
@@ -398,6 +398,7 @@
 
 .data-img {
   width: 50%;
+  height: 511px;
 }
 
 .data-content-container {
@@ -413,26 +414,36 @@
 }
 
 .data-title {
-  font-size: 1.4rem;
-  font-weight: 600;
+  font-size: 1.2rem;
+  font-weight: 500;
   color: #2b6cb0;
-  margin-top: 1rem;
-  padding: 0 0 0 4rem;
+  padding: 4rem 0 0 3.5rem;
+}
+
+.data-title-bottom {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #2b6cb0;
+  margin: 4rem 0 0 3.5rem;
 }
 
 .data-subtitle {
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-weight: 700;
   margin-bottom: 0.75rem;
-  padding-left: 4rem;
+  padding-left: 3.5rem;
 }
+
+.data-subtitle-bottom {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+  padding-left: 3.5rem;
+}
+
 
 .data-list {
   list-style: none;
-}
-
-.data-list-item:first-child {
-  margin-top: 0;
 }
 
 
@@ -444,18 +455,27 @@
 
 .data-items-checkmark {
   color: #000000;
-  font-size: 1.5rem;
-  margin: 0 0 0 2rem;
+  font-size: 1.3rem;
+  margin: 0 0 0 1.5rem;
 }
 
 .data-items-text {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   padding-left: 1rem;
 }
 
 .and-more {
-  font-size: 1.2rem;
-  padding-left: 4rem;
+  font-size: 1.1rem;
+  padding-left: 3.5rem;
+  margin-bottom: 5rem;
+}
+
+.view-pricing {
+  font-size: 1rem;
+  padding-left: 3.5rem;
+  margin-top: 2rem;
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 /*DropDown*/
@@ -464,28 +484,34 @@
   position: relative;
   display: none;
   background-color: #fff;
-  padding: 8px;
-  margin: 0 0 0 2.3rem;
-  width: 85%;
+  padding: 2px;
+  margin: 1.5rem 0 0 1rem;
+  width: 95%;
 }
 
 .dropdown-open {
   display: block;
 }
 
+.data-icon {
+  padding: 0 1rem;
+}
+
 .cursor-pointer {
   cursor: pointer;
   list-style: none;
-  padding: 1rem;
+  font-weight: 600;
+  font-size: 17px;
+  padding: 7px;
   border-bottom: 1px solid #d1d1d1;
   width: 90%;
-
 }
 
 .dropdown-text {
   font-size: 16px;
-  line-height: 1.5;
-  margin-bottom: 10px;
+  line-height: 2rem;
+  margin: 10px 0 20px 0;
+  font-weight: 400;
 }
 
 .dropdown-heading {

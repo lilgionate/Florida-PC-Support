@@ -137,29 +137,21 @@ const services = [
 ];
 
 const DataRecoveryComponent = () => {
-
   const [dropdownStates, setDropdownStates] = useState({
-    dropdown1: false,
-    dropdown2: false,
-    dropdown3: false,
-    dropdown4: false,
-    dropdown5: false
-});
+      dropdown1: false,
+      dropdown2: false,
+      dropdown3: false,
+      dropdown4: false,
+      dropdown5: false
+  });
 
-const toggleDropdown = (dropdownId) => {
-    // Close all dropdowns
-    const newDropdownStates = {
-        dropdown1: false,
-        dropdown2: false,
-        dropdown3: false,
-        dropdown4: false,
-        dropdown5: false
-    };
-    
-    // Toggle the targeted dropdown
-    newDropdownStates[dropdownId] = !dropdownStates[dropdownId];
-    setDropdownStates(newDropdownStates);
-};
+  const toggleDropdown = (dropdownId) => {
+      // Close all dropdowns except the one being toggled
+      const newDropdownStates = Object.fromEntries(
+          Object.entries(dropdownStates).map(([key, value]) => [key, key === dropdownId ? !value : false])
+      );
+      setDropdownStates(newDropdownStates);
+  };
 
 
     return (
@@ -300,11 +292,17 @@ const toggleDropdown = (dropdownId) => {
 
          <div className="data-services-bottom">
             <div className="data-content-container-bottom">
-                <h2 className="data-title">DATA RECOVERY SERVICES NEAR ME</h2>
-                <h3 className="data-subtitle">Looking for expert data recovery services?</h3>
+                <h2 className="data-title-bottom">DATA RECOVERY SERVICES NEAR ME</h2>
+                <h3 className="data-subtitle-bottom">Looking for expert data recovery services?</h3>
                 <ul>
-            <li className="cursor-pointer" onClick={() => toggleDropdown('dropdown1')}>Experienced in-house techs
-                {dropdownStates.dropdown1 && (
+                <h5 className="cursor-pointer" onClick={() => toggleDropdown('dropdown1')}>
+                        {dropdownStates.dropdown1 ? (
+                            <i className="data-icon fas fa-caret-down"></i>
+                        ) : (
+                            <i className="data-icon fas fa-caret-right"></i>
+                        )}
+                        Experienced in-house techs
+                        {dropdownStates.dropdown1 && (
                     <ul className="dropdown dropdown-open">
                         <p className="dropdown-text">Don’t panic if your computer has crashed.  Our experience and professional 
                           data recovery service will provide you with the best chance of recovery.  
@@ -321,9 +319,15 @@ const toggleDropdown = (dropdownId) => {
                         </p>
                     </ul>
                 )}
-            </li>
-            <li className="cursor-pointer" onClick={() => toggleDropdown('dropdown2')}>Know how much your job is upfront
-                {dropdownStates.dropdown2 && (
+            </h5>
+            <h5 className="cursor-pointer" onClick={() => toggleDropdown('dropdown2')}>
+                        {dropdownStates.dropdown2 ? (
+                            <i className="data-icon fas fa-caret-down"></i>
+                        ) : (
+                            <i className="data-icon fas fa-caret-right"></i>
+                        )}
+                        Know how much your job is upfront
+                        {dropdownStates.dropdown2 && (
                     <ul className="dropdown dropdown-open">
                         <p className="dropdown-text">
                           Don’t pay a dime to get a diagnostic.  You’ll get a free diagnostic to 
@@ -339,9 +343,15 @@ const toggleDropdown = (dropdownId) => {
                         </p>
                     </ul>
                 )}
-            </li>
-            <li className="cursor-pointer" onClick={() => toggleDropdown('dropdown3')}>Server crashed?​
-                {dropdownStates.dropdown3 && (
+            </h5>
+            <h5 className="cursor-pointer" onClick={() => toggleDropdown('dropdown3')}>
+                        {dropdownStates.dropdown3 ? (
+                            <i className="data-icon fas fa-caret-down"></i>
+                        ) : (
+                            <i className="data-icon fas fa-caret-right"></i>
+                        )}
+                        Server crashed?​
+                        {dropdownStates.dropdown3 && (
                     <ul className="dropdown dropdown-open">
                         <p className="dropdown-text">We got that covered too. Whether you have a NAS drive, RAID server, drobo, 
                           or other server drive system, we are server recovery experts at resolving 
@@ -350,9 +360,15 @@ const toggleDropdown = (dropdownId) => {
                         </p>
                     </ul>
                 )}
-            </li>
-            <li className="cursor-pointer" onClick={() => toggleDropdown('dropdown4')}>No data, no charge
-                {dropdownStates.dropdown4 && (
+            </h5>
+            <h5 className="cursor-pointer" onClick={() => toggleDropdown('dropdown4')}>
+                        {dropdownStates.dropdown4 ? (
+                            <i className="data-icon fas fa-caret-down"></i>
+                        ) : (
+                            <i className="data-icon fas fa-caret-right"></i>
+                        )}
+                        No data, no charge
+                        {dropdownStates.dropdown4 && (
                     <ul className="dropdown dropdown-open">
                         <p className="dropdown-text">Simple enough and we 
                           stand by this motto. We are results-oriented as your success is our success.
@@ -363,9 +379,15 @@ const toggleDropdown = (dropdownId) => {
                         </p>
                     </ul>
                 )}
-            </li>
-            <li className="cursor-pointer" onClick={() => toggleDropdown('dropdown5')}>Most affordable prices, hands down
-                {dropdownStates.dropdown5 && (
+            </h5>
+            <h5 className="cursor-pointer" onClick={() => toggleDropdown('dropdown5')}>
+                        {dropdownStates.dropdown5 ? (
+                            <i className="data-icon fas fa-caret-down"></i>
+                        ) : (
+                            <i className="data-icon fas fa-caret-right"></i>
+                        )}
+                        Most affordable prices, hands down
+                        {dropdownStates.dropdown5 && (
                     <ul className="dropdown dropdown-open">
                         <p className="dropdown-text">We always attempt to recover from failing drives in the cheapest way 
                           possible. What does that mean? When our competitors have been known to throw 
@@ -381,9 +403,9 @@ const toggleDropdown = (dropdownId) => {
                         </p>
                     </ul>
                 )}
-            </li>
+            </h5>
         </ul>
-                <p className='and-more'>View Pricing</p>
+                <p className='view-pricing'>View Pricing</p>
             </div>
             <div className="data-img-container">
                 <img className="data-img-bottom" src={DataLab} alt="Data" />
