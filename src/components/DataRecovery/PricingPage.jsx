@@ -16,9 +16,9 @@ const PricingPage = () => {
     ];
 
     const RaidServerServices = [    
-        { name: "RAID/Server/NAS Lab Standard Recovery", price: "$250 - $750", description: "applies to bypassing lightly failing hardware to recover files", dots: 23 },
+        { name: "RAID/Server/NAS Lab Standard Recovery", price: "$250 - $750", description: "applies to bypassing lightly failing hardware to recover files", dots: 25 },
         { name: "RAID / Server / NAS Lab Recovery", price: "$950", description: "applies to each physically damaged drive", dots: 65 },
-        { name: "Solid State Drive (SSD) Standard Recovery", price: "$125 - $500", description: "includes bypassing lightly failing hardware to recover files", dots: 20 },
+        { name: "Solid State Drive (SSD) Standard Recovery", price: "$125 - $500", description: "includes bypassing lightly failing hardware to recover files", dots: 24 },
         { name: "Solid State Drive (SSD) Lab Recovery", price: "$1,250+", description: "range is on higher end if encryption needs to be decrypted", dots: 48 }
     ]
 

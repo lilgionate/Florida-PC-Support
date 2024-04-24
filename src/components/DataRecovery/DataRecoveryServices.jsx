@@ -61,6 +61,8 @@ import { ListItem } from './ListItem';
 
 import PricingPage from './PricingPage';
 
+import DataItem from './DataItemNumbers';
+
 // Array of brand images
 const brands = [
     western, toshiba, synology, sony, seagate, samsung, lacie, lexar,
@@ -415,11 +417,21 @@ const DataRecoveryComponent = () => {
     </div>
     <PricingPage />
 
+<div className="data-number-container">
+            <h2 className="data-numbers-title">
+                Why Choose Florida PC Support for Data Recovery Services?
+            </h2>
+            <div className="data-item-numbers-container">
+                <DataItem count="10,481+" description="Devices Successfully Recovered" isLast/>
+                <DataItem count="23" description="Years of Data Recovery Experience" />
+                <DataItem count="462+" description="5-star Reviews" isLast/>
+            </div>
+        </div>
+
 </div>
     </>
     );
 };
-
 
 
 export default DataRecoveryComponent;

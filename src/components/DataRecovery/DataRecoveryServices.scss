@@ -615,4 +615,44 @@
   color: #000000;
 }
 
-/* Add any additional styles here */
+/*Data Number Review*/
+
+/* Styles for DataRecoveryComponent */
+
+.data-number-container {
+  position: relative;
+  font-size: 1.125rem; /* 18px */
+  font-weight: 600;
+  color: #a0aec0; /* Example color */
+  background-color: #ffffff; /* White background */
+  text-align: center;
+  padding-top: 2.5rem; /* 40px */
+  padding-bottom: 4rem; /* 40px */
+}
+
+.data-numbers-title {
+  font-size: 2rem; /* 18px */
+  font-weight: 600;
+  color: #333;
+  padding-bottom: .5rem; /* Example color */
+}
+
+.data-item-numbers-container {
+  display: flex;
+  justify-content: center;
+}
+
+.data-item-numbers-container > * + * {
+  margin-left: 4rem; /* 40px */
+}
+
+.data-numbers-count {
+  font-size: 4.5rem; /* 36px */
+  font-weight: 500;
+  color: #4299e1; /* Example color */
+}
+
+.data-numbers-description {
+  font-size: 1.25rem; /* 16px */
+  color: #333; /* Example color */
+}
