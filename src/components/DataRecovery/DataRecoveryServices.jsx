@@ -59,6 +59,8 @@ import { ServiceCard } from './ServiceCard';
 import { ProcessStep } from './ProcessStep';
 import { ListItem } from './ListItem';
 
+import PricingPage from './PricingPage';
+
 // Array of brand images
 const brands = [
     western, toshiba, synology, sony, seagate, samsung, lacie, lexar,
@@ -309,12 +311,12 @@ const DataRecoveryComponent = () => {
                           Your files will be recovered to an external hard drive or different media.  
                           We can also fix your computer and restore the files back to it afterwards.  
                           Your recovery job will be priced based on its severity, 
-                          providing you with the best, cost-effective data recovery service in NYC.
+                          providing you with the best, cost-effective data recovery service in Florida.
                         </p>
-                        <p className="dropdown-text">All done in house.  This is a big advantage.  Many NYC data recovery places 
-                          may have a New York City zip code, but, in fact, send their jobs out of state. 
-                          Each and every data recovery job is done right on our premises at 53 East 34th 
-                          Street.  We take a lot of pride in our years of data recovery training and 
+                        <p className="dropdown-text">All done in house.  This is a big advantage.  Many Florida data recovery places 
+                          may have a Florida zip code, but, in fact, send their jobs out of state. 
+                          Each and every data recovery job is done right on our premises at 3750 Inverrary Drive.  
+                          We take a lot of pride in our years of data recovery training and 
                           experience so we may have a chip on our shoulders if you ask us about this.
                         </p>
                     </ul>
@@ -336,7 +338,7 @@ const DataRecoveryComponent = () => {
                         </p>
                         <p className="dropdown-text">And yes, we perform lab recoveries too.</p>
                         <p className="dropdown-text">
-                          We do it all, small software data recovery jobs and our data recovery NYC 
+                          We do it all, small software data recovery jobs and our data recovery Florida 
                           experts are also masters of recovering files from the infamous clicking hard
                           drive.  We are specialists at opening up external hard 
                           drives and computer hard drives to replace failing parts to recover files.
@@ -411,6 +413,7 @@ const DataRecoveryComponent = () => {
                 <img className="data-img-bottom" src={DataLab} alt="Data" />
             </div>
     </div>
+    <PricingPage />
 
 </div>
     </>
