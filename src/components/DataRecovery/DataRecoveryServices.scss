@@ -562,26 +562,24 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 10px;
-  padding: 10px;
+  gap: 42px;
   background-color: #ffffff;
 }
 
 .cardDataClasses {
-  width: 45%;
-  padding: 1.5rem;
+  width: 46%;
+  padding: 1rem 2rem 1.5rem 2rem;
   background-color: #fff;
-  border-radius: 0.5rem;
+  border-radius: 1.5rem;
+  border: 2px solid #1b436e;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .titleDataClasses {
-  font-size: 1.25rem;
-  font-weight: 600;
+  font-size: 1.8rem;
+  font-weight: 700;
   text-align: center;
-  margin-bottom: 1rem;
-  border-bottom: 1px solid #ccc;
-  padding-bottom: 0.5rem;
+  color: #1b436e;
 }
 
 .sectionDataClasses {
@@ -591,10 +589,33 @@
 
 .priceDataClasses {
   font-weight: 600;
+  font-size: 1.05rem;
+  color: #2b6cb0;
+  padding-right: .8rem;
+  padding-top: 1rem;
+}
+
+.data-pricing {
+  padding-left: .8rem;
+  padding-top: 1rem;
 }
 
 .descriptionDataClasses {
+  margin-top: 3rem;
+}
+
+.data-price-des{
+  font-weight: 300;
+  font-size: 13.5px;
+  line-height: 0.1;
+  color: #939393;
   margin-top: 1rem;
+}
+
+.dot {
+  font-weight: 300;
+  color: #000000;
+  padding-top: 1rem;
 }
 
 /* Add any additional styles here */
