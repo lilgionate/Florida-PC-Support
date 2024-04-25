@@ -6,40 +6,20 @@ function Repairs() {
   return (
     <div className="repairs-container">
       <div className="repairs-content">
-        <h2>Office IT Support</h2>
-        <p>Outsourced & Onsite Solutions</p>
+        <h2 className="officeIT-title">Office IT Support</h2>
+        <p className="officeIT-des">Outsourced & Onsite Solutions</p>
         <div className="repairs-list-container">
           <div className="repairs-list">
-            <div className="repairs-list-item">
-              <li>Daily or Weekly Support</li>
-            </div>
-            <div className="repairs-list-item">
-              <li>Computer Tech Recruitment</li>
-            </div>
-            <div className="repairs-list-item">
-              <li>Fill-in Tech Coverage</li>
-            </div>
-            <div className="repairs-list-item">
-              <li>Scheduled Maintenance</li>
-            </div>
-            <div className="repairs-list-item">
-              <li>Bulk Hardware Repair</li>
-            </div>
-            <div className="repairs-list-item">
-              <li>Monthly Device Warranty</li>
-            </div>
-            <div className="repairs-list-item">
+              <li>Daily or Weekly Support</li>          
+              <li>Computer Tech Recruitment</li>  
+              <li>Fill-in Tech Coverage</li>   
+              <li>Scheduled Maintenance</li>     
+              <li>Bulk Hardware Repair</li>             
+              <li>Monthly Device Warranty</li>     
               <li>Network Cabling</li>
-            </div>
-            <div className="repairs-list-item">
               <li>New Office Setup</li>
-            </div>
-            <div className="repairs-list-item">
               <li>Special Project</li>
-            </div>
-            <div className="repairs-list-item">
               <li>Remote Support</li>
-            </div>
           </div>
         </div>
       </div>

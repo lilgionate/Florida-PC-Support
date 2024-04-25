@@ -277,10 +277,8 @@ const DataRecoveryComponent = () => {
       </div>
     </div>
 
-      <div className="data-services">
-            <div className="data-img">
-                <img src={DataServices} alt="Data" />
-            </div>
+      <div className="data-services">  
+                <img className="data-services-img" src={DataServices} alt="Data" />
             <div className="data-content-container">
                 <h2 className="data-title">DATA RECOVERY SERVICES</h2>
                 <h3 className="data-subtitle">We Cover All Types Of Damages</h3>

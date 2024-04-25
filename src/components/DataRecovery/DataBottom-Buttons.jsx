@@ -1,5 +1,6 @@
 import "./DataRecoveryServices.scss";
 import Feature from "./DataBottom-Cards";
+import DataBG from "../../assets/HDD-Disk.jpg";
 
 const DataBottomButtons = () => {
   const icon = (
@@ -9,7 +10,8 @@ const DataBottomButtons = () => {
   );
 
   return (
-    <div className="data-hero-container" style={{ backgroundImage: "url('https://placehold.co/1800x600')" }}>
+    <div className="data-hero-container">
+      <img src={DataBG} alt="Data Recovery" className="data-hero-bg" /> 
       <Feature
         icon={icon}
         title="Mail-in Your Device"

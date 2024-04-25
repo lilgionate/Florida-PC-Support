@@ -7,7 +7,7 @@ const HeroBottom = () => {
   return (
     <div className="hero-bottom-container">
       <div className="hero-bottom-background" >
-        <img src={bgImage} alt="" />
+        <img className='hero-bottom-img' src={bgImage} alt="" />
         <div className="hero-bottom-content">
           <h1 className="hero-bottom-title">Need Your Computer Repaired?</h1>
           <button className="hero-bottom-button">

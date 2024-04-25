@@ -32,7 +32,7 @@ const certification = () => {
                 <div className="itemContainer">
                 <a href="http://localhost:5173/macbook-power-up">
                     <div className="singleItem">
-                       <img src={img2} alt="" />
+                       <img className='img-OurServices' src={img2} alt="" />
                        <h3>MacBook Won’t Power Up</h3>
                     </div>
                     </a>
@@ -41,7 +41,7 @@ const certification = () => {
                 <div className="itemContainer"> 
                 <a href="http://localhost:5173/macbook-screen">
                     <div className="singleItem">
-                       <img src={img3} alt="" />
+                       <img className='img-OurServices' src={img3} alt="" />
                        <h3>MacBook Screen Replacement</h3>
                    </div>
                 </a>
@@ -50,7 +50,7 @@ const certification = () => {
                 <div className="itemContainer"> 
                 <a href="http://localhost:5173/macbook-spill">
                    <div className="singleItem">
-                      <img src={img4} alt="" />
+                      <img className='img-OurServices' src={img4} alt="" />
                       <h3>MacBook Spill Repair</h3>
                     </div>
                 </a>
@@ -61,7 +61,7 @@ const certification = () => {
                 <div className="itemContainer">
                 <a href="http://localhost:5173/macbook-battery">
                     <div className="singleItem">
-                       <img src={img5} alt="" />
+                       <img className='img-OurServices' src={img5} alt="" />
                        <h3>MacBook Battery Replacement</h3>
                     </div>
                 </a>
@@ -70,7 +70,7 @@ const certification = () => {
                 <div className="itemContainer">
                 <a href="http://localhost:5173/macbook-logic-board">
                     <div className="singleItem">
-                       <img src={img6} alt="" />
+                       <img className='img-OurServices' src={img6} alt="" />
                        <h3>MacBook Logic Board Repair</h3>
                     </div>
                 </a>
@@ -79,7 +79,7 @@ const certification = () => {
                 <div className="itemContainer">
                 <a href="http://localhost:5173/macbook-data">
                     <div className="singleItem">
-                       <img src={img7} alt="" />
+                       <img className='img-OurServices' src={img7} alt="" />
                        <h3>MacBook Data Recovery</h3>
                     </div>
                 </a>
@@ -101,7 +101,7 @@ const certification = () => {
         <div className="itemContainer">
         <a href="http://localhost:5173/windows-pc-screen-repair">
             <div className="singleItem">
-               <img src={img8} alt="" />
+               <img className='img-OurServices' src={img8} alt="" />
                <h3>Windows Laptop Screen Replacement</h3>
             </div>
         </a>
@@ -110,7 +110,7 @@ const certification = () => {
         <div className="itemContainer"> 
         <a href="http://localhost:5173/windows-pc-data-recovery">
             <div className="singleItem">
-               <img src={img9} alt="" />
+               <img className='img-OurServices' src={img9} alt="" />
                <h3>Windows Data Recovery</h3>
            </div>
         </a>
@@ -119,7 +119,7 @@ const certification = () => {
         <div className="itemContainer"> 
         <a href="http://localhost:5173/windows-pc-wont-start-repair">
            <div className="singleItem">
-              <img src={img10} alt="" />
+              <img className='img-OurServices' src={img10} alt="" />
               <h3>Windows / PC Won’t Start Fix</h3>
             </div>
         </a>
@@ -130,7 +130,7 @@ const certification = () => {
         <div className="itemContainer">
         <a href="http://localhost:5173/windows-pc-slow">
             <div className="singleItem">
-               <img src={img11} alt="" />
+               <img className='img-OurServices' src={img11} alt="" />
                <h3>Slow PC Issue</h3>
             </div>
         </a>
@@ -139,7 +139,7 @@ const certification = () => {
         <div className="itemContainer">
         <a href="http://localhost:5173/windows-pc-hard-drive-repair">
             <div className="singleItem">
-               <img src={img12} alt="" />
+               <img className='img-OurServices' src={img12} alt="" />
                <h3>Windows / PC Hard Drive Fix</h3>
             </div>
         </a>
@@ -148,7 +148,7 @@ const certification = () => {
         <div className="itemContainer">
         <a href="http://localhost:5173/windows-pc-spill-repair">
             <div className="singleItem">
-               <img src={img13} alt="" />
+               <img className='img-OurServices' src={img13} alt="" />
                <h3>Laptop Spill Repair</h3>
             </div>
         </a>

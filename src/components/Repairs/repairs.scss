@@ -1,9 +1,8 @@
 .repairs-container {
     position: relative; /* Set position to relative */
-  margin: 4rem 6rem;
-  color: #2a2a2a;
-  display: flex;
-  justify-content: space-between; 
+    margin: 4rem 2rem;
+    display: flex;
+    justify-content: space-between; 
   }
   
   .repairs-content {
@@ -20,21 +19,19 @@
         );
         border: 1px solid rgba(0, 0, 0, 0.1);
         box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-        border-radius: 8px;
-        padding: 4rem 4rem;
+        border-radius: 4px;
+        padding: 2rem 4rem;
         transition: 0.3s ease-in-out;
   }
   
-  .repairs h2 {
-    font-size: 2rem;
+  .officeIT-title {
+    font-size: 1.8rem;
     font-weight: 600;
-    padding: 10px;
     color: #333;
   }
 
-  .repairs p {
-    font-size: 1.5rem;
-    padding: 5px;
+  .officeIT-des {
+    font-size: 1rem;
     font-weight: 300;
     color: #333;
   }
@@ -44,7 +41,6 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 1rem;
-    padding: 5px;
     font-weight: 200;
     color: #333;
   }
@@ -61,34 +57,17 @@
   .r-card {
     display: flex;
     align-items: center;
-    background: linear-gradient(
-      to bottom,
-      rgba(255, 255, 255, 1),
-      rgba(240, 240, 240, 1)
-    );
-    filter: progid:DXImageTransform.Microsoft.gradient(
-      startColorstr='#ffffff',
-      endColorstr='#f0f0f0',
-      GradientType=0
-    );
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-    padding: 1rem 0.8rem;
-    transition: 0.3s ease-in-out;
   }
-  
   .r-image {
     width: 100%;
-    height: 500px;
-    border-radius: 8px;
-    overflow: hidden;
+    height: 440px;
   }
   
   .r-image img {
     width: 100%;
     height: 100%;
-    border-radius: 8px;
+    border-radius: 4px;
+    object-fit: cover;
   }
   
   @media screen and (max-width: 850px) {

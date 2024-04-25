@@ -3,18 +3,22 @@
 .hero-bottom-container {
     position: relative;
     background-color: #f4f4f4;
-    color: #ffffff;
     display: flex;
     justify-content: center;
     align-items: center;
   }
   
   .hero-bottom-background {
-    position: relative; /* Add position relative */
-    background-size: cover;
-    width: 75%;
+    width: 73.5%;
     height: 370px;
+
   }
+
+  .hero-bottom-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 
   .hero-bottom-content {
     position: absolute;
