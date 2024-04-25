@@ -662,8 +662,8 @@
 /* data hero buttons bottom*/
 
 .data-hero-icon {
-  width: 1.5rem; /* Equivalent to 6px when using Tailwind's default font size */
-  height: 1.5rem; /* Equivalent to 6px when using Tailwind's default font size */
+  width: 1.5rem; 
+  height: 1.5rem; 
 }
 
 
@@ -676,7 +676,7 @@
   background-size: cover;
   background-position: center;
   padding-top: 12px;
-  padding-bottom: 12px;
+  padding-bottom: 25px;
   padding-left: 4px;
   padding-right: 4px;
   height: 425px;
@@ -698,7 +698,7 @@
   width: 525px;
   background-color: transparent;
   border-radius: 0.375rem;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   padding: 1.5rem;
   margin: 0 auto;
 }
@@ -712,16 +712,8 @@
 
 .data-icons {
   padding: 0.5rem;
-  background-color: #4299e1;
   color: #fff;
-  border-radius: 9999px;
-  margin-left: 0.75rem;
-}
-
-.data-icons svg {
-  width: 1.5rem;
-  height: 1.5rem;
-  fill: currentColor;
+  font-size: 2.5rem;
 }
 
 .data-hero-bottom-title {

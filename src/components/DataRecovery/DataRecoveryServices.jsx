@@ -270,8 +270,8 @@ const DataRecoveryComponent = () => {
     <div className="process-step-container">
     <h2 className="process-step-title">Here's our simple 4-step process</h2>
       <div className="process-steps">
-        <ProcessStep stepNumber={1} stepText="Mail-in/drop-off your device" iconClass="fa-solid fa-truck" />
-        <ProcessStep stepNumber={2} stepText="Full evaluation & diagnostics" iconClass="fa-tools" />
+        <ProcessStep stepNumber={1} stepText="Mail-in/drop-off your device" iconClass="fa-solid fa-truck-fast" />
+        <ProcessStep stepNumber={2} stepText="Full evaluation & diagnostics" iconClass="fa-brands fa-searchengin" />
         <ProcessStep stepNumber={3} stepText="Provide an estimate for your job" iconClass="fa-file-invoice-dollar" />
         <ProcessStep stepNumber={4} stepText="100% guaranteed recovery" iconClass="fa-solid fa-laptop-medical" />
       </div>
