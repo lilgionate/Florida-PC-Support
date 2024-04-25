@@ -62,6 +62,8 @@ import { ListItem } from './ListItem';
 import PricingPage from './PricingPage';
 
 import DataItem from './DataItemNumbers';
+import DataBottomButtons from './DataBottom-Buttons';
+
 
 // Array of brand images
 const brands = [
@@ -415,18 +417,20 @@ const DataRecoveryComponent = () => {
                 <img className="data-img-bottom" src={DataLab} alt="Data" />
             </div>
     </div>
-    <PricingPage />
+          <PricingPage />
 
-<div className="data-number-container">
-            <h2 className="data-numbers-title">
-                Why Choose Florida PC Support for Data Recovery Services?
-            </h2>
-            <div className="data-item-numbers-container">
-                <DataItem count="10,481+" description="Devices Successfully Recovered" isLast/>
-                <DataItem count="23" description="Years of Data Recovery Experience" />
-                <DataItem count="462+" description="5-star Reviews" isLast/>
+           <div className="data-number-container">
+                       <h2 className="data-numbers-title">
+                           Why Choose Florida PC Support for Data Recovery Services?
+                       </h2>
+                       <div className="data-item-numbers-container">
+                           <DataItem count="10,481+" description="Devices Successfully Recovered" isLast/>
+                           <DataItem count="23" description="Years of Data Recovery Experience" />
+                           <DataItem count="462+" description="5-star Reviews" isLast/>
+                       </div>
             </div>
-        </div>
+
+            <DataBottomButtons />
 
 </div>
     </>
