@@ -18,6 +18,7 @@ import WindowsData from './routes/WindowsData'
 import WindowsSlowPC from './routes/WindowsSlowPC'
 import WindowsHardDrive from './routes/WindowsHardDrive' 
 import WindowsSpill from './routes/WindowsSpill'
+import MacRepairsPage from './routes/MacRepairsPage'
 
 function App() {
 
@@ -42,6 +43,7 @@ function App() {
         <Route path="/windows-pc-slow" element={<WindowsSlowPC/>}/>
         <Route path="/windows-pc-hard-drive-repair" element={<WindowsHardDrive/>}/> 
         <Route path="/windows-pc-spill-repair" element={<WindowsSpill/>}/>
+        <Route path="/mac-repairs" element={<MacRepairsPage/>}/>
       </Routes>
     </div>
   )

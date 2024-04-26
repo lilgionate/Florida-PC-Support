@@ -7,7 +7,7 @@ export const navItems = [
 
 export const walkInDropdown = [
   { id: 1, title: "Data Recovery Services", path:"./data-recovery", cName: "submenu-item" },
-  { id: 2, title: "Mac Repairs", path: "./product2", cName: "submenu-item" },
+  { id: 2, title: "Mac Repairs", path: "./mac-repairs", cName: "submenu-item" },
   { id: 3, title: "PC Repairs", path: "./product3", cName: "submenu-item" },
   { id: 4, title: "Custom PC Repairs", path: "./product4", cName: "submenu-item" },
 
