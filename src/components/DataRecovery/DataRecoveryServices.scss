@@ -11,13 +11,13 @@
     margin-right: auto;
   }
   .dataimg {
-    height: 550px;
+    height: 85vh;
     width: 100%;
     filter: brightness(50%)
   }
 
   .dataheader {
-    font-size: 3.5rem;
+    font-size: 3.4rem;
     font-weight: 700;
     color: #ffffff;
   }
@@ -26,21 +26,22 @@
     margin-top: 7.5rem;
     padding-left: 7rem; 
     color: rgb(255, 255, 255);
-    font-size: 1.14rem;
+    font-size: 1.1rem;
+    font-weight: 500;
     position: absolute;
     top: 0;
   }
 
   .list {
-    padding-bottom: 10px;
+    padding-bottom: 15px;
     list-style: none;
   }
-  
+
   .buttonClass {
     font-weight: 400;
     font-size: 15px;
-    margin-top: 10px;
-    padding: 0.5rem 3.5rem;
+    margin-top: 1.5rem;
+    padding: 0.5rem 3rem;
     border-radius: 1rem;
   }
   

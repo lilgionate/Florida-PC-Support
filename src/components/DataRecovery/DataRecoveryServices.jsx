@@ -168,13 +168,13 @@ const DataRecoveryComponent = () => {
             <div className="containerClass">
                 <div className="textClass">
                     <h1 className="dataheader mb-4">Data Recovery Services</h1>
-                    <ul>
+                    
                         <li className="list">✔ We Provide Data Recoveries For Hard Drives, SSDs, Memory Cards, USB Drives, Phones & Tablets</li>
                         <li className="list">✔ Managed By Experts In The Industry</li>
                         <li className="list">✔ FREE In-Depth Diagnosis And Evaluation</li>
                         <li className="list">✔ Mail-In Or Drop Off Your Devices</li>
                         <li className="list">✔ Emergency Data Recovery Service Options</li>
-                    </ul>
+                    
                     <div className="flex">
                         <button className="primaryButtonClass buttonClass">Make A Shipping Request</button>
                         <button className="secondaryButtonClass buttonClass">Visit Us Now!</button> 
