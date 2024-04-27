@@ -14,7 +14,7 @@
     /* Add additional styles as needed */
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
     .MacRepairsContent {
         width: 50%; /* For medium screens and larger */
     }
@@ -24,7 +24,7 @@
     width: 100%;
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
     .MacRepairsImg {
         width: 50%; /* For medium screens and larger */
     }
@@ -67,3 +67,51 @@
     background-color: #1b436e; 
     border: 1px solid #1b436e;
   }
+
+
+/*Scenarios*/
+
+.scenarios-card-container {
+    background-color: #fff;
+    border: 1px solid rgba(98, 98, 98, 0.15);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+    border-radius: 1rem;
+    padding: 3rem 2.5rem 3.5rem 2.5rem;
+  }
+  
+  .scenarios-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+  }
+  
+  .scenarios-text {
+    color: #4b5563;
+    line-height: 1.95rem;
+  }
+
+  .scenario-service-container {
+    width: 70%;
+    margin: 0 auto;
+    padding: 5rem 0 3rem 0;
+  }
+
+  .scenario-title {
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 700;
+    margin: 4rem 0 2rem 0;
+  }
+  
+  .scenario-service-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  
+  @media (max-width: 768px) {
+    .scenario-service-grid {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+  
