@@ -1,54 +1,46 @@
-/* styles.css */
+
 
 .MacRepairContainer {
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 85vh;
-    /* Add additional styles as needed */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+   
 }
 
 .MacRepairsContent {
-    width: 100%; /* For small screens */
+    width: 50%;
     padding: 5rem 3.5rem 1.5rem 3.5rem;
-    /* Add additional styles as needed */
-}
-
-@media (max-width: 768px) {
-    .MacRepairsContent {
-        width: 50%; /* For medium screens and larger */
-    }
+    margin-top: 1rem;
+    
+ 
 }
 
 .MacRepairsImg {
-    width: 100%;
-}
-
-@media (max-width: 768px) {
-    .MacRepairsImg {
-        width: 50%; /* For medium screens and larger */
-    }
+    width: 50%;
+ 
 }
 
 .MacImg {
-    width: 100%;
-    height: 100vh;
+    height: 85vh;
     object-fit: cover;
-    /* Add additional styles as needed */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+  
 }
 
 .MacRepairsTitle {
     font-size: 3.2rem; /* 36px */
     font-weight: 700;
     margin-bottom: 1rem;
-    /* Add additional styles as needed */
+  
 }
 
 .MacRepairsDes {
     font-size: 1.05rem; /* 18px */
     font-weight: 300;
     line-height: 1.75rem; /* 28px */
-    /* Add additional styles as needed */
+   
 }
 
 .MacRepairsButton {
@@ -76,7 +68,8 @@
     border: 1px solid rgba(98, 98, 98, 0.15);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
     border-radius: 1rem;
-    padding: 3rem 2.5rem 3.5rem 2.5rem;
+    margin-bottom: 1rem;
+    padding: 2.5rem;
   }
   
   .scenarios-title {
@@ -93,14 +86,14 @@
   .scenario-service-container {
     width: 70%;
     margin: 0 auto;
-    padding: 5rem 0 3rem 0;
+    padding: 2rem 0 3rem 0;
   }
 
-  .scenario-title {
-    font-size: 2rem;
+  .scenario-title-header {
+    font-size: 1.8rem;
     text-align: center;
     font-weight: 700;
-    margin: 4rem 0 2rem 0;
+    margin: 4rem 0 3rem 0;
   }
   
   .scenario-service-grid {
@@ -115,3 +108,33 @@
     }
   }
   
+/*Middle hero*/
+
+.mac-repair-middle {
+  position: relative;
+  height: 385px;
+}
+
+.mac-repair-middle-img {
+  width: 100%;
+  height: 385px;
+  object-fit: cover;
+}
+
+.mac-middle-button {
+  position: absolute;
+  right: 2rem;
+  bottom: 12rem;
+  background-color: #2b6cb0;
+  border: 1px solid #2b6cb0;
+  color: #fff;
+  font-weight: 400;
+  padding: 0.75rem 1.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+.mac-middle-button:hover {
+  background-color: #1b436e;
+}
