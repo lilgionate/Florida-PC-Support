@@ -138,3 +138,72 @@
 .mac-middle-button:hover {
   background-color: #1b436e;
 }
+
+
+/*mac repairs card*/
+
+.mac-services-price-container {
+  max-width: 80rem; /* max-w-7xl */
+  margin-left: auto; /* mx-auto */
+  margin-right: auto; /* mx-auto */
+  padding-top: 3rem; /* py-12 */
+  padding-bottom: 3rem; /* py-12 */
+  padding-left: 1rem; /* px-4 */
+  padding-right: 1rem; /* px-4 */
+  text-align: center;
+}
+
+@media (min-width: 640px) {
+  .mac-services-price-container {
+    padding-left: 1.5rem; /* sm:px-6 */
+    padding-right: 1.5rem; /* sm:px-6 */
+  }
+}
+
+@media (min-width: 1024px) {
+  .mac-services-price-container {
+    padding-left: 2rem; /* lg:px-8 */
+    padding-right: 2rem; /* lg:px-8 */
+  }
+}
+
+
+.mac-services-price-header {
+  font-size: 1.875rem; /* text-3xl */
+  font-weight: 700; /* font-bold */
+  text-align: center; /* text-center */
+  margin-bottom: 2.5rem; /* mb-10 */
+}
+
+.mac-services-price-grid {
+  display: grid; /* grid */
+  grid-template-columns: repeat(1, minmax(0, 1fr)); /* grid-cols-1 */
+  gap: 1.5rem; /* gap-6 */
+}
+
+@media (min-width: 768px) {
+  .mac-services-price-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr)); /* md:grid-cols-3 */
+  }
+}
+
+.mac-services-price-cards {
+  background-color: #fff; /* bg-white */
+  border-radius: 0.5rem; /* rounded-lg */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* shadow-lg */
+  padding: 1rem; /* p-4 */
+}
+
+.mac-services-price-img {
+  border-radius: 0.5rem; 
+}
+
+.mac-services-price-title {
+  font-size: 1.25rem; /* text-lg */
+  font-weight: 600; /* font-semibold */
+}
+
+.mac-services-price {
+  color: #4a5568; /* text-zinc-600 */
+}
+

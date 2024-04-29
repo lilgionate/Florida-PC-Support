@@ -5,6 +5,7 @@ import MacBookCenter from '../../assets/macbook-service-center.avif';
 
 import ServiceCard from './MacScenarios';
 import ImageWithButton from './MacRepairMiddle';
+import MacServiceCard from './MacRepairCards';
 
 const MacRepairPage = () => {
     return (
@@ -60,6 +61,30 @@ const MacRepairPage = () => {
 
         <ImageWithButton />
 
+        <div className="mac-services-price-container">
+            <div className="mac-services-price-header">Mac Services and Prices - Walk-in Service</div>
+            <div className="mac-services-price-grid">
+                <MacServiceCard
+                    imageUrl="https://placehold.co/300x200"
+                    altText="Fix Mac Startup"
+                    title="Fix Mac Startup / Freezing"
+                    priceRange="$85+"
+                />
+                <MacServiceCard
+                    imageUrl="https://placehold.co/300x200"
+                    altText="MacBook Won't Power Up Fix"
+                    title="MacBook Won't Power Up Fix"
+                    priceRange="$85+"
+                />
+                <MacServiceCard
+                    imageUrl="https://placehold.co/300x200"
+                    altText="MacBook Screen Replacements"
+                    title="MacBook Screen Replacements"
+                    priceRange="$150 - $750"
+                />
+            </div>
+        </div>
+ 
         </>
     );
 };
