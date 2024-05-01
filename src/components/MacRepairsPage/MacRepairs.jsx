@@ -10,6 +10,27 @@ import KeyboardReplacement from '../../assets/KeyboardReplacement.jpeg';
 import MacBookSpill from '../../assets/SpillDamageRepair.jpeg';
 import HarddriveReplacement from '../../assets/HarddriveReplacement.jpeg';
 import RAMMemory from '../../assets/RAMMemoryUpgrade.jpeg';
+import DVDDrive from '../../assets/DVDDriveReplacement.jpeg';
+import PasswordReset from '../../assets/PasswordReset.jpeg';
+import TouchpadTrackpad from '../../assets/TouchpadTrackpadReplacement.jpeg';
+import TopCase from '../../assets/TopCaseReplacement.jpeg';
+import HingeReplacement from '../../assets/HingeReplacement.jpeg';
+import BatteryReplacement from '../../assets/BatteryReplacement.jpeg';
+import LogicBoard from '../../assets/LogicBoard.jpg';
+import PowerAdapter from '../../assets/PowerAdapterReplacement.jpeg';
+import JackDCBoard from '../../assets/JackDCInboardReplacement.jpeg';
+import LogicBoardReplacement from '../../assets/LogicBoardReplacement.jpeg';
+import InstallWindows from '../../assets/InstallWindowsOnMac.jpeg';
+import WindowsMacVirus from '../../assets/WindowsMacVirusRemoval.jpeg';
+import MacWontBoot from '../../assets/MacWontBoot.jpeg';
+import SetUpMac from '../../assets/SetUpNewMac.jpeg';
+import EmailAndInternet from '../../assets/EmailAndInternetMacRepair.jpeg';
+import MacUpgrade from '../../assets/mac-ssd-upgrade.jpg';
+import DamageRepair from '../../assets/MacPhysicalDamageRepair.jpeg';
+import AppleSoftware from '../../assets/SoftwareSupport.jpeg';
+import MacBookData from '../../assets/DataRecovery.jpeg';
+
+import MacRepair from '../../assets/macRepair.avif';
 
 import ServiceCard from './MacScenarios';
 import ImageWithButton from './MacRepairMiddle';
@@ -115,119 +136,129 @@ const MacRepairPage = () => {
                     priceRange="$50 - $200"
                 />
                 <MacServiceCard
-                    image="https://placehold.co/300x200"
+                    image={DVDDrive}
                     altText="DVD Drive Replacement"
                     title="DVD Drive Replacement"
                     priceRange="$125 - $195"
                 />
                 <MacServiceCard
-                    image="https://placehold.co/300x200"
+                    image={PasswordReset}
                     altText="Password Reset"
                     title="Password Reset"
                     priceRange="$85"
                 />
                 <MacServiceCard
-                    image="https://placehold.co/300x200"
+                    image={TouchpadTrackpad}
                     altText="Touchpad / Trackpad Replacement"
                     title="Touchpad / Trackpad Replacement"
                     priceRange="$150 - $350"
                 />
                 <MacServiceCard
-                    image="https://placehold.co/300x200"
+                    image={TopCase}
                     altText="Top Case Replacement"
                     title="Top Case Replacement"
                     priceRange="$125 - $450"
                 />
                 <MacServiceCard
-                    image="https://placehold.co/300x200"
+                    image={HingeReplacement}
                     altText="Hinge Replacement"
                     title="Hinge Replacement"
                     priceRange="$125+"
                 />
                 <MacServiceCard
-                    image="https://placehold.co/300x200"
+                    image={BatteryReplacement}
                     altText="Battery Replacement"
                     title="Battery Replacement"
                     priceRange="$100 - $175"
                 />
                 <MacServiceCard
-                    image="https://placehold.co/300x200"
+                    image={LogicBoard}
                     altText="MacBook Logic Board Repairs"
                     title="MacBook Logic Board Repairs"
                     priceRange="$250 - $750"
                 />
                 <MacServiceCard
-                    image="https://placehold.co/300x200"
+                    image={PowerAdapter}
                     altText="Power Adapter Replacement"
                     title="Power Adapter Replacement"
                     priceRange="$65 - $85"
                 />
                 <MacServiceCard
-                    image="https://placehold.co/300x200"
+                    image={JackDCBoard}
                     altText="Jack / DC-In Board Replacement"
                     title="Jack / DC-In Board Replacement"
                     priceRange="$75 - $150"
                 />
                 <MacServiceCard
-                    image="https://placehold.co/300x200"
+                    image={LogicBoardReplacement}
                     altText="Logic Board Replacement"
                     title="Logic Board Replacement"
                     priceRange="$250 -$750"
                 />
                 <MacServiceCard
-                    image="https://placehold.co/300x200"
+                    image={InstallWindows}
                     altText="Install Windows On Mac"
                     title="Install Windows On Mac"
                     priceRange="$125"
                 />
                 <MacServiceCard
-                    image="https://placehold.co/300x200"
+                    image={WindowsMacVirus}
                     altText="Windows / Mac Virus Removal"
                     title="Windows / Mac Virus Removal"
                     priceRange="$85 - $150"
                 />
                 <MacServiceCard
-                    image="https://placehold.co/300x200"
+                    image={MacWontBoot}
                     altText="Mac Won’t Boot"
                     title="Mac Won’t Boot"
                     priceRange="$85+"
                 />
                 <MacServiceCard
-                    image="https://placehold.co/300x200"
+                    image={SetUpMac}
                     altText="Set Up New Mac"
                     title="Set Up New Mac"
                     priceRange="$85 - $150"
                 />
                 <MacServiceCard
-                    image="https://placehold.co/300x200"
+                    image={EmailAndInternet}
                     altText="Email And Internet Mac Repair"
                     title="Email And Internet Mac Repair"
                     priceRange="$125 - $250"
                 />
                 <MacServiceCard
-                    image="https://placehold.co/300x200"
+                    image={MacUpgrade}
                     altText="Mac Upgrade"
                     title="Mac Upgrade"
                     priceRange="$50+"
                 />
                 <MacServiceCard
-                    image="https://placehold.co/300x200"
+                    image={DamageRepair}
                     altText="Mac Physical Damage Repair"
                     title="Mac Physical Damage Repair"
                     priceRange="$85+"
                 />
                 <MacServiceCard
-                    image="https://placehold.co/300x200"
+                    image={AppleSoftware}
                     altText="Apple Software Support"
                     title="Apple Software Support"
                     priceRange="$85 - $150"
                 />
                 <MacServiceCard
-                    image="https://placehold.co/300x200"
+                    image={MacBookData}
                     altText="MacBook Data Recovery"
                     title="MacBook Data Recovery"
                     priceRange="$85+"
                 />
+            </div>
+        </div>
+
+        <div className="macbook-repair-bottom-container">
+            <img src={MacRepair} alt="Mac Repair" className="mac-repair-img" />
+            <div className="overlay">
+                <div className="overlay-text">
+                    <h1>Need Your Mac Repaired?</h1>
+                    <a href="#" >Get a free diagnostic</a>
+                </div>
             </div>
         </div>
  

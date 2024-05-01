@@ -4,29 +4,26 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 85vh;
+    height: 90vh;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
-   
+    width: 100%;
 }
 
 .MacRepairsContent {
     width: 50%;
-    padding: 5rem 3.5rem 1.5rem 3.5rem;
+    padding: 7rem 3.5rem 1.5rem 3.5rem;
     margin-top: 1rem;
-    
- 
 }
 
-.MacRepairsImg {
-    width: 50%;
- 
+.MacRepairsImg{
+  width: 50%;
 }
 
 .MacImg {
-    height: 85vh;
-    object-fit: cover;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
-  
+  height: 90vh;
+  width: 100%;
+  object-fit: cover;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
 }
 
 .MacRepairsTitle {
@@ -208,3 +205,60 @@
   color: #4a5568; /* text-zinc-600 */
 }
 
+
+
+/*hero bottom*/
+
+.macbook-repair-bottom-container {
+  position: relative;
+  background-color: #0b5c93; /* Blue color */
+  color: #ffffff; /* White text */
+}
+
+
+/* styles.css */
+
+.mac-repair-img {
+  width: 100%;
+  height: 475px;
+  object-fit: cover;
+  filter: brightness(60%);
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.overlay-text {
+  text-align: center;
+ 
+}
+
+.overlay-text h1 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  color: #ffffff;
+}
+
+.overlay-text a {
+  background-color: #ffffff; /* Blue color */
+  color: rgba(0, 0, 0, 0.5); /* White text */
+  font-weight: 400;
+  padding: 0.55rem 1.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+.overlay-text a:hover {
+  background-color: #1b436e; /* Darker shade of blue */
+}
