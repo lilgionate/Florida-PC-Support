@@ -3,6 +3,14 @@ import './MacRepairs.scss';
 
 import MacBookCenter from '../../assets/macbook-service-center.avif';
 
+import FixMacStartUp from '../../assets/FixStartUp.jpeg';
+import NoPowerFix from '../../assets/NoPowerFix.jpeg';
+import ScreenReplacement from '../../assets/ScreenReplacement.jpeg';
+import KeyboardReplacement from '../../assets/KeyboardReplacement.jpeg';
+import MacBookSpill from '../../assets/SpillDamageRepair.jpeg';
+import HarddriveReplacement from '../../assets/HarddriveReplacement.jpeg';
+import RAMMemory from '../../assets/RAMMemoryUpgrade.jpeg';
+
 import ServiceCard from './MacScenarios';
 import ImageWithButton from './MacRepairMiddle';
 import MacServiceCard from './MacRepairCards';
@@ -65,22 +73,160 @@ const MacRepairPage = () => {
             <div className="mac-services-price-header">Mac Services and Prices - Walk-in Service</div>
             <div className="mac-services-price-grid">
                 <MacServiceCard
-                    imageUrl="https://placehold.co/300x200"
+                    image={FixMacStartUp}
                     altText="Fix Mac Startup"
                     title="Fix Mac Startup / Freezing"
                     priceRange="$85+"
                 />
                 <MacServiceCard
-                    imageUrl="https://placehold.co/300x200"
+                    image={NoPowerFix}
                     altText="MacBook Won't Power Up Fix"
                     title="MacBook Won't Power Up Fix"
                     priceRange="$85+"
                 />
                 <MacServiceCard
-                    imageUrl="https://placehold.co/300x200"
+                    image={ScreenReplacement}
                     altText="MacBook Screen Replacements"
                     title="MacBook Screen Replacements"
                     priceRange="$150 - $750"
+                />
+                <MacServiceCard
+                    image={KeyboardReplacement}
+                    altText="Keyboard Replacement"
+                    title="Keyboard Replacement"
+                    priceRange="$125 - $350"
+                />
+                <MacServiceCard
+                    image={MacBookSpill}
+                    altText="MacBook Spill Repairs"
+                    title="MacBook Spill Repairs"
+                    priceRange="$125+"
+                />
+                <MacServiceCard
+                    image={HarddriveReplacement}
+                    altText="MacBook Hard Drive Replacements & Upgrades"
+                    title="MacBook Hard Drive Replacements & Upgrades"
+                    priceRange="$125+"
+                />
+                <MacServiceCard
+                    image={RAMMemory}
+                    altText="RAM / Memory Upgrade"
+                    title="RAM / Memory Upgrade"
+                    priceRange="$50 - $200"
+                />
+                <MacServiceCard
+                    image="https://placehold.co/300x200"
+                    altText="DVD Drive Replacement"
+                    title="DVD Drive Replacement"
+                    priceRange="$125 - $195"
+                />
+                <MacServiceCard
+                    image="https://placehold.co/300x200"
+                    altText="Password Reset"
+                    title="Password Reset"
+                    priceRange="$85"
+                />
+                <MacServiceCard
+                    image="https://placehold.co/300x200"
+                    altText="Touchpad / Trackpad Replacement"
+                    title="Touchpad / Trackpad Replacement"
+                    priceRange="$150 - $350"
+                />
+                <MacServiceCard
+                    image="https://placehold.co/300x200"
+                    altText="Top Case Replacement"
+                    title="Top Case Replacement"
+                    priceRange="$125 - $450"
+                />
+                <MacServiceCard
+                    image="https://placehold.co/300x200"
+                    altText="Hinge Replacement"
+                    title="Hinge Replacement"
+                    priceRange="$125+"
+                />
+                <MacServiceCard
+                    image="https://placehold.co/300x200"
+                    altText="Battery Replacement"
+                    title="Battery Replacement"
+                    priceRange="$100 - $175"
+                />
+                <MacServiceCard
+                    image="https://placehold.co/300x200"
+                    altText="MacBook Logic Board Repairs"
+                    title="MacBook Logic Board Repairs"
+                    priceRange="$250 - $750"
+                />
+                <MacServiceCard
+                    image="https://placehold.co/300x200"
+                    altText="Power Adapter Replacement"
+                    title="Power Adapter Replacement"
+                    priceRange="$65 - $85"
+                />
+                <MacServiceCard
+                    image="https://placehold.co/300x200"
+                    altText="Jack / DC-In Board Replacement"
+                    title="Jack / DC-In Board Replacement"
+                    priceRange="$75 - $150"
+                />
+                <MacServiceCard
+                    image="https://placehold.co/300x200"
+                    altText="Logic Board Replacement"
+                    title="Logic Board Replacement"
+                    priceRange="$250 -$750"
+                />
+                <MacServiceCard
+                    image="https://placehold.co/300x200"
+                    altText="Install Windows On Mac"
+                    title="Install Windows On Mac"
+                    priceRange="$125"
+                />
+                <MacServiceCard
+                    image="https://placehold.co/300x200"
+                    altText="Windows / Mac Virus Removal"
+                    title="Windows / Mac Virus Removal"
+                    priceRange="$85 - $150"
+                />
+                <MacServiceCard
+                    image="https://placehold.co/300x200"
+                    altText="Mac Won’t Boot"
+                    title="Mac Won’t Boot"
+                    priceRange="$85+"
+                />
+                <MacServiceCard
+                    image="https://placehold.co/300x200"
+                    altText="Set Up New Mac"
+                    title="Set Up New Mac"
+                    priceRange="$85 - $150"
+                />
+                <MacServiceCard
+                    image="https://placehold.co/300x200"
+                    altText="Email And Internet Mac Repair"
+                    title="Email And Internet Mac Repair"
+                    priceRange="$125 - $250"
+                />
+                <MacServiceCard
+                    image="https://placehold.co/300x200"
+                    altText="Mac Upgrade"
+                    title="Mac Upgrade"
+                    priceRange="$50+"
+                />
+                <MacServiceCard
+                    image="https://placehold.co/300x200"
+                    altText="Mac Physical Damage Repair"
+                    title="Mac Physical Damage Repair"
+                    priceRange="$85+"
+                />
+                <MacServiceCard
+                    image="https://placehold.co/300x200"
+                    altText="Apple Software Support"
+                    title="Apple Software Support"
+                    priceRange="$85 - $150"
+                />
+                <MacServiceCard
+                    image="https://placehold.co/300x200"
+                    altText="MacBook Data Recovery"
+                    title="MacBook Data Recovery"
+                    priceRange="$85+"
                 />
             </div>
         </div>
