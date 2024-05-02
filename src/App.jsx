@@ -6,6 +6,8 @@ import About from './routes/About'
 import Services from './routes/Services'
 import Contact from './routes/Contact'
 import DataRecovery from './routes/DataRecovery'
+import MacBookHardDrive from './routes/MacBookHardDrive'
+import MacBookKeyBoard from './routes/MacBookKeyBoard'
 import MacFixStartUp from './routes/MacFixStartUp'
 import MacBookPower from './routes/MacBookPower'
 import MacBookScreen from './routes/MacBookScreen'
@@ -32,6 +34,8 @@ function App() {
         <Route path="/services" element={<Services/>}/>
         <Route path="/contact" element={<Contact/>}/>
         <Route path="/data-recovery" element={<DataRecovery/>}/>
+        <Route path="/macbook-hard-drive-replacement-upgrade" element={<MacBookHardDrive/>}/>
+        <Route path="/macbook-keyboard-replacement" element={<MacBookKeyBoard/>}/>
         <Route path="/macbook-start-up" element={<MacFixStartUp/>}/>
         <Route path="/macbook-power-up" element={<MacBookPower/>}/>
         <Route path="/macbook-screen" element={<MacBookScreen/>}/>

@@ -105,30 +105,35 @@ const MacRepairPage = () => {
                     altText="MacBook Won't Power Up Fix"
                     title="MacBook Won't Power Up Fix"
                     priceRange="$85+"
+                    linkUrl={'/macbook-power-up'}
                 />
                 <MacServiceCard
                     image={ScreenReplacement}
                     altText="MacBook Screen Replacements"
                     title="MacBook Screen Replacements"
                     priceRange="$150 - $750"
+                    linkUrl={'/macbook-screen'}
                 />
                 <MacServiceCard
                     image={KeyboardReplacement}
                     altText="Keyboard Replacement"
                     title="Keyboard Replacement"
                     priceRange="$125 - $350"
+                    linkUrl={'/macbook-keyboard-replacement'}
                 />
                 <MacServiceCard
                     image={MacBookSpill}
                     altText="MacBook Spill Repairs"
                     title="MacBook Spill Repairs"
                     priceRange="$125+"
+                    linkUrl={'/macbook-spill'}
                 />
                 <MacServiceCard
                     image={HarddriveReplacement}
                     altText="MacBook Hard Drive Replacements & Upgrades"
                     title="MacBook Hard Drive Replacements & Upgrades"
                     priceRange="$125+"
+                    linkUrl={'/macbook-hard-drive-replacement-upgrade'}
                 />
                 <MacServiceCard
                     image={RAMMemory}
