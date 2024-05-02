@@ -69,7 +69,7 @@ function Home () {
     <>
       <Navbar />
       <HeroTop 
-      className="hero"
+      cName="hero"
       heroImg={HomeImg}
       />
       <ExpandingCards data={images}/>

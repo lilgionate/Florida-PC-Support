@@ -98,6 +98,7 @@ const MacRepairPage = () => {
                     altText="Fix Mac Startup"
                     title="Fix Mac Startup / Freezing"
                     priceRange="$85+"
+                    linkUrl={'/macbook-start-up'}
                 />
                 <MacServiceCard
                     image={NoPowerFix}
