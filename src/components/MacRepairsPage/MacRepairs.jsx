@@ -147,12 +147,14 @@ const MacRepairPage = () => {
                     altText="DVD Drive Replacement"
                     title="DVD Drive Replacement"
                     priceRange="$125 - $195"
+                    linkUrl={'/macbook-dvd-drive-replacement'}
                 />
                 <MacServiceCard
                     image={PasswordReset}
                     altText="Password Reset"
                     title="Password Reset"
                     priceRange="$85"
+                    linkUrl={'/macbook-password-reset'}
                 />
                 <MacServiceCard
                     image={TouchpadTrackpad}

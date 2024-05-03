@@ -6,6 +6,8 @@ import About from './routes/About'
 import Services from './routes/Services'
 import Contact from './routes/Contact'
 import DataRecovery from './routes/DataRecovery'
+import MacBookPassword from './routes/MacBookPassword'
+import MacBookDvdDrive from './routes/MacBookDvdDrive'
 import MacBookRamMemory from './routes/MacBookRamMemory'
 import MacBookHardDrive from './routes/MacBookHardDrive'
 import MacBookKeyBoard from './routes/MacBookKeyBoard'
@@ -35,6 +37,8 @@ function App() {
         <Route path="/services" element={<Services/>}/>
         <Route path="/contact" element={<Contact/>}/>
         <Route path="/data-recovery" element={<DataRecovery/>}/>
+        <Route path="/macbook-password-reset" element={<MacBookPassword/>}/>
+        <Route path="/macbook-dvd-drive-replacement" element={<MacBookDvdDrive/>}/>
         <Route path="/macbook-ram-memory-upgrade" element={<MacBookRamMemory/>}/>
         <Route path="/macbook-hard-drive-replacement-upgrade" element={<MacBookHardDrive/>}/>
         <Route path="/macbook-keyboard-replacement" element={<MacBookKeyBoard/>}/>

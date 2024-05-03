@@ -140,7 +140,7 @@
 /*mac repairs card*/
 
 .mac-services-price-container {
-  width: 70rem;
+  width: 62rem;
   margin: 0 auto;
   padding: 3rem 1rem;
   margin-top: 3rem;
@@ -172,7 +172,7 @@
 .mac-services-price-grid {
   display: grid; /* grid */
   grid-template-columns: repeat(1, minmax(0, 1fr)); /* grid-cols-1 */
-  gap: 1.5rem; /* gap-6 */
+  gap: 1.8rem; /* gap-6 */
 }
 
 @media (min-width: 768px) {
@@ -183,21 +183,21 @@
 
 .mac-services-price-cards {
   background-color: #fff; /* bg-white */
-  border-radius: 0.5rem; /* rounded-lg */
+  border-radius: 0.1rem; /* rounded-lg */
   border: 1px solid rgba(98, 98, 98, 0.15);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15); /* shadow-lg */
-  padding: 1rem; /* p-4 */
 }
 
 .mac-services-price-img {
   width: 100%;
-  height: 200px;
-  border-radius: 0.5rem;
+  height: auto;
+  border-radius: 0.1rem 0.1rem 0 0 ;
 }
 
 .mac-services-price-title {
   font-size: 1.25rem;
-  font-weight: 600;
+  font-weight: 500;
+  padding: 0 30px;
   cursor: pointer;
 }
 
@@ -256,9 +256,4 @@
   padding: 0.55rem 1.5rem;
   border-radius: 1rem;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  transition: background-color 0.3s ease;
-}
-
-.overlay-text a:hover {
-  background-color: #1b436e; /* Darker shade of blue */
 }
