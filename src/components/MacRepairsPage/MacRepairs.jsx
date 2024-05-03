@@ -140,6 +140,7 @@ const MacRepairPage = () => {
                     altText="RAM / Memory Upgrade"
                     title="RAM / Memory Upgrade"
                     priceRange="$50 - $200"
+                    linkUrl={'/macbook-ram-memory-upgrade'}
                 />
                 <MacServiceCard
                     image={DVDDrive}
