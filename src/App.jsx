@@ -7,6 +7,7 @@ import Services from './routes/Services'
 import Contact from './routes/Contact'
 import DataRecovery from './routes/DataRecovery'
 
+import MacAppleSoftware from './routes/MacAppleSoftware'
 import MacPhysicalDamage from './routes/MacPhysicalDamage'
 import MacUpgrade from './routes/MacUpgrade'
 import MacEmailAndInternet from './routes/MacEmailAndInternet'
@@ -41,6 +42,7 @@ import WindowsHardDrive from './routes/WindowsHardDrive'
 import WindowsSpill from './routes/WindowsSpill'
 
 import MacRepairsPage from './routes/MacRepairsPage'
+import PcRepairPage from './routes/PcRepairsPage'
 
 function App() {
 
@@ -53,6 +55,7 @@ function App() {
         <Route path="/services" element={<Services/>}/>
         <Route path="/contact" element={<Contact/>}/>
         <Route path="/data-recovery" element={<DataRecovery/>}/>
+        <Route path="/mac-apple-software-support" element={<MacAppleSoftware/>}/>
         <Route path="/mac-physical-damage-repair" element={<MacPhysicalDamage/>}/>
         <Route path="/mac-upgrade" element={<MacUpgrade/>}/>
         <Route path="/mac-email-internet-repair" element={<MacEmailAndInternet/>}/>  
@@ -85,6 +88,7 @@ function App() {
         <Route path="/windows-pc-hard-drive-repair" element={<WindowsHardDrive/>}/> 
         <Route path="/windows-pc-spill-repair" element={<WindowsSpill/>}/>
         <Route path="/mac-repairs" element={<MacRepairsPage/>}/>
+        <Route path="/pc-repairs" element={<PcRepairPage/>}/>
       </Routes>
     </div>
   )

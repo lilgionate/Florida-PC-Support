@@ -266,6 +266,7 @@ const MacRepairPage = () => {
                     altText="Apple Software Support"
                     title="Apple Software Support"
                     priceRange="$85 - $150"
+                    linkUrl={'/mac-apple-software-support'}
                 />
                 <MacServiceCard
                     image={MacBookData}
