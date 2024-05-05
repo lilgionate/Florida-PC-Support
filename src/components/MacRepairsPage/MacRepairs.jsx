@@ -161,90 +161,105 @@ const MacRepairPage = () => {
                     altText="Touchpad / Trackpad Replacement"
                     title="Touchpad / Trackpad Replacement"
                     priceRange="$150 - $350"
+                    linkUrl={'/mac-touchpad-trackpad-replacement'}
                 />
                 <MacServiceCard
                     image={TopCase}
                     altText="Top Case Replacement"
                     title="Top Case Replacement"
                     priceRange="$125 - $450"
+                    linkUrl={'/mac-top-case-replacement'}
                 />
                 <MacServiceCard
                     image={HingeReplacement}
                     altText="Hinge Replacement"
                     title="Hinge Replacement"
                     priceRange="$125+"
+                    linkUrl={'/mac-hinge-replacement'}
                 />
                 <MacServiceCard
                     image={BatteryReplacement}
                     altText="Battery Replacement"
                     title="Battery Replacement"
                     priceRange="$100 - $175"
+                    linkUrl={'/macbook-battery'}
                 />
                 <MacServiceCard
                     image={LogicBoard}
                     altText="MacBook Logic Board Repairs"
                     title="MacBook Logic Board Repairs"
                     priceRange="$250 - $750"
+                    linkUrl={'/macbook-logic-board'}
                 />
                 <MacServiceCard
                     image={PowerAdapter}
                     altText="Power Adapter Replacement"
                     title="Power Adapter Replacement"
                     priceRange="$65 - $85"
+                    linkUrl={'/mac-power-adapter-replacement'}
                 />
                 <MacServiceCard
                     image={JackDCBoard}
                     altText="Jack / DC-In Board Replacement"
                     title="Jack / DC-In Board Replacement"
                     priceRange="$75 - $150"
+                    linkUrl={'/mac-jack-dc-board-replacement'}
                 />
                 <MacServiceCard
                     image={LogicBoardReplacement}
                     altText="Logic Board Replacement"
                     title="Logic Board Replacement"
                     priceRange="$250 -$750"
+                    linkUrl={'/mac-logic-board-replacement'}
                 />
                 <MacServiceCard
                     image={InstallWindows}
                     altText="Install Windows On Mac"
                     title="Install Windows On Mac"
                     priceRange="$125"
+                    linkUrl={'/install-windows-on-mac'}
                 />
                 <MacServiceCard
                     image={WindowsMacVirus}
                     altText="Windows / Mac Virus Removal"
                     title="Windows / Mac Virus Removal"
                     priceRange="$85 - $150"
+                    linkUrl={'/mac-virus-removal'}
                 />
                 <MacServiceCard
                     image={MacWontBoot}
                     altText="Mac Won’t Boot"
                     title="Mac Won’t Boot"
                     priceRange="$85+"
+                    linkUrl={'/mac-wont-boot-repair'}
                 />
                 <MacServiceCard
                     image={SetUpMac}
                     altText="Set Up New Mac"
                     title="Set Up New Mac"
                     priceRange="$85 - $150"
+                    linkUrl={'/mac-set-up-new'}
                 />
                 <MacServiceCard
                     image={EmailAndInternet}
                     altText="Email And Internet Mac Repair"
                     title="Email And Internet Mac Repair"
                     priceRange="$125 - $250"
+                    linkUrl={'/mac-email-internet-repair'}
                 />
                 <MacServiceCard
                     image={MacUpgrade}
                     altText="Mac Upgrade"
                     title="Mac Upgrade"
                     priceRange="$50+"
+                    linkUrl={'/mac-upgrade'}
                 />
                 <MacServiceCard
                     image={DamageRepair}
                     altText="Mac Physical Damage Repair"
                     title="Mac Physical Damage Repair"
                     priceRange="$85+"
+                    linkUrl={'/mac-physical-damage-repair'}
                 />
                 <MacServiceCard
                     image={AppleSoftware}
@@ -257,6 +272,7 @@ const MacRepairPage = () => {
                     altText="MacBook Data Recovery"
                     title="MacBook Data Recovery"
                     priceRange="$85+"
+                    linkUrl={'/macbook-data'}
                 />
             </div>
         </div>

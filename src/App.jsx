@@ -6,6 +6,19 @@ import About from './routes/About'
 import Services from './routes/Services'
 import Contact from './routes/Contact'
 import DataRecovery from './routes/DataRecovery'
+
+import MacPhysicalDamage from './routes/MacPhysicalDamage'
+import MacUpgrade from './routes/MacUpgrade'
+import MacEmailAndInternet from './routes/MacEmailAndInternet'
+import MacSetUp from './routes/MacSetUp'
+import MacWontBoot from './routes/MacWontBoot'
+import MacVirus from './routes/MacVirus'
+import MacInstallWindows from './routes/MacInstallWindows'
+import MacJackDcBoard from './routes/MacJackDcBoard'
+import MacPowerAdapter from './routes/MacPowerAdapter'
+import MacHinge from './routes/MacHinge'
+import MacTopCase from './routes/MacTopCase'
+import MacBookTouchpadTrackpad from './routes/MacBookTouchpadTrackpad'
 import MacBookPassword from './routes/MacBookPassword'
 import MacBookDvdDrive from './routes/MacBookDvdDrive'
 import MacBookRamMemory from './routes/MacBookRamMemory'
@@ -17,13 +30,16 @@ import MacBookScreen from './routes/MacBookScreen'
 import MacBookSpill from './routes/MacBookSpill'  
 import MacBookBattery from './routes/MacBookBattery'
 import MacBookData from './routes/MacBookData'
+import MacLogicBoard from './routes/MacLogicBoard'
 import MacBookLogic from './routes/MacBookLogic'
+
 import WindowsPower from './routes/WindowsPower'
 import WindowsScreen from './routes/WindowsScreen' 
 import WindowsData from './routes/WindowsData'
 import WindowsSlowPC from './routes/WindowsSlowPC'
 import WindowsHardDrive from './routes/WindowsHardDrive' 
 import WindowsSpill from './routes/WindowsSpill'
+
 import MacRepairsPage from './routes/MacRepairsPage'
 
 function App() {
@@ -37,6 +53,19 @@ function App() {
         <Route path="/services" element={<Services/>}/>
         <Route path="/contact" element={<Contact/>}/>
         <Route path="/data-recovery" element={<DataRecovery/>}/>
+        <Route path="/mac-physical-damage-repair" element={<MacPhysicalDamage/>}/>
+        <Route path="/mac-upgrade" element={<MacUpgrade/>}/>
+        <Route path="/mac-email-internet-repair" element={<MacEmailAndInternet/>}/>  
+        <Route path="/mac-set-up-new" element={<MacSetUp/>}/>
+        <Route path="/mac-wont-boot-repair" element={<MacWontBoot/>}/>
+        <Route path="/mac-virus-removal" element={<MacVirus/>}/>
+        <Route path="/install-windows-on-mac" element={<MacInstallWindows/>}/>
+        <Route path="/mac-logic-board-replacement" element={<MacLogicBoard/>}/>
+        <Route path="/mac-jack-dc-board-replacement" element={<MacJackDcBoard/>}/>
+        <Route path="/mac-power-adapter-replacement" element={<MacPowerAdapter/>}/>
+        <Route path="/mac-hinge-replacement" element={<MacHinge/>}/>
+        <Route path="/mac-top-case-replacement" element={<MacTopCase/>}/>
+        <Route path="/mac-touchpad-trackpad-replacement" element={<MacBookTouchpadTrackpad/>}/>
         <Route path="/macbook-password-reset" element={<MacBookPassword/>}/>
         <Route path="/macbook-dvd-drive-replacement" element={<MacBookDvdDrive/>}/>
         <Route path="/macbook-ram-memory-upgrade" element={<MacBookRamMemory/>}/>

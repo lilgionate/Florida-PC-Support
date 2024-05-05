@@ -13,14 +13,13 @@ const commonFixes = [
 ];
 
 const commonProcess = [
-    'Spinning wheel',
-    'Clicking hard drive',
-    'Flashing question mark',
-    'Start-up error',
-    'MacBook spill',
-    'Kernel panic',
-    'Accidentally deleted files',
-    'MacBook drop/fall'
+    'Bring over your Mac in question.',
+    'Get a free data recovery flat fee cost along with an estimate of time.',
+    'Decide if you’d like to proceed.',
+    'If not, there’s no charge.',
+    'If you approve, we proceed with the Mac data recovery service.',
+    'Expect it to be ready the same day up to 3-5 days as our typical response time.',
+    'If we cannot recover your Mac hard drive files, there is no charge.'
   ];
 
 const TableRow = ({ title, cost }) => (
