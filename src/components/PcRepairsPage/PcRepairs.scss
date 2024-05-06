@@ -55,3 +55,58 @@
     border: 1px solid #1b436e;
   }
 
+/* PCSupportedIssuesList */
+
+.pc-supported-header {
+    text-align: center;
+    padding-top: 6rem;
+    padding-bottom: 1rem;
+    font-size: 1.8rem;
+    font-weight: 600;
+  }
+  
+
+.pc-supported-issues-list {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 4px;
+    font-size: 1.1rem;
+    font-weight: 400; /* Adjust font size as needed */
+    place-items: center;
+    padding: 0 15rem;
+    line-height: 1; 
+  }
+  
+  @media (min-width: 768px) {
+    .pc-supported-issues-list {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+.pc-issues-text {
+    color: #333;
+    font-size: 1.3rem;
+    font-weight: 700;/* Adjust color code as needed */
+  }
+  
+
+  /*pc service container*/
+
+  .pc-repair-service-container {
+    width: 82%;
+    margin: 0 auto;
+}
+
+.pc-repair-service-heading {
+    font-size: 1.8rem;
+    font-weight: 600;
+    text-align: center;
+    padding: 6rem 0 1rem 0;
+}
+
+.pc-repair-service-paragraph {
+    font-size: 1rem;
+    text-align: center;
+    line-height: 2;
+    font-size: 1.03rem;
+}
