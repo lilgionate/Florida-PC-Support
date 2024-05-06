@@ -1,7 +1,7 @@
 import React from 'react'; 
 import './PcRepairs.scss';
 
-import MacBookCenter from '../../assets/macbook-service-center.avif';
+import MacBookCenter from '../../assets/pc-service-center.jpg';
 
 
 const PcRepairPage = () => {
@@ -23,6 +23,8 @@ const PcRepairPage = () => {
                 <img src={MacBookCenter} alt="Pc Repair Image" className='PcImg'/>
             </div>
         </div>
+
+        
         </>
 )}
 
