@@ -93,7 +93,7 @@
   /*pc service container*/
 
   .pc-repair-service-container {
-    width: 82%;
+    width: 85%;
     margin: 0 auto;
 }
 
@@ -107,6 +107,57 @@
 .pc-repair-service-paragraph {
     font-size: 1rem;
     text-align: center;
-    line-height: 2;
+    line-height: 1.85;
     font-size: 1.03rem;
+}
+
+
+/*split repair content*/
+
+.pc-repair-split-heading-one {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 4px;
+  line-height: 1.25;
+}
+
+.pc-repair-split-heading-two {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 4px;
+  padding-top: 1rem;
+  line-height: 1.25;
+}
+
+.pc-repair-split-paragraph {
+  margin-bottom: 4px;
+  line-height: 1.85;
+}
+
+.pc-repair-split-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 6rem 0;
+}
+
+.pc-repair-split-content {
+  width: 50%;
+  padding: 0 30px;
+}
+
+.pc-repair-split-img {
+  width: 50%;
+}
+
+@media (max-width: 768px) {
+  .pc-repair-split-img {
+      width: 50%;
+  }
+}
+
+
+.pc-repair-split-image {
+  width: 100%;
+  height: 110vh;
+  object-fit: cover;
 }
