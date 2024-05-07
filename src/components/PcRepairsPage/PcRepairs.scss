@@ -117,15 +117,15 @@
 .pc-repair-split-heading-one {
   font-size: 1.8rem;
   font-weight: 600;
-  margin-bottom: 4px;
+  margin-bottom: 3px;
   line-height: 1.25;
 }
 
 .pc-repair-split-heading-two {
   font-size: 1.8rem;
   font-weight: 600;
-  margin-bottom: 4px;
-  padding-top: 1rem;
+  margin-bottom: 3px;
+  padding-top: 1.2rem;
   line-height: 1.25;
 }
 
@@ -160,4 +160,124 @@
   width: 100%;
   height: 110vh;
   object-fit: cover;
+}
+
+
+/*mac repairs card*/
+
+.pc-services-price-container {
+  width: 62rem;
+  margin: 0 auto;
+  padding: 3rem 1rem;
+  margin-top: 3rem;
+  text-align: center;
+}
+
+@media (min-width: 640px) {
+  .pc-services-price-container {
+    padding-left: 1.5rem; /* sm:px-6 */
+    padding-right: 1.5rem; /* sm:px-6 */
+  }
+}
+
+@media (min-width: 1024px) {
+  .pc-services-price-container {
+    padding-left: 2rem; /* lg:px-8 */
+    padding-right: 2rem; /* lg:px-8 */
+  }
+}
+
+
+.pc-services-price-header {
+  font-size: 1.875rem; /* text-3xl */
+  font-weight: 700; /* font-bold */
+  text-align: center; /* text-center */
+  margin-bottom: 3rem; /* mb-10 */
+}
+
+.pc-services-price-grid {
+  display: grid; /* grid */
+  grid-template-columns: repeat(3, minmax(0, 1fr)); /* grid-cols-1 */
+  gap: 1.8rem; /* gap-6 */
+}
+
+@media (max-width: 768px) {
+  .pc-services-price-grid {
+    grid-template-columns: repeat(1, minmax(0, 1fr)); /* md:grid-cols-3 */
+  }
+}
+
+.pc-services-price-cards {
+  background-color: #fff; /* bg-white */
+  border-radius: 0.1rem; /* rounded-lg */
+  border: 1px solid rgba(98, 98, 98, 0.15);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15); /* shadow-lg */
+}
+
+.mac-services-price-img {
+  width: 100%;
+  height: auto;
+  border-radius: 0.1rem 0.1rem 0 0 ;
+}
+
+.mac-services-price-title {
+  font-size: 1.25rem;
+  font-weight: 500;
+  padding: 0 30px;
+  cursor: pointer;
+}
+
+.mac-services-price {
+  color: #4a5568; /* text-zinc-600 */
+}
+
+
+
+/*hero bottom*/
+
+.macbook-repair-bottom-container {
+  position: relative;
+  background-color: #0b5c93; /* Blue color */
+  color: #ffffff; /* White text */
+}
+
+
+.mac-repair-img {
+  width: 100%;
+  height: 475px;
+  object-fit: cover;
+  filter: brightness(60%);
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.overlay-text {
+  text-align: center;
+ 
+}
+
+.overlay-text h1 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  color: #ffffff;
+}
+
+.overlay-text a {
+  background-color: #ffffff; /* Blue color */
+  color: rgba(0, 0, 0, 0.5); /* White text */
+  font-weight: 400;
+  padding: 0.55rem 1.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
