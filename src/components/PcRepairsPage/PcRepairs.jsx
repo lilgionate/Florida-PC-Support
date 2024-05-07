@@ -3,6 +3,8 @@ import './PcRepairs.scss';
 
 import PCSplitImg from '../../assets/pc-split-img.avif';
 
+import PCFooter from '../../assets/pc-page-footer.jpg'
+
 import MacBookCenter from '../../assets/pc-service-center.jpg';
 
 import CommonIssuesList from './SupportedPcIssues';
@@ -56,170 +58,170 @@ const PcRepairPage = () => {
 
 
     <div className="pc-services-price-container">
-            <div className="pc-services-price-header">Mac Services and Prices - Walk-in Service</div>
+            <div className="pc-services-price-header">Services and prices for Walk-in Service</div>
             <div className="pc-services-price-grid">
                 <MacServiceCard
                     image=""
-                    altText="MacBook Spill Repairs"
-                    title="MacBook Spill Repairs"
-                    priceRange="$125+"
+                    altText="PC Hard Drive Replacements And Upgrades"
+                    title="PC Hard Drive Replacements And Upgrades"
+                    priceRange="$210+"
                     linkUrl={'/macbook-spill'}
                 />
                 <MacServiceCard
                     image=""
-                    altText="MacBook Hard Drive Replacements & Upgrades"
-                    title="MacBook Hard Drive Replacements & Upgrades"
+                    altText="Slow PC Issue"
+                    title="Slow PC Issue"
                     priceRange="$125+"
                     linkUrl={'/macbook-hard-drive-replacement-upgrade'}
                 />
                 <MacServiceCard
                     image=""
-                    altText="RAM / Memory Upgrade"
-                    title="RAM / Memory Upgrade"
-                    priceRange="$50 - $200"
+                    altText="Windows Laptop Screen Replacements"
+                    title="Windows Laptop Screen Replacements"
+                    priceRange="$125 - $450"
                     linkUrl={'/macbook-ram-memory-upgrade'}
                 />
                 <MacServiceCard
                     image=""
-                    altText="DVD Drive Replacement"
-                    title="DVD Drive Replacement"
-                    priceRange="$125 - $195"
+                    altText="Windows / PC Won’t Start Fix"
+                    title="Windows / PC Won’t Start Fix"
+                    priceRange="$45+"
                     linkUrl={'/macbook-dvd-drive-replacement'}
                 />
                 <MacServiceCard
                     image=""
-                    altText="Password Reset"
-                    title="Password Reset"
-                    priceRange="$85"
+                    altText="Windows Data Recovery"
+                    title="Windows Data Recovery"
+                    priceRange="Typically $85 – $250. Lab Recovery Service: $950+"
                     linkUrl={'/macbook-password-reset'}
                 />
                 <MacServiceCard
                     image=""
-                    altText="Touchpad / Trackpad Replacement"
-                    title="Touchpad / Trackpad Replacement"
-                    priceRange="$150 - $350"
+                    altText="Windows Virtual Machine Setup"
+                    title="Windows Virtual Machine Setup"
+                    priceRange="$85 - $150"
                     linkUrl={'/mac-touchpad-trackpad-replacement'}
                 />
                 <MacServiceCard
                     image=""
-                    altText="Top Case Replacement"
-                    title="Top Case Replacement"
-                    priceRange="$125 - $450"
+                    altText="Windows 10 Repair"
+                    title="Windows 10 Repair"
+                    priceRange="$85 - $150"
                     linkUrl={'/mac-top-case-replacement'}
                 />
                 <MacServiceCard
                     image=""
-                    altText="Hinge Replacement"
-                    title="Hinge Replacement"
-                    priceRange="$125+"
+                    altText="Windows 8 Repair"
+                    title="Windows 8 Repair"
+                    priceRange="$85 - $150"
                     linkUrl={'/mac-hinge-replacement'}
                 />
                 <MacServiceCard
                     image=""
-                    altText="Battery Replacement"
-                    title="Battery Replacement"
-                    priceRange="$100 - $175"
+                    altText="Windows 7 Repair"
+                    title="Windows 7 Repair"
+                    priceRange="$85 - $150"
                     linkUrl={'/macbook-battery'}
                 />
                 <MacServiceCard
                     image=""
-                    altText="MacBook Logic Board Repairs"
-                    title="MacBook Logic Board Repairs"
-                    priceRange="$250 - $750"
+                    altText="Windows Vista Repair"
+                    title="Windows Vista Repair"
+                    priceRange="$85 - $150"
                     linkUrl={'/macbook-logic-board'}
                 />
                 <MacServiceCard
                     image=""
-                    altText="Power Adapter Replacement"
-                    title="Power Adapter Replacement"
-                    priceRange="$65 - $85"
+                    altText="PC Physical Damage Repair"
+                    title="PC Physical Damage Repair"
+                    priceRange="$85+"
                     linkUrl={'/mac-power-adapter-replacement'}
                 />
                 <MacServiceCard
                     image=""
-                    altText="Jack / DC-In Board Replacement"
-                    title="Jack / DC-In Board Replacement"
-                    priceRange="$75 - $150"
+                    altText="PC Upgrade"
+                    title="PC Upgrade"
+                    priceRange="$85+"
                     linkUrl={'/mac-jack-dc-board-replacement'}
                 />
                 <MacServiceCard
                     image=""
-                    altText="Logic Board Replacement"
-                    title="Logic Board Replacement"
-                    priceRange="$250 -$750"
+                    altText="Laptop Power Jack Repair"
+                    title="Laptop Power Jack Repair"
+                    priceRange="$125 - $250"
                     linkUrl={'/mac-logic-board-replacement'}
                 />
                 <MacServiceCard
                     image=""
-                    altText="Install Windows On Mac"
-                    title="Install Windows On Mac"
-                    priceRange="$125"
+                    altText="Laptop Spill Repair"
+                    title="Laptop Spill Repair"
+                    priceRange="$85+"
                     linkUrl={'/install-windows-on-mac'}
                 />
                 <MacServiceCard
                     image=""
-                    altText="Windows / Mac Virus Removal"
-                    title="Windows / Mac Virus Removal"
-                    priceRange="$85 - $150"
+                    altText="Set Up New PC"
+                    title="Set Up New PC"
+                    priceRange="$85 - $125"
                     linkUrl={'/mac-virus-removal'}
                 />
                 <MacServiceCard
                     image=""
-                    altText="Mac Won’t Boot"
-                    title="Mac Won’t Boot"
-                    priceRange="$85+"
+                    altText="PC Tune-Up"
+                    title="PC Tune-Up"
+                    priceRange="$85"
                     linkUrl={'/mac-wont-boot-repair'}
                 />
                 <MacServiceCard
                     image=""
-                    altText="Set Up New Mac"
-                    title="Set Up New Mac"
-                    priceRange="$85 - $150"
+                    altText="PC Runs Loud And Noisy"
+                    title="PC Runs Loud And Noisy"
+                    priceRange="$85 - $175"
                     linkUrl={'/mac-set-up-new'}
                 />
                 <MacServiceCard
                     image=""
-                    altText="Email And Internet Mac Repair"
-                    title="Email And Internet Mac Repair"
-                    priceRange="$125 - $250"
+                    altText="Blue Screen PC Error"
+                    title="Blue Screen PC Error"
+                    priceRange="$85+"
                     linkUrl={'/mac-email-internet-repair'}
                 />
                 <MacServiceCard
                     image=""
-                    altText="Mac Upgrade"
-                    title="Mac Upgrade"
-                    priceRange="$50+"
+                    altText="No Email / Internet"
+                    title="No Email / Internet"
+                    priceRange="$85 - $125"
                     linkUrl={'/mac-upgrade'}
                 />
                 <MacServiceCard
                     image=""
-                    altText="Mac Physical Damage Repair"
-                    title="Mac Physical Damage Repair"
+                    altText="PC Shuts Off /Overheats"
+                    title="PC Shuts Off /Overheats"
                     priceRange="$85+"
                     linkUrl={'/mac-physical-damage-repair'}
                 />
                 <MacServiceCard
                     image=""
-                    altText="Apple Software Support"
-                    title="Apple Software Support"
-                    priceRange="$85 - $150"
+                    altText="Laptop Keyboard Replacement"
+                    title="Laptop Keyboard Replacement"
+                    priceRange="$85 - $250"
                     linkUrl={'/mac-apple-software-support'}
                 />
                 <MacServiceCard
                     image=""
-                    altText="MacBook Data Recovery"
-                    title="MacBook Data Recovery"
-                    priceRange="$85+"
+                    altText="PC Virus Removal"
+                    title="PC Virus Removal"
+                    priceRange="$85 - $150"
                     linkUrl={'/macbook-data'}
                 />
             </div>
         </div>
 
-        <div className="macbook-repair-bottom-container">
-            <img src="" alt="Mac Repair" className="mac-repair-img" />
+        <div className="pc-repair-bottom-container">
+            <img src={PCFooter} alt="Mac Repair" className="pc-repair-img" />
             <div className="overlay">
                 <div className="overlay-text">
-                    <h1>Need Your Mac Repaired?</h1>
+                    <h1>Need Your PC Repaired?</h1>
                     <a href="#" >Get a free diagnostic</a>
                 </div>
             </div>

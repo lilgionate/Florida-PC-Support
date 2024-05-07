@@ -168,8 +168,7 @@
 .pc-services-price-container {
   width: 62rem;
   margin: 0 auto;
-  padding: 3rem 1rem;
-  margin-top: 3rem;
+  padding: 0 1rem 3rem 1rem;
   text-align: center;
 }
 
@@ -214,20 +213,20 @@
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15); /* shadow-lg */
 }
 
-.mac-services-price-img {
+.pc-services-price-img {
   width: 100%;
   height: auto;
   border-radius: 0.1rem 0.1rem 0 0 ;
 }
 
-.mac-services-price-title {
+.pc-services-price-title {
   font-size: 1.25rem;
   font-weight: 500;
   padding: 0 30px;
   cursor: pointer;
 }
 
-.mac-services-price {
+.pc-services-price {
   color: #4a5568; /* text-zinc-600 */
 }
 
@@ -235,14 +234,14 @@
 
 /*hero bottom*/
 
-.macbook-repair-bottom-container {
+.pc-repair-bottom-container {
   position: relative;
   background-color: #0b5c93; /* Blue color */
   color: #ffffff; /* White text */
 }
 
 
-.mac-repair-img {
+.pc-repair-img {
   width: 100%;
   height: 475px;
   object-fit: cover;
