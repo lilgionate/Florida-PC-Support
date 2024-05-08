@@ -15,6 +15,24 @@ import PCHardDrive from '../../assets/PCHardDriveRepair.jpeg';
 import SlowPCIssues from '../../assets/SlowPCIssues.jpeg';
 import BrokenScreen from '../../assets/BrokenLaptopScreen.jpeg';
 import PCWontstart from '../../assets/PCWontStart1.jpg';
+import DataRecovery from '../../assets/DataRecovery3.jpeg';
+import WindowsVitrual from '../../assets/WindowsVirtualMachine.jpeg';
+import Windows10 from '../../assets/Windows10RepairServices.jpeg';
+import Windows8 from '../../assets/Windows8Repair.jpeg';
+import Windows7 from '../../assets/windows7.jpg';
+import WindowsVista from '../../assets/windowsvista.jpg';
+import PCPhysicalDamage from '../../assets/PCPhysicalDamageRepair.jpeg';
+import PCUpgrade from '../../assets/PCUpgrade.jpeg';
+import LaptopPowerJack from '../../assets/LaptopPowerJackRepair.jpeg';
+import LaptopSpill from '../../assets/LaptopSpillRepair.jpeg';
+import SetUpNewPC from '../../assets/SetupNewPC.jpeg';
+import SlowPCIssues2 from '../../assets/SlowPCIssues.jpeg';
+import PCRunsLoud from '../../assets/PCRunsLoudAndNoisy.jpeg';
+import BlueScreen from '../../assets/BlueScreenPCError.jpeg';
+import NoEmailInternet from '../../assets/NoEmailInternet.jpeg';
+import PCShutOff from '../../assets/PCShutsOffOverheats.jpeg';
+import LaptopKeyboard from '../../assets/LaptopKeyboardReplacement.jpeg';
+import VirusRemoval from '../../assets/VirusRemoval.jpg';
 
 const PcRepairPage = () => {
     return (
@@ -94,126 +112,126 @@ const PcRepairPage = () => {
                     linkUrl={'/macbook-dvd-drive-replacement'}
                 />
                 <MacServiceCard
-                    image=""
+                    image={DataRecovery}
                     altText="Windows Data Recovery"
                     title="Windows Data Recovery"
                     priceRange="Typically $85 – $250. Lab Recovery Service: $950+"
                     linkUrl={'/macbook-password-reset'}
                 />
                 <MacServiceCard
-                    image=""
+                    image={WindowsVitrual}
                     altText="Windows Virtual Machine Setup"
                     title="Windows Virtual Machine Setup"
                     priceRange="$85 - $150"
                     linkUrl={'/mac-touchpad-trackpad-replacement'}
                 />
                 <MacServiceCard
-                    image=""
+                    image={Windows10}
                     altText="Windows 10 Repair"
                     title="Windows 10 Repair"
                     priceRange="$85 - $150"
                     linkUrl={'/mac-top-case-replacement'}
                 />
                 <MacServiceCard
-                    image=""
+                    image={Windows8}
                     altText="Windows 8 Repair"
                     title="Windows 8 Repair"
                     priceRange="$85 - $150"
                     linkUrl={'/mac-hinge-replacement'}
                 />
                 <MacServiceCard
-                    image=""
+                    image={Windows7}
                     altText="Windows 7 Repair"
                     title="Windows 7 Repair"
                     priceRange="$85 - $150"
                     linkUrl={'/macbook-battery'}
                 />
                 <MacServiceCard
-                    image=""
+                    image={WindowsVista}
                     altText="Windows Vista Repair"
                     title="Windows Vista Repair"
                     priceRange="$85 - $150"
                     linkUrl={'/macbook-logic-board'}
                 />
                 <MacServiceCard
-                    image=""
+                    image={PCPhysicalDamage}
                     altText="PC Physical Damage Repair"
                     title="PC Physical Damage Repair"
                     priceRange="$85+"
                     linkUrl={'/mac-power-adapter-replacement'}
                 />
                 <MacServiceCard
-                    image=""
+                    image={PCUpgrade}
                     altText="PC Upgrade"
                     title="PC Upgrade"
                     priceRange="$85+"
                     linkUrl={'/mac-jack-dc-board-replacement'}
                 />
                 <MacServiceCard
-                    image=""
+                    image={LaptopPowerJack}
                     altText="Laptop Power Jack Repair"
                     title="Laptop Power Jack Repair"
                     priceRange="$125 - $250"
                     linkUrl={'/mac-logic-board-replacement'}
                 />
                 <MacServiceCard
-                    image=""
+                    image={LaptopSpill}
                     altText="Laptop Spill Repair"
                     title="Laptop Spill Repair"
                     priceRange="$85+"
                     linkUrl={'/install-windows-on-mac'}
                 />
                 <MacServiceCard
-                    image=""
+                    image={SetUpNewPC}
                     altText="Set Up New PC"
                     title="Set Up New PC"
                     priceRange="$85 - $125"
                     linkUrl={'/mac-virus-removal'}
                 />
                 <MacServiceCard
-                    image=""
+                    image={SlowPCIssues2}
                     altText="PC Tune-Up"
                     title="PC Tune-Up"
                     priceRange="$85"
                     linkUrl={'/mac-wont-boot-repair'}
                 />
                 <MacServiceCard
-                    image=""
+                    image={PCRunsLoud}
                     altText="PC Runs Loud And Noisy"
                     title="PC Runs Loud And Noisy"
                     priceRange="$85 - $175"
                     linkUrl={'/mac-set-up-new'}
                 />
                 <MacServiceCard
-                    image=""
+                    image={BlueScreen}
                     altText="Blue Screen PC Error"
                     title="Blue Screen PC Error"
                     priceRange="$85+"
                     linkUrl={'/mac-email-internet-repair'}
                 />
                 <MacServiceCard
-                    image=""
+                    image={NoEmailInternet}
                     altText="No Email / Internet"
                     title="No Email / Internet"
                     priceRange="$85 - $125"
                     linkUrl={'/mac-upgrade'}
                 />
                 <MacServiceCard
-                    image=""
+                    image={PCShutOff}
                     altText="PC Shuts Off /Overheats"
                     title="PC Shuts Off /Overheats"
                     priceRange="$85+"
                     linkUrl={'/mac-physical-damage-repair'}
                 />
                 <MacServiceCard
-                    image=""
+                    image={LaptopKeyboard}
                     altText="Laptop Keyboard Replacement"
                     title="Laptop Keyboard Replacement"
                     priceRange="$85 - $250"
                     linkUrl={'/mac-apple-software-support'}
                 />
                 <MacServiceCard
-                    image=""
+                    image={VirusRemoval}
                     altText="PC Virus Removal"
                     title="PC Virus Removal"
                     priceRange="$85 - $150"
