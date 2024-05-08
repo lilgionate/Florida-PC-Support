@@ -11,6 +11,11 @@ import CommonIssuesList from './SupportedPcIssues';
 
 import MacServiceCard from './PcRepairCards';
 
+import PCHardDrive from '../../assets/PCHardDriveRepair.jpeg';
+import SlowPCIssues from '../../assets/SlowPCIssues.jpeg';
+import BrokenScreen from '../../assets/BrokenLaptopScreen.jpeg';
+import PCWontstart from '../../assets/PCWontStart1.jpg';
+
 const PcRepairPage = () => {
     return (
         <>
@@ -61,28 +66,28 @@ const PcRepairPage = () => {
             <div className="pc-services-price-header">Services and prices for Walk-in Service</div>
             <div className="pc-services-price-grid">
                 <MacServiceCard
-                    image=""
+                    image={PCHardDrive}
                     altText="PC Hard Drive Replacements And Upgrades"
                     title="PC Hard Drive Replacements And Upgrades"
                     priceRange="$210+"
                     linkUrl={'/macbook-spill'}
                 />
                 <MacServiceCard
-                    image=""
+                    image={SlowPCIssues}
                     altText="Slow PC Issue"
                     title="Slow PC Issue"
                     priceRange="$125+"
                     linkUrl={'/macbook-hard-drive-replacement-upgrade'}
                 />
                 <MacServiceCard
-                    image=""
+                    image={BrokenScreen}
                     altText="Windows Laptop Screen Replacements"
                     title="Windows Laptop Screen Replacements"
                     priceRange="$125 - $450"
                     linkUrl={'/macbook-ram-memory-upgrade'}
                 />
                 <MacServiceCard
-                    image=""
+                    image={PCWontstart}
                     altText="Windows / PC Won’t Start Fix"
                     title="Windows / PC Won’t Start Fix"
                     priceRange="$45+"
