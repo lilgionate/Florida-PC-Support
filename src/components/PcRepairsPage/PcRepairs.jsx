@@ -193,49 +193,49 @@ const PcRepairPage = () => {
                     altText="PC Tune-Up"
                     title="PC Tune-Up"
                     priceRange="$85"
-                    linkUrl={'/mac-wont-boot-repair'}
+                    linkUrl={'/windows-pc-tune-up'}
                 />
                 <MacServiceCard
                     image={PCRunsLoud}
                     altText="PC Runs Loud And Noisy"
                     title="PC Runs Loud And Noisy"
                     priceRange="$85 - $175"
-                    linkUrl={'/mac-set-up-new'}
+                    linkUrl={'/windows-pc-runs-loud-noisy'}
                 />
                 <MacServiceCard
                     image={BlueScreen}
                     altText="Blue Screen PC Error"
                     title="Blue Screen PC Error"
                     priceRange="$85+"
-                    linkUrl={'/mac-email-internet-repair'}
+                    linkUrl={'/windows-pc-blue-screen-error'}
                 />
                 <MacServiceCard
                     image={NoEmailInternet}
                     altText="No Email / Internet"
                     title="No Email / Internet"
                     priceRange="$85 - $125"
-                    linkUrl={'/mac-upgrade'}
+                    linkUrl={'/windows-pc-no-email-internet'}
                 />
                 <MacServiceCard
                     image={PCShutOff}
                     altText="PC Shuts Off /Overheats"
                     title="PC Shuts Off /Overheats"
                     priceRange="$85+"
-                    linkUrl={'/mac-physical-damage-repair'}
+                    linkUrl={'/windows-pc-shut-off-overheats'}
                 />
                 <MacServiceCard
                     image={LaptopKeyboard}
                     altText="Laptop Keyboard Replacement"
                     title="Laptop Keyboard Replacement"
                     priceRange="$85 - $250"
-                    linkUrl={'/mac-apple-software-support'}
+                    linkUrl={'/windows-pc-Laptop-keyboard-replacement'}
                 />
                 <MacServiceCard
                     image={VirusRemoval}
                     altText="PC Virus Removal"
                     title="PC Virus Removal"
                     priceRange="$85 - $150"
-                    linkUrl={'/macbook-data'}
+                    linkUrl={'/windows-pc-virus-removal'}
                 />
             </div>
         </div>

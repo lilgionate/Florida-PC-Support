@@ -49,6 +49,13 @@ import WindowsPhysicalDamage from './routes/WindowsPhysicalDamage'
 import WindowsUpgrade from './routes/WindowsUpgrade'
 import WindowsLaptopPowerJack from './routes/WindowsLaptopPowerJack'
 import WindowsSetup from './routes/WindowsSetup'
+import WindowsTune from './routes/WindowsTune'
+import WindowsRunsLoud from './routes/WindowsRunsLoud'
+import WindowsBlueScreen from './routes/WindowsBlueScreen' 
+import WindowsNoEmailInternet from './routes/WindowsNoEmailInternet' 
+import WindowsShutOffOverheats from './routes/WindowsShutOffOverheats'
+import WindowsLaptopKeyboard from './routes/WindowsLaptopKeyboard'
+import WindowsVirusRemoval from './routes/WindowsVirusRemoval'
 
 
 import MacRepairsPage from './routes/MacRepairsPage'
@@ -103,6 +110,13 @@ function App() {
         <Route path="/windows-vista-repair" element={<WindowsVista/>}/>
         <Route path="/windows-pc-upgrade" element={<WindowsUpgrade/>}/>
         <Route path="/windows-pc-new-setup" element={<WindowsSetup/>}/>
+        <Route path="/windows-pc-tune-up" element={<WindowsTune/>}/>
+        <Route path="/windows-pc-virus-removal" element={<WindowsVirusRemoval/>}/>
+        <Route path="/windows-pc-shut-off-overheats" element={<WindowsShutOffOverheats/>}/>
+        <Route path="/windows-pc-no-email-internet" element={<WindowsNoEmailInternet/>}/>
+        <Route path="/windows-pc-blue-screen-error" element={<WindowsBlueScreen/>}/>
+        <Route path="/windows-pc-runs-loud-noisy" element={<WindowsRunsLoud/>}/>
+        <Route path="/windows-pc-Laptop-keyboard-replacement" element={<WindowsLaptopKeyboard/>}/>
         <Route path="/windows-pc-laptop-power-jack-repair" element={<WindowsLaptopPowerJack/>}/>
         <Route path="/windows-pc-physical-damage-repair" element={<WindowsPhysicalDamage/>}/>
         <Route path="/windows-pc-virtual-machine-setup" element={<WindowsMachineSetup/>}/>

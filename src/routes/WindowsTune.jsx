@@ -1,24 +1,24 @@
 import Navbar from '../components/Nav/Navbar';
 import HeroTop from '../components/Header/Hero-Top';
 import HeroBottom from '../components/Header/Hero-Bottom';
-import WindowsSlowPCIssue from '../components/WindowsSlowPCIssue/WindowsSlowPCIssue';
+import WindowsTuneUp from '../components/WindowsTuneUp/WindowsTuneUp';
 import Footer from '../components/Footer/Footer';
 
 import HomeImg from '../assets/home.avif'; 
 
-function WindowsSlowPC () {
+function WindowsTune () {
   return (
     <>
       <Navbar />
       <HeroTop
       cName="MacBookPowerHero"
       heroImg={HomeImg}
-      title="Slow PC Issue"/>
-      <WindowsSlowPCIssue />
+      title="PC Tune-Up"/>
+      <WindowsTuneUp />
       <HeroBottom />
       <Footer />
     </>
   )
 }
 
-export default WindowsSlowPC;
+export default WindowsTune;

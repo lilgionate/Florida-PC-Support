@@ -1,24 +1,24 @@
 import Navbar from '../components/Nav/Navbar';
 import HeroTop from '../components/Header/Hero-Top';
 import HeroBottom from '../components/Header/Hero-Bottom';
-import WindowsSlowPCIssue from '../components/WindowsSlowPCIssue/WindowsSlowPCIssue';
+import WindowsVirusRemovalRep from '../components/WindowsVirusRemovalRep/WindowsVirusRemovalRep';
 import Footer from '../components/Footer/Footer';
 
 import HomeImg from '../assets/home.avif'; 
 
-function WindowsSlowPC () {
+function WindowsVirusRemoval () {
   return (
     <>
       <Navbar />
       <HeroTop
       cName="MacBookPowerHero"
       heroImg={HomeImg}
-      title="Slow PC Issue"/>
-      <WindowsSlowPCIssue />
+      title="PC Virus Removal"/>
+      <WindowsVirusRemovalRep />
       <HeroBottom />
       <Footer />
     </>
   )
 }
 
-export default WindowsSlowPC;
+export default WindowsVirusRemoval;
