@@ -88,42 +88,42 @@ const PcRepairPage = () => {
                     altText="PC Hard Drive Replacements And Upgrades"
                     title="PC Hard Drive Replacements And Upgrades"
                     priceRange="$210+"
-                    linkUrl={'/macbook-spill'}
+                    linkUrl={'/windows-pc-hard-drive-replacemant-upgrades'}
                 />
                 <MacServiceCard
                     image={SlowPCIssues}
                     altText="Slow PC Issue"
                     title="Slow PC Issue"
                     priceRange="$125+"
-                    linkUrl={'/macbook-hard-drive-replacement-upgrade'}
+                    linkUrl={'/windows-pc-slow'}
                 />
                 <MacServiceCard
                     image={BrokenScreen}
                     altText="Windows Laptop Screen Replacements"
                     title="Windows Laptop Screen Replacements"
                     priceRange="$125 - $450"
-                    linkUrl={'/macbook-ram-memory-upgrade'}
+                    linkUrl={'/windows-pc-screen-replacement'}
                 />
                 <MacServiceCard
                     image={PCWontstart}
                     altText="Windows / PC Won’t Start Fix"
                     title="Windows / PC Won’t Start Fix"
                     priceRange="$45+"
-                    linkUrl={'/macbook-dvd-drive-replacement'}
+                    linkUrl={'/windows-pc-wont-start-fix'}
                 />
                 <MacServiceCard
                     image={DataRecovery}
                     altText="Windows Data Recovery"
                     title="Windows Data Recovery"
                     priceRange="Typically $85 – $250. Lab Recovery Service: $950+"
-                    linkUrl={'/macbook-password-reset'}
+                    linkUrl={'/windows-pc-data-recovery'}
                 />
                 <MacServiceCard
                     image={WindowsVitrual}
                     altText="Windows Virtual Machine Setup"
                     title="Windows Virtual Machine Setup"
                     priceRange="$85 - $150"
-                    linkUrl={'/mac-touchpad-trackpad-replacement'}
+                    linkUrl={'/windows-pc-virtual-machine-setup'}
                 />
                 <MacServiceCard
                     image={Windows10}
@@ -179,7 +179,7 @@ const PcRepairPage = () => {
                     altText="Laptop Spill Repair"
                     title="Laptop Spill Repair"
                     priceRange="$85+"
-                    linkUrl={'/install-windows-on-mac'}
+                    linkUrl={'/windows-pc-spill-repair'}
                 />
                 <MacServiceCard
                     image={SetUpNewPC}

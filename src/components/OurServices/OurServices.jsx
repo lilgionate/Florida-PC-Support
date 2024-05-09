@@ -99,7 +99,7 @@ const certification = () => {
     <div className="mainContent container grid">
     <div className="itemContainerRow">
         <div className="itemContainer">
-        <a href="http://localhost:5173/windows-pc-screen-repair">
+        <a href="http://localhost:5173/windows-pc-screen-replacement">
             <div className="singleItem">
                <img className='img-OurServices' src={img8} alt="" />
                <h3>Windows Laptop Screen Replacement</h3>
@@ -117,7 +117,7 @@ const certification = () => {
         </div>
 
         <div className="itemContainer"> 
-        <a href="http://localhost:5173/windows-pc-wont-start-repair">
+        <a href="http://localhost:5173/windows-pc-wont-start-fix">
            <div className="singleItem">
               <img className='img-OurServices' src={img10} alt="" />
               <h3>Windows / PC Won’t Start Fix</h3>
@@ -137,7 +137,7 @@ const certification = () => {
         </div>
 
         <div className="itemContainer">
-        <a href="http://localhost:5173/windows-pc-hard-drive-repair">
+        <a href="http://localhost:5173/windows-pc-hard-drive-replacemant-upgrades">
             <div className="singleItem">
                <img className='img-OurServices' src={img12} alt="" />
                <h3>Windows / PC Hard Drive Fix</h3>

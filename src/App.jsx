@@ -40,6 +40,7 @@ import WindowsData from './routes/WindowsData'
 import WindowsSlowPC from './routes/WindowsSlowPC'
 import WindowsHardDrive from './routes/WindowsHardDrive' 
 import WindowsSpill from './routes/WindowsSpill'
+import WindowsMachineSetup from './routes/WindowsMachineSetup'
 
 import MacRepairsPage from './routes/MacRepairsPage'
 import PcRepairPage from './routes/PcRepairsPage'
@@ -81,12 +82,13 @@ function App() {
         <Route path="/macbook-battery" element={<MacBookBattery/>}/>
         <Route path="/macbook-data" element={<MacBookData/>}/>
         <Route path="/macbook-logic-board" element={<MacBookLogic/>}/>
-        <Route path="/windows-pc-wont-start-repair" element={<WindowsPower/>}/>
-        <Route path="/windows-pc-screen-repair" element={<WindowsScreen/>}/>
+        <Route path="/windows-pc-wont-start-fix" element={<WindowsPower/>}/>
+        <Route path="/windows-pc-screen-replacement" element={<WindowsScreen/>}/>
         <Route path="/windows-pc-data-recovery" element={<WindowsData/>}/>
         <Route path="/windows-pc-slow" element={<WindowsSlowPC/>}/>
-        <Route path="/windows-pc-hard-drive-repair" element={<WindowsHardDrive/>}/> 
+        <Route path="/windows-pc-hard-drive-replacemant-upgrades" element={<WindowsHardDrive/>}/> 
         <Route path="/windows-pc-spill-repair" element={<WindowsSpill/>}/>
+        <Route path="/windows-pc-virtual-machine-setup" element={<WindowsMachineSetup/>}/>
         <Route path="/mac-repairs" element={<MacRepairsPage/>}/>
         <Route path="/pc-repairs" element={<PcRepairPage/>}/>
       </Routes>
