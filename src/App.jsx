@@ -41,6 +41,15 @@ import WindowsSlowPC from './routes/WindowsSlowPC'
 import WindowsHardDrive from './routes/WindowsHardDrive' 
 import WindowsSpill from './routes/WindowsSpill'
 import WindowsMachineSetup from './routes/WindowsMachineSetup'
+import Windows10 from './routes/Windows10'
+import Windows8 from './routes/Windows8'
+import Windows7 from './routes/Windows7'
+import WindowsVista from './routes/WindowsVista'
+import WindowsPhysicalDamage from './routes/WindowsPhysicalDamage'
+import WindowsUpgrade from './routes/WindowsUpgrade'
+import WindowsLaptopPowerJack from './routes/WindowsLaptopPowerJack'
+import WindowsSetup from './routes/WindowsSetup'
+
 
 import MacRepairsPage from './routes/MacRepairsPage'
 import PcRepairPage from './routes/PcRepairsPage'
@@ -88,6 +97,14 @@ function App() {
         <Route path="/windows-pc-slow" element={<WindowsSlowPC/>}/>
         <Route path="/windows-pc-hard-drive-replacemant-upgrades" element={<WindowsHardDrive/>}/> 
         <Route path="/windows-pc-spill-repair" element={<WindowsSpill/>}/>
+        <Route path="/windows-10-repair" element={<Windows10/>}/>
+        <Route path="/windows-8-repair" element={<Windows8/>}/>
+        <Route path="/windows-7-repair" element={<Windows7/>}/>
+        <Route path="/windows-vista-repair" element={<WindowsVista/>}/>
+        <Route path="/windows-pc-upgrade" element={<WindowsUpgrade/>}/>
+        <Route path="/windows-pc-new-setup" element={<WindowsSetup/>}/>
+        <Route path="/windows-pc-laptop-power-jack-repair" element={<WindowsLaptopPowerJack/>}/>
+        <Route path="/windows-pc-physical-damage-repair" element={<WindowsPhysicalDamage/>}/>
         <Route path="/windows-pc-virtual-machine-setup" element={<WindowsMachineSetup/>}/>
         <Route path="/mac-repairs" element={<MacRepairsPage/>}/>
         <Route path="/pc-repairs" element={<PcRepairPage/>}/>

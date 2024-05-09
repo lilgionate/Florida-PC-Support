@@ -130,49 +130,49 @@ const PcRepairPage = () => {
                     altText="Windows 10 Repair"
                     title="Windows 10 Repair"
                     priceRange="$85 - $150"
-                    linkUrl={'/mac-top-case-replacement'}
+                    linkUrl={'/windows-10-repair'}
                 />
                 <MacServiceCard
                     image={Windows8}
                     altText="Windows 8 Repair"
                     title="Windows 8 Repair"
                     priceRange="$85 - $150"
-                    linkUrl={'/mac-hinge-replacement'}
+                    linkUrl={'/windows-8-repair'}
                 />
                 <MacServiceCard
                     image={Windows7}
                     altText="Windows 7 Repair"
                     title="Windows 7 Repair"
                     priceRange="$85 - $150"
-                    linkUrl={'/macbook-battery'}
+                    linkUrl={'/windows-7-repair'}
                 />
                 <MacServiceCard
                     image={WindowsVista}
                     altText="Windows Vista Repair"
                     title="Windows Vista Repair"
                     priceRange="$85 - $150"
-                    linkUrl={'/macbook-logic-board'}
+                    linkUrl={'/windows-vista-repair'}
                 />
                 <MacServiceCard
                     image={PCPhysicalDamage}
                     altText="PC Physical Damage Repair"
                     title="PC Physical Damage Repair"
                     priceRange="$85+"
-                    linkUrl={'/mac-power-adapter-replacement'}
+                    linkUrl={'/windows-pc-physical-damage-repair'}
                 />
                 <MacServiceCard
                     image={PCUpgrade}
                     altText="PC Upgrade"
                     title="PC Upgrade"
                     priceRange="$85+"
-                    linkUrl={'/mac-jack-dc-board-replacement'}
+                    linkUrl={'/windows-pc-upgrade'}
                 />
                 <MacServiceCard
                     image={LaptopPowerJack}
                     altText="Laptop Power Jack Repair"
                     title="Laptop Power Jack Repair"
                     priceRange="$125 - $250"
-                    linkUrl={'/mac-logic-board-replacement'}
+                    linkUrl={'/windows-pc-laptop-power-jack-repair'}
                 />
                 <MacServiceCard
                     image={LaptopSpill}
@@ -186,7 +186,7 @@ const PcRepairPage = () => {
                     altText="Set Up New PC"
                     title="Set Up New PC"
                     priceRange="$85 - $125"
-                    linkUrl={'/mac-virus-removal'}
+                    linkUrl={'/windows-pc-new-setup'}
                 />
                 <MacServiceCard
                     image={SlowPCIssues2}
