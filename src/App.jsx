@@ -60,6 +60,7 @@ import WindowsVirusRemoval from './routes/WindowsVirusRemoval'
 
 import MacRepairsPage from './routes/MacRepairsPage'
 import PcRepairPage from './routes/PcRepairsPage'
+import CustomPCBuild from './routes/CustomPCBuild'
 
 function App() {
 
@@ -122,6 +123,7 @@ function App() {
         <Route path="/windows-pc-virtual-machine-setup" element={<WindowsMachineSetup/>}/>
         <Route path="/mac-repairs" element={<MacRepairsPage/>}/>
         <Route path="/pc-repairs" element={<PcRepairPage/>}/>
+        <Route path="/custom-pc-build" element={<CustomPCBuild/>}/>
       </Routes>
     </div>
   )

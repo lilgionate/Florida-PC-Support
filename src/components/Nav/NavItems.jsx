@@ -9,8 +9,8 @@ export const walkInDropdown = [
   { id: 1, title: "Data Recovery Services", path:"./data-recovery", cName: "submenu-item" },
   { id: 2, title: "Mac Repairs", path: "./mac-repairs", cName: "submenu-item" },
   { id: 3, title: "PC Repairs", path: "./pc-repairs", cName: "submenu-item" },
-  { id: 4, title: "Custom PC Repairs", path: "./product4", cName: "submenu-item" },
-
+  { id: 4, title: "Custom PC Repairs", path: "./custom-pc-build", cName: "submenu-item" },
+  
 ];
 
 export const mailInDropdown = [
