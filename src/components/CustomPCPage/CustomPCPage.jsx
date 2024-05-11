@@ -3,8 +3,11 @@ import './CustomPCPage.scss';
 
 import PCBuilds from '../../assets/pc-builds.jpg'
 
+import CardList from './CustomPCCards';
+
 const CustomPCPage = () => {
     return (
+        <>
         <div className="customPCContainer">
                 <div className="customPCContent">
                     <h1 className="customPCHeading">Customize your own PC</h1>
@@ -19,6 +22,19 @@ const CustomPCPage = () => {
                     <img src={PCBuilds} alt="Custom PC Setup" className="customPCimage" />
                 </div>
         </div>
+
+        <div class="customPCSectionContainer">
+            <h1 class="customPCSectionTitle">Who is this for?</h1>
+            <p class="customPCSectionParagraph">
+               Create your own customized gaming experience with us! We will provide recommendations
+               and set it up for your exact requirement. Our gaming solutions are ideal for:
+            </p>
+        </div>
+
+
+        <CardList />
+
+        </>
     );
 };
 

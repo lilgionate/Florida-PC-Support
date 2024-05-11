@@ -5,7 +5,7 @@
     height: 90vh;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
     width: 100%;
-    background: #ffffff; /* Light gray background */
+    background: #ffffff;
     color: #000; /* Black text color */
     filter: brightness(95%); /* Apply brightness filter */
 }
@@ -66,4 +66,82 @@
 .customPCbutton:hover {
     background-color: #1b436e;
     border: 1px solid #1b436e;
+}
+
+/*custom pc section*/
+
+.customPCSectionContainer {
+    width: 67%;
+    margin: 0 auto;
+    padding: 6rem 4rem 0 4rem;
+    text-align: center;
+}
+
+.customPCSectionTitle {
+    font-size: 4xl;
+    padding-bottom: 1rem;
+    font-weight: 700;
+    color: #333333; /* Assuming zinc-900 is equivalent to #333333 */
+}
+
+.customPCSectionParagraph {
+    font-size: 1.03rem;
+    line-height: 1.8rem;
+    color: #666666; 
+    padding-bottom: 2.5rem;
+}
+
+
+/*custom pc cards*/
+
+.custom-pc-cards {
+    display: grid; /* grid */
+    grid-template-columns: repeat(3, minmax(0, 1fr)); /* grid-cols-1 */
+    gap: 1.8rem; /* gap-6 */
+    width: 90%;
+    margin: 0 auto;
+}
+
+.custom-pc-card {
+  margin: 0 auto;
+  padding: 0 1rem 6rem 1rem;
+  text-align: center;
+  
+}
+
+.custom-pc-card-image {
+    width: 100%;
+}
+
+.custom-pc-card-content {
+    padding: 1rem 2.5rem 0 2.5rem;
+}
+
+.custom-pc-card-title {
+    font-weight: 700;
+    font-size: 1.5rem;
+    padding: 1rem 0;
+}
+
+.custom-pc-card-description {
+    color: #666666; /* Assuming zinc-700 is equivalent to #666666 */
+    font-size: 1.03rem;
+}
+
+.custom-pc-card-button {
+    background-color: #fff;
+    border: 2px solid #333; /* Assuming blue-700 is equivalent to #0056b3 */
+    color: #333;
+    font-weight: 600;
+    text-decoration: underline;
+    padding: .7rem 1.5rem;
+    border-radius: 1rem;
+    transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out;
+}
+
+.custom-pc-card-button:hover {
+    background-color: #2b6cb0; /* Assuming blue-700 is equivalent to #0056b3 */
+    border-color: #2b6cb0;
+    color: white;
+    text-decoration: none;
 }
