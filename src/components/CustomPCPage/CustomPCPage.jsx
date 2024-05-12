@@ -5,6 +5,7 @@ import PCBuilds from '../../assets/pc-builds.jpg'
 
 import CardList from './CustomPCCards';
 import Projects from './CustomPCProjects';
+import CustomPCForm from './CustomPCForm';
 
 const CustomPCPage = () => {
     return (
@@ -35,6 +36,8 @@ const CustomPCPage = () => {
         <CardList />
 
         <Projects />
+
+        <CustomPCForm />
         </>
     );
 };
