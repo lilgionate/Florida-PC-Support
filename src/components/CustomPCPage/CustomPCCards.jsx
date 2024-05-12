@@ -9,7 +9,7 @@ const Card = ({ title, description, image }) => (
             <div className="custom-pc-card-title">{title}</div>
             <p className="custom-pc-card-description">{description}</p>
         </div>
-        <div className="px-6 pt-4 pb-2">
+        <div>
             <button className="custom-pc-card-button">
                 Learn More
             </button>

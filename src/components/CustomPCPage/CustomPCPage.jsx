@@ -4,6 +4,7 @@ import './CustomPCPage.scss';
 import PCBuilds from '../../assets/pc-builds.jpg'
 
 import CardList from './CustomPCCards';
+import Projects from './CustomPCProjects';
 
 const CustomPCPage = () => {
     return (
@@ -31,9 +32,9 @@ const CustomPCPage = () => {
             </p>
         </div>
 
-
         <CardList />
 
+        <Projects />
         </>
     );
 };
