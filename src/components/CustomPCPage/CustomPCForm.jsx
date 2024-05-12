@@ -1,7 +1,7 @@
 import React from 'react';
 import './CustomPCPage.scss';
 
-const bgImage = 'https://placehold.co/1837x768';
+import bgImage from '../../assets/custom-pc-hero.gif';
 
 const CustomPCForm = () => {
   return (
@@ -30,9 +30,12 @@ const CustomPCForm = () => {
                 <select className="input">
                   <option defaultValue>What will your custom PC be set up for?</option>
                   <option value="gaming">Gaming</option>
-                  <option value="work">Work</option>
-                  <option value="design">Design</option>
-                  <option value="general_use">General Use</option>
+                  <option value="trading">Trading</option>
+                  <option value="business">Business</option>
+                  <option value="school">School</option>
+                  <option value="video editing">Video Editing</option>
+                  <option value="remote work">Remote Work Setup</option>
+                  <option value="other">Other</option>
                 </select>
               </div>
               <div>
