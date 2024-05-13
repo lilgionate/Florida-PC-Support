@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React, { useRef, useState, useEffect } from 'react';
 import emailjs from '@emailjs/browser';
 import './CustomPCPage.scss';
 
@@ -6,6 +6,16 @@ import bgImage from '../../assets/custom-pc-hero.gif';
 
 const CustomPCForm = () => {
   const form = useRef();
+  const [notification, setNotification] = useState(null);
+
+  useEffect(() => {
+    if (notification) {
+      const timer = setTimeout(() => {
+        setNotification(null);
+      }, 5000); // Notification disappears after 5 seconds
+      return () => clearTimeout(timer);
+    }
+  }, [notification]);
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -16,9 +26,11 @@ const CustomPCForm = () => {
       })
       .then(
         () => {
+          setNotification('Message sent successfully!');
           console.log('SUCCESS!');
         },
         (error) => {
+          setNotification('Failed to send message. Please try again.');
           console.log('FAILED...', error.text);
         },
       );
@@ -36,6 +48,7 @@ const CustomPCForm = () => {
             </div>
           </div>
           <div className="form-container">
+            {notification && <div className="custom-pc-notification">{notification}</div>}
             <form ref={form} onSubmit={sendEmail}>
               <div className="mb-4">
                 <input type="text" name="user_name" placeholder="Name" className="input" />
