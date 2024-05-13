@@ -1,9 +1,29 @@
-import React from 'react';
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 import './CustomPCPage.scss';
 
 import bgImage from '../../assets/custom-pc-hero.gif';
 
 const CustomPCForm = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm('service_x336wqo', 'template_o4lkbtb', form.current, {
+        publicKey: 'AefTZG7GEH__griQe',
+      })
+      .then(
+        () => {
+          console.log('SUCCESS!');
+        },
+        (error) => {
+          console.log('FAILED...', error.text);
+        },
+      );
+  };
+
   return (
     <div className="custom-pc-form" style={{backgroundImage: `url(${bgImage})`}}>
       <div className="form-content-container">
@@ -16,18 +36,18 @@ const CustomPCForm = () => {
             </div>
           </div>
           <div className="form-container">
-            <form>
+            <form ref={form} onSubmit={sendEmail}>
               <div className="mb-4">
-                <input type="text" placeholder="Name" className="input" />
+                <input type="text" name="user_name" placeholder="Name" className="input" />
               </div>
               <div className="mb-4">
-                <input type="email" placeholder="Email" className="input" />
+                <input type="email" name="user_email" placeholder="Email" className="input" />
               </div>
               <div className="mb-4">
-                <input type="tel" placeholder="Phone" className="input" />
+                <input type="tel" name="user_phone" placeholder="Phone" className="input" />
               </div>
               <div className="mb-4">
-                <select className="input">
+                <select name="user_option" className="input">
                   <option defaultValue>What will your custom PC be set up for?</option>
                   <option value="gaming">Gaming</option>
                   <option value="trading">Trading</option>
@@ -39,7 +59,7 @@ const CustomPCForm = () => {
                 </select>
               </div>
               <div>
-                <textarea placeholder="Share details of your custom PC requirements" className="form-text-area"></textarea>
+                <textarea name="message" placeholder="Share details of your custom PC requirements" className="form-text-area"></textarea>
               </div>
               <button type="submit" className="form-button">Submit Request Now</button>
             </form>
