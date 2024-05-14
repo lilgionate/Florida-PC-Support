@@ -6,6 +6,7 @@ import PCBuilds from '../../assets/pc-builds.jpg'
 import CardList from './CustomPCCards';
 import Projects from './CustomPCProjects';
 import CustomPCForm from './CustomPCForm';
+import CustomPCStripeContainer from './CustomPCStripeContainer';
 
 const CustomPCPage = () => {
     return (
@@ -38,6 +39,8 @@ const CustomPCPage = () => {
         <Projects />
 
         <CustomPCForm />
+
+        <CustomPCStripeContainer />
         </>
     );
 };
